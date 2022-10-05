@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.029f4fc7.css",
-    "main.js": "/portfolio/static/js/main.719151a3.js",
+    "main.css": "/portfolio/static/css/main.51351d2b.css",
+    "main.js": "/portfolio/static/js/main.46d8d6f3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Oswald-Bold.ttf": "/portfolio/static/media/Oswald-Bold.87c9feafd7b2f3fd7992.ttf",
     "static/media/Oswald-Regular.ttf": "/portfolio/static/media/Oswald-Regular.e815068d369177121fd8.ttf",
     "static/media/SelfIntro.png": "/portfolio/static/media/SelfIntro.9473957f822bf46425d9.png",
+    "static/media/paint.png": "/portfolio/static/media/paint.a8eb3f919ce05428ef32.png",
+    "static/media/school.png": "/portfolio/static/media/school.9e99fa492f6f93681393.png",
+    "static/media/coding.png": "/portfolio/static/media/coding.3eb33a3e093e810add7c.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
-    "main.029f4fc7.css.map": "/portfolio/static/css/main.029f4fc7.css.map",
-    "main.719151a3.js.map": "/portfolio/static/js/main.719151a3.js.map",
+    "main.51351d2b.css.map": "/portfolio/static/css/main.51351d2b.css.map",
+    "main.46d8d6f3.js.map": "/portfolio/static/js/main.46d8d6f3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.029f4fc7.css",
-    "static/js/main.719151a3.js"
+    "static/css/main.51351d2b.css",
+    "static/js/main.46d8d6f3.js"
   ]
 }
