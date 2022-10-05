@@ -1,0 +1,136 @@
+@font-face{
+    font-family: 'inter-bold';
+    src : url('../Assets/Fonts/Inter-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'inter-regular';
+    src : url('../Assets/Fonts/Inter-Regular.ttf');
+}
+
+#full-cover-project-div {
+    width: 100%;
+    aspect-ratio: 10/6;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#full-cover-project-text {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.role {
+    color: #eeeeee;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.role-1 {
+    color: #121212;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+#title {
+    margin-bottom: 12px;
+}
+
+#project-name {
+    color: #ffffff;
+    font-family: 'inter-bold';
+    font-size: 28px;
+}
+
+#project-name-1 {
+    color: #000000;
+    font-family: 'inter-bold';
+    font-size: 28px;
+}
+
+.type {
+    color: #ffffff;
+    font-family: 'inter-bold';
+    font-size: 16px;
+}
+
+.type-1 {
+    color: #000000;
+    font-family: 'inter-bold';
+    font-size: 16px;
+}
+
+#description {
+    color: #eeeeee;
+    font-family: 'inter-regular';
+    margin-bottom: 8px;
+    font-size: 16px;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+#description-1 {
+    color: #121212;
+    font-family: 'inter-regular';
+    margin-bottom: 8px;
+    font-size: 16px;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+#view-project {
+    max-width: 200px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: #ffffff 2.5px solid;
+    text-align: center;
+}
+
+#view-project-hover {
+    background-color: #ffffff;
+}
+
+#view-project-1 {
+    max-width: 200px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: #000000 2.5px solid;
+    text-align: center;
+}
+
+#view-project-1-hover {
+    background-color: #000000;
+}
+
+#view-project-text {
+    color: #eeeeee;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+#view-project-text-hover {
+    color: #000000;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+#view-project-text-1 {
+    color: #000000;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+#view-project-text-1-hover {
+    color: #ffffff;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
+}

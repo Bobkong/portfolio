@@ -1,6 +1,7 @@
 import './Main.css';
 import SelfIntro from './SelfIntro';
 import Filter from './Filter';
+import ProjectList from './ProjectList';
 import React from 'react';
 
 export const FilterContext = React.createContext(0);
@@ -12,6 +13,7 @@ function Main() {
             <div id="main-div">
                 <SelfIntro />
                 <Filter />
+                <ProjectList />
             </div>
         </FilterContext.Provider>
     );
