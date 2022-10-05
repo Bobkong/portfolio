@@ -1,15 +1,7 @@
-@font-face{
-    font-family: 'oswald-bold';
-    src : url('../Assets/Fonts/Oswald-Bold.ttf');
-}
 
-@font-face{
-    font-family: 'oswald-regular';
-    src : url('../Assets/Fonts/Oswald-Regular.ttf');
-}
 
 #header-div {
-    background-color: #121212;
+    background-color: #212121;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -19,6 +11,9 @@
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    position: static;
+    top: 0;
+    z-index: 1;
 }
 
 .header-logo {

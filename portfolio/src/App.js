@@ -8,6 +8,7 @@ function App() {
     <div id="app-div">
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 }

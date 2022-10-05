@@ -89,10 +89,15 @@
     padding-bottom: 16px;
     border: #ffffff 2.5px solid;
     text-align: center;
+    color: #eeeeee;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
 }
 
-#view-project-hover {
+#view-project:hover {
     background-color: #ffffff;
+    color: #000000;
 }
 
 #view-project-1 {
@@ -101,36 +106,13 @@
     padding-bottom: 16px;
     border: #000000 2.5px solid;
     text-align: center;
+    color: #000000;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
 }
 
-#view-project-1-hover {
+#view-project-1:hover {
     background-color: #000000;
-}
-
-#view-project-text {
-    color: #eeeeee;
-    font-family: 'inter-bold';
-    margin-bottom: 8px;
-    font-size: 12px;
-}
-
-#view-project-text-hover {
-    color: #000000;
-    font-family: 'inter-bold';
-    margin-bottom: 8px;
-    font-size: 12px;
-}
-
-#view-project-text-1 {
-    color: #000000;
-    font-family: 'inter-bold';
-    margin-bottom: 8px;
-    font-size: 12px;
-}
-
-#view-project-text-1-hover {
     color: #ffffff;
-    font-family: 'inter-bold';
-    margin-bottom: 8px;
-    font-size: 12px;
 }
