@@ -8,9 +8,9 @@ function Filter() {
 
     return (
     <div id="filter-div">
-        <li onClick={() => {setTag(0)}} className={tag == 0 ? "selectedTag" : "unSelectedTag"}>Product Design</li>
-        <li onClick={() => {setTag(1)}} className={tag == 1 ? "selectedTag" : "unSelectedTag"}>Development</li>
-        <li onClick={() => {setTag(2)}} className={tag == 2 ? "selectedTag" : "unSelectedTag"}>Fun Work</li>
+        <li onClick={() => {setTag(0)}} className={tag == 0 ? "selectedTag" : "unSelectedTag"} style={{ cursor: "pointer" }}>Product Design</li>
+        <li onClick={() => {setTag(1)}} className={tag == 1 ? "selectedTag" : "unSelectedTag"} style={{ cursor: "pointer" }}>Development</li>
+        <li onClick={() => {setTag(2)}} className={tag == 2 ? "selectedTag" : "unSelectedTag"} style={{ cursor: "pointer" }}>Fun Work</li>
     </div>);
 }
 

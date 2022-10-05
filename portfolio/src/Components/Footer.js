@@ -15,7 +15,7 @@ function Footer() {
                 </div>
             </div>
             <div className='footer-half-div'>
-                <p id='built-info'>Copyright @ 2022 Lingshuang Kong.</p>
+                <p id='built-info'>Copyright @ 2022 Lingshuang Kong</p>
                 <p id='built-info'>Built with React and passion</p>
             </div>
         </div>

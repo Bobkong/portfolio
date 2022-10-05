@@ -13,7 +13,7 @@ function FullCoverProject(props) {
                 <span className={props.theme ==0 ? "type" : "type-1"}>{props.type}</span>
             </div>
             <span id={props.theme == 0 ? "description" : "description-1"}>{props.description}</span>
-            <div id={props.theme == 0 ? "view-project" : "view-project-1"} onClick={() => {window.open(props.url, '_self')}}>
+            <div id={props.theme == 0 ? "view-project" : "view-project-1"} onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }}>
                 VIEW PROJECT
             </div>
         </div>
