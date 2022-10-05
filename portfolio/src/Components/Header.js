@@ -13,12 +13,4 @@ function Header() {
     </div>);
 }
 
-window.onscroll = function() {
-    scroll()
-};
-
-function scroll() {
-
-}
-
 export default Header;

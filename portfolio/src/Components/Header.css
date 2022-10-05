@@ -9,12 +9,12 @@
 }
 
 #header-div {
-    background-color: black;
+    background-color: #121212;
     margin: 0;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -35,21 +35,31 @@
 
 .navDiv a {
     color: #ffffff;
-    opacity: 0.9;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'oswald-regular';
-}
-
-.navDiv a:hover {
-    color: #ffffff;
-    opacity: 0.75;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
 .navItem {
     list-style-type: none;
     text-align: center;
+}
+
+.selected {
+    font-family: 'oswald-bold';
+    opacity: 1;
+}
+
+.unSelected {
+    font-family: 'oswald-regular';
+    opacity: 0.7;
+}
+
+.unSelected:hover {
+    font-family: 'oswald-regular';
+    opacity: 0.95;
 }

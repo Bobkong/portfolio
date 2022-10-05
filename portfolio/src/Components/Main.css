@@ -1,3 +1,6 @@
 #main-div {
-    height: 1500px;
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
 }
