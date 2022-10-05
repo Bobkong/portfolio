@@ -31,6 +31,7 @@
     background-color: white;
     border-radius: 50%;
     box-shadow: 0 0 30px #ffffff;
+    opacity: 95%;
 }
 
 #self-intro-image {
@@ -76,6 +77,11 @@
 }
 
 .intro-text a {
+    color: white;
+    font-family: 'oswald-bold';
+}
+
+.intro-text a:hover {
     color: white;
     font-family: 'oswald-bold';
 }

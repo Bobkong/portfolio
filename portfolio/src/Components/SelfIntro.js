@@ -1,6 +1,6 @@
 import './SelfIntro.css';
 import React from 'react';
-import selfImage from '../Assets/SelfIntro.png';
+import selfImage from '../Assets/selfIntro.png';
 import paint from '../Assets/paint.png';
 import school from '../Assets/school.png';
 import coding from '../Assets/coding.png';
