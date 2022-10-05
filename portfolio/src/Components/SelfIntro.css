@@ -42,6 +42,11 @@
     left: 15%;
 }
 
+#self-intro-image:hover {
+    transform: rotateZ(5deg);
+    transition: 1s;
+}
+
 #self-text {
     margin: auto;
     width: 70%;
@@ -73,4 +78,16 @@
 .intro-text a {
     color: white;
     font-family: 'oswald-bold';
+}
+
+.past-experience-div {
+    display: flex;
+}
+
+.past-experience-img {
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-right: 8px;
 }
