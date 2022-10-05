@@ -22,12 +22,12 @@ function SelfIntro() {
                 <p className='intro-text'>Worked at <a target="_blank" href='https://www.instagram.com/'>Instagram</a> as a Designer and Prototyper intern this summer</p>
             </div>
             <div className='past-experience-div'>
-                <img src={school} alt="university" className='past-experience-img'/>
-                <p className='intro-text'>Pursue Human-Computer Interaction master's degree at  <a target="_blank" href='https://designlab.ucsd.edu/'>UC San Diego</a></p>
-            </div>
-            <div className='past-experience-div'>
                  <img src={coding} alt="coding" className='past-experience-img'/>
                 <p className='intro-text'>Worked at <a target="_blank" href='https://www.tencent.com/'>Tencent</a> as a Mobile App Engineer from 2019 to 2021</p>
+            </div>
+            <div className='past-experience-div'>
+                <img src={school} alt="university" className='past-experience-img'/>
+                <p className='intro-text'>Pursue Human-Computer Interaction master's degree at  <a target="_blank" href='https://designlab.ucsd.edu/'>UC San Diego</a></p>
             </div>
         </div>
     </div>);
