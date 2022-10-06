@@ -10,7 +10,7 @@
 
 #filter-div {
     background-color: #212121;
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -19,24 +19,23 @@
 }
 
 .unSelectedTag {
+    width: 50%;
     color: #dddddd;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
     padding-top: 16px;
     padding-bottom: 16px;
     font-family: 'oswald-regular';
 }
 
 .selectedTag {
-    color: #ffffff;
+    width: 50%;
+    color: #000000;
+    background-color: #eeeeee;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
     padding-top: 16px;
     padding-bottom: 16px;
     font-family: 'oswald-bold';

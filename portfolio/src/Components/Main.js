@@ -2,6 +2,7 @@ import './Main.css';
 import SelfIntro from './SelfIntro';
 import Filter from './Filter';
 import ProjectList from './ProjectList';
+import SectionTitle from './SectionTitle';
 import React from 'react';
 
 export const FilterContext = React.createContext(0);
@@ -12,6 +13,7 @@ function Main() {
         <FilterContext.Provider value={[tag, setTag]}>
             <div id="main-div">
                 <SelfIntro />
+                {/* <SectionTitle title="Select and Explore" /> */}
                 <Filter />
                 <ProjectList />
             </div>
