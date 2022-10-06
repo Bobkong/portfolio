@@ -4,7 +4,7 @@ import './HalfCoverProject.css';
 function HalfCoverProject(props) {
 
     return (
-        <div id="half-cover-project-div" onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }}>
+        <div id="half-cover-project-div" onClick={() => {window.open(props.url)}} style={{ cursor: "pointer" }}>
             <div id='half-cover-img-div'>
                 <img id="half-cover-img" src={props.bg} />
             </div>
