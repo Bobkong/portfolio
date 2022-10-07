@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 const development = [
     // Tencent
-    {projectName: "Tencent - QQ Music", 
+    {projectName: "Tencent Music", 
     video: "", 
     language: "Android: Java, Kotlin, XML, JSON", 
     type: "Full-time Job", 
@@ -105,6 +105,7 @@ function DevelopWork(props) {
         <GithubRepo github={project.github}/>
         <hr id='divide-line'/>
         <p className='title-color title-size'>About</p>
+        <p className='body-color body-size'>{project.about}</p>
         <p className='title-color title-size'>Video</p>
         <p className='title-color title-size'>Takeaway</p>
     </div>);

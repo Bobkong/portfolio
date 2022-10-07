@@ -2,7 +2,7 @@ import './ProjectList.css';
 import HalfCoverProject from './HalfCoverProject';
 
 function DevelopList() {
-    const development = [{bg: require('../Assets/qqmusic.gif'), role: "Android - Java, Kotlin, XML, JSON", projectName: "Tencent - QQ Music", type: "Full-time Job", description: "A Chinese music application serving for more than 800 million users", theme: 0, url: 'https://www.lingshuangkong.com/work/qqmusic'},
+    const development = [{bg: require('../Assets/qqmusic.gif'), role: "Android - Java, Kotlin, XML, JSON", projectName: "Tencent Music", type: "Full-time Job", description: "A Chinese music application serving for more than 800 million users", theme: 0, url: 'https://www.lingshuangkong.com/work/qqmusic'},
     {bg: require('../Assets/instagram-half.png'), role: "AR Prototyping - Reactive, JavaScript", projectName: "Instagram AR", type: "Internship", description: "New Instagram AR effects utilizing the hand-tracking capability.", theme: 0, url: 'https://www.lingshuangkong.com/work/instagram'},
     {bg: require('../Assets/personal-website.png'), role: "Front End - React, HTML, CSS, Javascript", projectName: "Personal Website", type: "Personal Project", description: "A portfolio built during Meta Front-end Development Certificate courses.", theme: 0, url: 'https://www.lingshuangkong.com/work/easymed'},
     {bg: require('../Assets/easymed-half.png'), role: "Android - Java, Kotlin, XML, JSON", projectName: "EasyMed", type: "Microsoft AI Hackathon", description: "An AI-assisted application for checking drug and food interactions.", theme: 0, url: 'https://www.lingshuangkong.com/work/easymed'},
