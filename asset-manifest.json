@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.00dc6c96.css",
-    "main.js": "/portfolio/static/js/main.43c4b50d.js",
+    "main.css": "/portfolio/static/css/main.119d2728.css",
+    "main.js": "/portfolio/static/js/main.f916e5e8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/personal-website.png": "/portfolio/static/media/personal-website.c07786da66ade839dad9.png",
     "static/media/aramsay_bg.gif": "/portfolio/static/media/aramsay_bg.66c535b46ce090163378.gif",
@@ -16,6 +16,7 @@
     "static/media/homni_bg.png": "/portfolio/static/media/homni_bg.8a78c35ef06f2a8b654f.png",
     "static/media/selfIntro.png": "/portfolio/static/media/selfIntro.e52f1f7fc39141001c91.png",
     "static/media/Inter-Bold.ttf": "/portfolio/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-SemiBold.ttf": "/portfolio/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
     "static/media/Inter-Regular.ttf": "/portfolio/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/easymed-half.png": "/portfolio/static/media/easymed-half.ef349d5e4f980afa809f.png",
     "static/media/Oswald-Bold.ttf": "/portfolio/static/media/Oswald-Bold.87c9feafd7b2f3fd7992.ttf",
@@ -25,12 +26,12 @@
     "static/media/coding.png": "/portfolio/static/media/coding.3eb33a3e093e810add7c.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
-    "main.00dc6c96.css.map": "/portfolio/static/css/main.00dc6c96.css.map",
-    "main.43c4b50d.js.map": "/portfolio/static/js/main.43c4b50d.js.map",
+    "main.119d2728.css.map": "/portfolio/static/css/main.119d2728.css.map",
+    "main.f916e5e8.js.map": "/portfolio/static/js/main.f916e5e8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00dc6c96.css",
-    "static/js/main.43c4b50d.js"
+    "static/css/main.119d2728.css",
+    "static/js/main.f916e5e8.js"
   ]
 }
