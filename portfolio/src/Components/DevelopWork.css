@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'inter-semibold';
+    src : url('../Assets/Fonts/Inter-SemiBold.ttf');
+}
+
+#dev-work-div {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.title-color {
+    color: #ffffff;
+
+}
+
+.title-size {
+    font-family: 'oswald-bold';
+    font-size: 28px;
+}
+
+.extra-title-size {
+    font-family: 'oswald-bold';
+    font-size: 36px;
+}
+
+
+.body-color {
+    color: #eeeeee;
+
+}
+
+.sub-title-size {
+    font-family: 'inter-semibold';
+    font-size: 20px;
+}
+
+.sub-body-color {
+    color: #cccccc;
+}
+
+.body-size {
+    font-family: 'inter-regular';
+    font-size: 16px;
+}
+
+#dev-project-name {
+    margin: 0px;
+}
+
+#dev-timeline {
+    margin-top: 12px;
+}
+
+#divide-line {
+    margin-top: 32px;
+    border: 0.5px solid #999999;;
+}

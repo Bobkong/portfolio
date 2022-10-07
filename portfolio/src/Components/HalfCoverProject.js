@@ -1,10 +1,9 @@
 import './HalfCoverProject.css';
-import { Link } from "react-router-dom";
+import { Link, hash } from "react-router-dom";
 
 function HalfCoverProject(props) {
-
     return (
-        <Link to={{pathname:'/porfolio/develop/work', state:{name:(props.projectName)}}}>
+        <Link to={'/porfolio/develop/work'} state={{name:props.projectName}}>
             <div id="half-cover-project-div">
                     <div id='half-cover-img-div'>
                         <img id="half-cover-img" src={props.bg} />

@@ -9,34 +9,33 @@
 }
 
 #filter-div {
-    background-color: #212121;
     margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
     list-style-type: none;
 }
 
 .unSelectedTag {
-    width: 50%;
+    background-color: #212121;
     color: #dddddd;
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     padding-top: 16px;
     padding-bottom: 16px;
     font-family: 'oswald-regular';
+    text-decoration: underline;
 }
 
 .selectedTag {
-    width: 50%;
     color: #000000;
     background-color: #eeeeee;
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     padding-top: 16px;
     padding-bottom: 16px;
     font-family: 'oswald-bold';
+    text-decoration: underline;
 }

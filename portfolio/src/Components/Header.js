@@ -7,8 +7,8 @@ function Header() {
         <img src={logo} alt="website logo" className='header-logo'/>
         <div className='navDiv'>
             <li className='navItem selected'><a href=''>WORK</a></li>
-            <li className='navItem unSelected'><a href='https://www.lingshuangkong.com/about'>ABOUT</a></li>
-            <li className='navItem unSelected'><a href='https://www.lingshuangkong.com/about'>RESUME</a></li>
+            <li className='navItem unSelected'><a href=''>ABOUT</a></li>
+            <li className='navItem unSelected'><a href=''>RESUME</a></li>
         </div>
     </div>);
 }
