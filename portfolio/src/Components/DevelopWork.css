@@ -18,6 +18,8 @@
 .title-size {
     font-family: 'oswald-bold';
     font-size: 28px;
+    margin-top: 48px;
+    margin-bottom: 0px;
 }
 
 .extra-title-size {
@@ -43,6 +45,7 @@
 .body-size {
     font-family: 'inter-regular';
     font-size: 16px;
+    margin-top: 20px;
 }
 
 #dev-project-name {
