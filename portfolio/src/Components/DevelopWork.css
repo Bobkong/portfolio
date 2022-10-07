@@ -57,3 +57,21 @@
     margin-top: 32px;
     border: 0.5px solid #999999;;
 }
+
+#develop-github {
+    margin-top: 24px;
+    max-width: 200px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: #ffffff 1.5px solid;
+    text-align: center;
+    color: #eeeeee;
+    font-family: 'inter-bold';
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+#develop-github:hover {
+    color: #000000;
+    background-color: #eeeeee;
+}

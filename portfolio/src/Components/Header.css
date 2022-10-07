@@ -42,6 +42,7 @@
 .navItem {
     list-style-type: none;
     text-align: center;
+    padding-top: auto;
 }
 
 .selected {

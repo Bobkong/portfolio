@@ -9,7 +9,7 @@ function MainDevelop() {
     return (
         <div id="main-div">
             <SelfIntro />
-            <Filter />
+            <Filter tag="1"/>
             <DevelopList />
         </div>
 );

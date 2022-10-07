@@ -7,7 +7,7 @@ function MainDesign() {
     return (
         <div id="main-div">
             <SelfIntro />
-            <Filter />
+            <Filter tag="0"/>
             <DesignList />
         </div>
     );
