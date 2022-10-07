@@ -6,11 +6,11 @@ import {NavLink } from 'react-router-dom';
 function Header() {
     return (
     <div id="header-div">
-        <NavLink to={"/portfolio/"}>
+        <NavLink to={"/"}>
             <img src={logo} alt="website logo" className='header-logo'/>
           </NavLink>
         <div className='navDiv'>
-        <NavLink to={"/portfolio/"}>
+        <NavLink to={"/"}>
             <li className='navItem selected'>WORK</li>
         </NavLink>
         <a href='https://www.lingshuangkong.com/about'><li className='navItem unSelected'>ABOUT</li></a>

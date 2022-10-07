@@ -13,12 +13,12 @@ function App() {
   return (
       <div id="app-div">
 
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio">
           <Header />
           <Routes>
-            <Route path="/portfolio/" element={<MainDesign />} />
-            <Route path="/portfolio/develop" element={<MainDevelop />} />
-            <Route path="/porfolio/develop/work" element={<DevelopWork />} />
+            <Route path="/" element={<MainDesign />} />
+            <Route path="/develop" element={<MainDevelop />} />
+            <Route path="/develop/work" element={<DevelopWork />} />
           </Routes>
           <Footer />
         </BrowserRouter>
