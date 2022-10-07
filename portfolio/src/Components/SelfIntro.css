@@ -43,8 +43,8 @@
     left: 15%;
 }
 
-#self-intro-image:hover {
-    transform: rotateZ(5deg);
+#self-image-div-out:hover {
+    transform: rotate(10deg);
     transition: 1s;
 }
 

@@ -16,10 +16,10 @@ function SelfIntro() {
         </div>
         
         <div id='self-text'>
-            <p id='intro-title'><span>Lingshuang is a</span> Product Designer <span>and</span> Creative Technologist<span>, with an enormous passion for </span>UI/UX, AR/VR, <span>and</span> Design Engineering.</p>
+            <p id='intro-title'><span>Lingshuang is a designer and prototyper who transformed from a full-time engineer, with an enormous passion for </span>UI/UX, AR/VR, <span>and</span> Design Engineering.</p>
             <div className='past-experience-div'>
                 <img src={paint} alt="design" className='past-experience-img'/>
-                <p className='intro-text'>Worked at <a target="_blank" href='https://www.instagram.com/'>Instagram</a> as a Designer and Prototyper intern this summer</p>
+                <p className='intro-text'>Innovated at <a target="_blank" href='https://www.instagram.com/'>Instagram</a> as a Designer and Prototyper intern this summer</p>
             </div>
             <div className='past-experience-div'>
                  <img src={coding} alt="coding" className='past-experience-img'/>
