@@ -10,10 +10,8 @@
 
 #full-cover-project-div {
     width: 100%;
-    aspect-ratio: 10/6;
     margin-top: 20px;
-    display: flex;
-    align-items: center;
+    
 }
 
 #full-cover-project-text {
@@ -21,6 +19,13 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+}
+
+#full-cover-more-than-768 {
+    width: 100%;
+    aspect-ratio: 10/6;
+    display: flex;
+    align-items: center;
 }
 
 .role {
@@ -115,4 +120,24 @@
 #view-project-1:hover {
     background-color: #000000;
     color: #ffffff;
+}
+
+
+#full-cover-less-than-768 {
+    aspect-ratio: 10/6;
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    background-color: #212121;
+}
+
+@media only screen and (max-width: 768px) {
+    #full-cover-more-than-768 {
+        display: none;
+    }
+
+    #full-cover-less-than-768 {
+        display: flex;
+    }
 }

@@ -39,3 +39,9 @@
     font-family: 'oswald-bold';
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 480px) {
+    #filter-div {
+        grid-template-columns: 1fr;
+    }
+}
