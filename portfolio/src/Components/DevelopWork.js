@@ -60,7 +60,7 @@ const development = [
 
     // Super Plant
     {projectName: "Super Plant", 
-    video: "", 
+    video: "https://www.youtube.com/watch?v=R-v5pJUZQVU", 
     language: "Cocos2D-x: C#", 
     type: "Course Project", 
     about: "A Cocos 2D game combining Super Mario and Plants vs. Zombies.", 
@@ -70,17 +70,17 @@ const development = [
 
     // Feca
     {projectName: "Feca", 
-    video: "", 
+    video: "https://www.youtube.com/shorts/YTFJCQCsYi4", 
     language: "Android: Java, Kotlin, XML", 
     type: "Chinese National Software Design Contest", 
     about: "A virtual makeup and shopping Android application based on face recognition algorithms", 
-    github: '',
+    github: 'https://github.com/Bobkong/Feca',
     timeline: "January 2018 - May 2018",
     takeaway: ""},
 
     // Mecat
     {projectName: "Mecat", 
-    video: "", 
+    video: "https://www.youtube.com/watch?v=GQWRpgp7JJo", 
     language: "Robotics: Arduino, Processing", 
     type: "Course Project", 
     about: "A medical and emotional care robot, which can give pills and tell stories.", 
@@ -108,6 +108,8 @@ function QQMusic(props) {
                     <img id="qqmusic-team-img" src={QQMusicTeam1} />
                     <img id="qqmusic-team-img" src={QQMusicTeam2} />
                 </div>
+                <p className='title-color title-size'>Takeaway</p>
+                <p className='body-color body-size' style={{whiteSpace: 'pre-wrap', lineHeight: 1.5}}>{props.takeaway}</p>
             </div>
             
         );
@@ -131,8 +133,6 @@ function DevelopWork(props) {
         <p className='title-color title-size'>Video</p>
         <ReactPlayer className='react-player' url={project.video} controls={true} width='100%'/>
         <QQMusic projectName={project.projectName} />
-        <p className='title-color title-size'>Takeaway</p>
-        <p className='body-color body-size' style={{whiteSpace: 'pre-wrap', lineHeight: 1.5}}>{project.takeaway}</p>
     </div>);
 }
 
