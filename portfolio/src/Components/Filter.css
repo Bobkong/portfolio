@@ -41,7 +41,16 @@
 }
 
 @media only screen and (max-width: 480px) {
+
     #filter-div {
-        grid-template-columns: 1fr;
+        column-gap: 8px;
+    }
+
+    .unSelectedTag {
+        font-size: 20px;
+    }
+
+    .selectedTag {
+        font-size: 20px;
     }
 }
