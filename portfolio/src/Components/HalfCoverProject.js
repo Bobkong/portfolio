@@ -2,8 +2,8 @@ import './HalfCoverProject.css';
 import { Link, hash } from "react-router-dom";
 
 function Instagram(props) {
-    if (props.projectName == "Instagram AR") {
-        return( <div onClick={() => {window.open("https://www.lingshuangkong.com/work/instagram", '_self')}} style={{ cursor: "pointer" }}>
+    if (props.projectName == "Instagram AR" || props.projectName == "EasyMed" || props.projectName == "ARamsay") {
+        return( <div onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }}>
         <div id="half-cover-project-div">
                 <div id='half-cover-img-div'>
                     <img id="half-cover-img" src={props.bg} />
@@ -26,7 +26,7 @@ function Instagram(props) {
 }
 
 function OtherProject(props) {
-    if (props.projectName != "Instagram AR") {
+    if (props.projectName != "Instagram AR" && props.projectName != "EasyMed" && props.projectName != "ARamsay") {
        return(
         <Link to={'/develop/work'} state={{name:props.projectName}} style={{textDecoration: 'none'}}>
             <div id="half-cover-project-div">
