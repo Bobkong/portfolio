@@ -53,7 +53,7 @@ const development = [
     video: "https://www.youtube.com/shorts/YTFJCQCsYi4", 
     language: "Android: Java, Kotlin, XML", 
     type: "Chinese National Software Design Contest", 
-    about: "A virtual makeup and shopping Android application based on face recognition algorithms", 
+    about: "When I traveled around the United States, I wanted to buy lipstick as a gift for my sister's birthday. However, I don't know which lipstick is suitable for my sister, so I just bought a random one. And as a result, my sister didn't like the color of the lipstick very much. Based on this problem, I designed and developed Feca, which is an android software that uses face recognition technology to help users try virtual makeup.\nThe main function of Feca is virtual makeup Users can upload a photo and then try different cosmetics such as lipstick, eye shadow, blush, etc. By using Feca, they can figure out what is the best cosmetics for them without going to the mall. Another main function of this software is the makeup forum. In the forum, users can post his/her makeup diary, share the results of using different cosmetics, and recommend cosmetics.\nI participated Chinese National Software Design Contest with Feca and won the first prize out of 7445 teams and the most investment value prize.", 
     github: 'https://github.com/Bobkong/Feca',
     timeline: "January 2018 - May 2018",
     takeaway: ""},
