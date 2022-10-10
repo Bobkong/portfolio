@@ -2,6 +2,9 @@ import './DevelopWork.css';
 import { useLocation } from "react-router-dom";
 import React from 'react';
 import ReactPlayer from 'react-player';
+import QQMusicFeedback from '../Assets/qqmusic-feedback.png';
+import QQMusicTeam1 from '../Assets/qqmusic-team-1.jpeg';
+import QQMusicTeam2 from '../Assets/qqmusic-team-2.JPG';
 
 
 const development = [
@@ -94,6 +97,23 @@ function GithubRepo(props) {
     }
 }
 
+function QQMusic(props) {
+    if (props.projectName != null && props.projectName == "Tencent Music") {
+        return (
+            <div>
+                <p className='title-color title-size'>Feedback about Me</p>
+                <img id="qqmusic-feedback" src={QQMusicFeedback} />
+                <p className='title-color title-size'>My Lovely Team</p>
+                <div id='qqmusic-team'>
+                    <img id="qqmusic-team-img" src={QQMusicTeam1} />
+                    <img id="qqmusic-team-img" src={QQMusicTeam2} />
+                </div>
+            </div>
+            
+        );
+    }
+}
+
 function DevelopWork(props) {
     const {state} = useLocation();
     console.log(state.name);
@@ -110,6 +130,7 @@ function DevelopWork(props) {
         <p className='body-color body-size' style={{whiteSpace: 'pre-wrap', lineHeight: 1.5}}>{project.about}</p>
         <p className='title-color title-size'>Video</p>
         <ReactPlayer className='react-player' url={project.video} controls={true} width='100%'/>
+        <QQMusic projectName={project.projectName} />
         <p className='title-color title-size'>Takeaway</p>
         <p className='body-color body-size' style={{whiteSpace: 'pre-wrap', lineHeight: 1.5}}>{project.takeaway}</p>
     </div>);

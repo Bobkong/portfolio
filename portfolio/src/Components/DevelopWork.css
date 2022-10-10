@@ -78,3 +78,20 @@
     color: #000000;
     background-color: #eeeeee;
 }
+
+#qqmusic-feedback {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#qqmusic-team {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 16px;
+}
+
+#qqmusic-team-img {
+    width: 100%;
+    margin-top: 20px;
+}
