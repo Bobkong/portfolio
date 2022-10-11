@@ -17,7 +17,7 @@ function SelfIntro() {
         
         <div id='self-text'>
             <p id='intro-title'><span>Lingshuang is a designer and prototyper who has 7 years of software development experience, with an enormous passion for </span>UI/UX, AR/VR, <span>and</span> Design Engineering.</p>
-            <div className='past-experience-div'>
+            <div className='past-experience-div' id='first-past-experience'>
                 <img src={paint} alt="design" className='past-experience-img'/>
                 <p className='intro-text'>Innovated at <a target="_blank" href='https://www.instagram.com/'>Instagram</a> as a Designer and Prototyper intern this summer</p>
             </div>
