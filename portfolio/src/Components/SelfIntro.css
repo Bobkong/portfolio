@@ -17,7 +17,7 @@
 }
 
 #self-image-div-out {
-    width: 32%;
+    width: 36%;
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 30px;
@@ -111,6 +111,8 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 
     #self-image-div-out {

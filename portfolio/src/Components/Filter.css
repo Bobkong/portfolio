@@ -40,7 +40,7 @@
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 
     #filter-div {
         column-gap: 8px;
