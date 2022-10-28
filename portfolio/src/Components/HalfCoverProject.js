@@ -1,9 +1,10 @@
 import './HalfCoverProject.css';
 import { Link, hash } from "react-router-dom";
 
-function Instagram(props) {
+function ProjectinWebflow(props) {
     if (props.projectName == "Instagram AR" || props.projectName == "EasyMed" || props.projectName == "ARamsay") {
-        return( <div onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }}>
+        return( 
+        <div onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }} className="halfLink">
         <div id="half-cover-project-div">
                 <div id='half-cover-img-div'>
                     <img id="half-cover-img" src={props.bg} />
@@ -28,7 +29,7 @@ function Instagram(props) {
 function OtherProject(props) {
     if (props.projectName != "Instagram AR" && props.projectName != "EasyMed" && props.projectName != "ARamsay") {
        return(
-        <Link to={'/develop/work'} state={{name:props.projectName}} style={{textDecoration: 'none'}}>
+        <Link to={'/develop/work'} state={{name:props.projectName}} style={{textDecoration: 'none'}} className="halfLink">
             <div id="half-cover-project-div">
                     <div id='half-cover-img-div'>
                         <img id="half-cover-img" src={props.bg} />
@@ -53,7 +54,7 @@ function HalfCoverProject(props) {
     return (
         <div>
             <OtherProject bg={props.bg} role={props.role} projectName={props.projectName} type={props.type} description={props.description} theme={props.theme} url={props.url}/>
-            <Instagram bg={props.bg} role={props.role} projectName={props.projectName} type={props.type} description={props.description} theme={props.theme} url={props.url}/>
+            <ProjectinWebflow bg={props.bg} role={props.role} projectName={props.projectName} type={props.type} description={props.description} theme={props.theme} url={props.url}/>
         </div>
 
         );

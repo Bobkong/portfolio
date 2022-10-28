@@ -8,6 +8,9 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 16px;
     row-gap: 16px;
+    align-items: stretch;
+    justify-items: stretch;
+    justify-self: stretch;
 }
 
 @media only screen and (max-width: 768px) {

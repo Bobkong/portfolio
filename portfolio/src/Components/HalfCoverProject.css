@@ -1,11 +1,11 @@
 
 #half-cover-project-div {
-    aspect-ratio: 10/6;
     margin-top: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #212121;
+    height: 100%;
 }
 
 #half-cover-project-text {
@@ -34,4 +34,8 @@
     font-family: 'inter-regular';
     font-size: 16px;
     margin-bottom: 32px;
+}
+
+.halfLink {
+    height: 100%;
 }
