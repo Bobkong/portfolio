@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bc2cf8f5.css",
-    "main.js": "/portfolio/static/js/main.9839dc3a.js",
+    "main.css": "/portfolio/static/css/main.c6e428eb.css",
+    "main.js": "/portfolio/static/js/main.ce2d6885.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/personal-website.png": "/portfolio/static/media/personal-website.c07786da66ade839dad9.png",
     "static/media/certificate.png": "/portfolio/static/media/certificate.2f38c694337b0c0dacc8.png",
@@ -22,6 +22,7 @@
     "static/media/qqmusic-team-1.jpeg": "/portfolio/static/media/qqmusic-team-1.c507d13120829e6b4ee2.jpeg",
     "static/media/easymed-half.png": "/portfolio/static/media/easymed-half.ef349d5e4f980afa809f.png",
     "static/media/qqmusic-feedback.png": "/portfolio/static/media/qqmusic-feedback.ce5b50dfe527e857cacd.png",
+    "static/media/mini-projects.jpeg": "/portfolio/static/media/mini-projects.2e5397bf7766381adee8.jpeg",
     "static/media/Oswald-Bold.ttf": "/portfolio/static/media/Oswald-Bold.87c9feafd7b2f3fd7992.ttf",
     "static/media/Oswald-Regular.ttf": "/portfolio/static/media/Oswald-Regular.e815068d369177121fd8.ttf",
     "static/media/selfIntro.gif": "/portfolio/static/media/selfIntro.194b2759481540090ede.gif",
@@ -30,12 +31,12 @@
     "static/media/coding.png": "/portfolio/static/media/coding.3eb33a3e093e810add7c.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
-    "main.bc2cf8f5.css.map": "/portfolio/static/css/main.bc2cf8f5.css.map",
-    "main.9839dc3a.js.map": "/portfolio/static/js/main.9839dc3a.js.map",
+    "main.c6e428eb.css.map": "/portfolio/static/css/main.c6e428eb.css.map",
+    "main.ce2d6885.js.map": "/portfolio/static/js/main.ce2d6885.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc2cf8f5.css",
-    "static/js/main.9839dc3a.js"
+    "static/css/main.c6e428eb.css",
+    "static/js/main.ce2d6885.js"
   ]
 }
