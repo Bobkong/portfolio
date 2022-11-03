@@ -2,7 +2,7 @@ import './HalfCoverProject.css';
 import { Link, hash } from "react-router-dom";
 
 function ProjectinWebflow(props) {
-    if (props.projectName == "Instagram AR" || props.projectName == "EasyMed" || props.projectName == "ARamsay") {
+    if (props.projectName == "Instagram AR" || props.projectName == "EasyMed" || props.projectName == "ARamsay" || props.projectName == "Front-end Mini Projects") {
         return( 
         <div onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }} className="halfLink">
         <div id="half-cover-project-div">
@@ -27,7 +27,7 @@ function ProjectinWebflow(props) {
 }
 
 function OtherProject(props) {
-    if (props.projectName != "Instagram AR" && props.projectName != "EasyMed" && props.projectName != "ARamsay") {
+    if (props.projectName != "Instagram AR" && props.projectName != "EasyMed" && props.projectName != "ARamsay" && props.projectName != "Front-end Mini Projects") {
        return(
         <Link to={'/develop/work'} state={{name:props.projectName}} style={{textDecoration: 'none'}} className="halfLink">
             <div id="half-cover-project-div">
