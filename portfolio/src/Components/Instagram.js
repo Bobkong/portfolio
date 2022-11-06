@@ -98,7 +98,7 @@ class Instagram extends Component {
                         <p className='work-title-1 work-text'>Design Process</p>
                         <div className='instagram-design-process-div'>
                             <div className='instagram-single-process-div margin-top-two-rem'>
-                                <p className='work-title-2 work-text'>Understand</p>
+                                <p className='work-title-2 work-text'>1. Understand</p>
                                 <hr className='instagram-process-underline' />
                                 <p className='work-text instagram-proces-text'>Competitive Analysis</p>
                                 <p className='work-text instagram-proces-text'>Instagram Third Party Research</p>
@@ -106,14 +106,14 @@ class Instagram extends Component {
                             </div>
     
                             <div className='instagram-single-process-div margin-top-two-rem'>
-                                <p className='work-title-2 work-text'>Explore</p>
+                                <p className='work-title-2 work-text'>2. Explore</p>
                                 <hr className='instagram-process-underline' />
                                 <p className='work-text instagram-proces-text'>Initial Concepts</p>
                                 <p className='work-text instagram-proces-text'>Figma Sketches</p>
                             </div>
     
                             <div className='instagram-single-process-div margin-top-two-rem'>
-                                <p className='work-title-2 work-text'>Evaluate</p>
+                                <p className='work-title-2 work-text'>3. Evaluate</p>
                                 <hr className='instagram-process-underline' />
                                 <p className='work-text instagram-proces-text'>Feedback from Managers</p>
                                 <p className='work-text instagram-proces-text'>1st Round Design Critique</p>
@@ -121,7 +121,7 @@ class Instagram extends Component {
                             </div>
     
                             <div className='instagram-single-process-div margin-top-two-rem'>
-                                <p className='work-title-2 work-text'>Prototyping</p>
+                                <p className='work-title-2 work-text'>4. Prototyping</p>
                                 <hr className='instagram-process-underline' />
                                 <p className='work-text instagram-proces-text'>User Flow Prototyping</p>
                                 <p className='work-text instagram-proces-text'>Visual Design</p>
