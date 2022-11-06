@@ -133,9 +133,8 @@ ul {
 }
 
 .nav-item {
-    max-width: 400px;
     color: #aaaaaa;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     margin-top: 0;
     font-weight: 400;
     margin-bottom: 1rem;
@@ -146,7 +145,7 @@ ul {
 
 .nav-item-active {
     color: #ffffff;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     margin-top: 0;
     font-weight: 700;
     margin-bottom: 1rem;
