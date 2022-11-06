@@ -1,8 +1,26 @@
 import './FullCoverProject.css';
+import { Link } from "react-router-dom";
+
+function JumpButton(props) {
+    if(props.projectName === 'Instagram AR') {
+        return(
+            <Link to={'/instagram'} style={{textDecoration: 'none'}} >
+                <div id={props.theme == 0 ? "view-project" : "view-project-1"}>
+                    VIEW PROJECT
+                </div>
+                </Link>
+           ); 
+    } else {
+        return(
+            <div id={props.theme == 0 ? "view-project" : "view-project-1"} onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }}>
+                VIEW PROJECT
+            </div>
+           );
+    }
+    
+}
 
 function FullCoverProject(props) {
-
-
     return (
     <div id="full-cover-project-div" >
         <div id="full-cover-more-than-768" style={{background: `url("${props.bg}")`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
@@ -14,9 +32,7 @@ function FullCoverProject(props) {
                     <span className={props.theme ==0 ? "type" : "type-1"}>{props.type}</span>
                 </div>
                 <span id={props.theme == 0 ? "description" : "description-1"}>{props.description}</span>
-                <div id={props.theme == 0 ? "view-project" : "view-project-1"} onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }}>
-                    VIEW PROJECT
-                </div>
+                <JumpButton projectName={props.projectName} theme={props.theme} url={props.url} />
             </div>
         </div>
         

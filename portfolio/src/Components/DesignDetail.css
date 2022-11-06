@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600;700&family=Lexend:wght@400;500;600;700;800&display=swap');
+
+.work-banner {
+    width: 100vw;
+    object-fit: cover;
+
+}
+
+.work-content-div {
+    max-width: 1000px;
+    padding: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-overview {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    column-gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.work-text {
+    max-width: 700px;
+    color: #e9e9e9;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Lexend';
+}
+
+.work-text-bold {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.work-text-center {
+    text-align: center;
+    max-width: 700px;
+    color: #e9e9e9;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+.work-title-2 {
+    font-family: 'Exo';
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    font-size: 1.4rem;
+    color: #e9e9e9;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.work-title-3 {
+    font-family: 'Exo';
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    font-size: 1.2rem;
+    color: #e9e9e9;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.work-overview-text {
+    max-width: 220px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.work-title-1 {
+    font-family: 'Exo';
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+.full-width-image {
+    width: 100%;
+}
+
+.half-width-image {
+    width: 49%;
+}
+
+.work-chapter-div {
+    max-width: 720px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+}
+
+.margin-top-four-rem {
+    margin-top: 4rem;
+}
+
+.margin-top-two-rem {
+    margin-top: 2rem;
+}
+
+.margin-top-one-rem {
+    margin-top: 1rem;
+}
+
+.margin-bottom-two-rem {
+    margin-bottom: 2rem;
+}
+
+.padding-left-right-one-rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.margin-right-tow-percent {
+    margin-right: 2%;;
+}
+
+a {
+    color: white;
+    font-family: 'Lexend';
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+.white-background {
+    background-color: #eeeeee;
+}
+
+.black-text {
+    color: black;
+}
