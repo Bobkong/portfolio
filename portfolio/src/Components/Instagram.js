@@ -8,7 +8,7 @@ import './Instagram.css';
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
 import classNames from 'classnames';
-const navArr = ['Overview', 'Understand', 'Explore', '1st Round Evaluate', 'AR Prototyping', 'Visual Design', '2nd Round Evaluate', 'Final Design', 'Takeaway'];
+const navArr = ['Overview', 'Understand', 'Explore', '1st Round Critique', 'AR Prototyping', 'Visual Design', '2nd Round Critique', 'Final Design', 'Takeaway'];
 
 class Instagram extends Component {
 
@@ -130,8 +130,12 @@ class Instagram extends Component {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className='section' id='nav-1'>
+
+                    <div className='instagram-divider-wrapper'>
+                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
+                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Competitive Analysis</p>
                         <p className='work-text'>First of all, I learned the landscape of effects and designs that utilize hand-tracking by conducting competitive analysis. I researched our main competitors: <span className='work-text-bold'>TikTok</span> and <span className='work-text-bold'>Snapchat</span>.</p>
@@ -199,8 +203,11 @@ class Instagram extends Component {
     
                     </div>
                 </div>
-    
+
                 <div className='section' id='nav-2'>
+                    <div className='instagram-divider-wrapper'>
+                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
+                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Initial Concepts</p>
                         <p className='work-text'>
@@ -223,6 +230,9 @@ class Instagram extends Component {
                 </div>
     
                 <div className='section' id='nav-3'>
+                    <div className='instagram-divider-wrapper'>
+                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
+                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Feedback from Manangers</p>
                         <p className='work-text'>
@@ -340,8 +350,11 @@ class Instagram extends Component {
     
                     </div>
                 </div>
-    
+                
                 <div className='section' id='nav-4'>
+                    <div className='instagram-divider-wrapper'>
+                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
+                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>AR Prototyping</p>
     
@@ -378,6 +391,9 @@ class Instagram extends Component {
                 </div>
 
                 <div className='section' id='nav-5'>
+                    <div className='instagram-divider-wrapper'>
+                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
+                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Visual Design</p>
                         <p className='work-text'>
@@ -452,8 +468,11 @@ class Instagram extends Component {
                         
                     </div>
                 </div>
-    
+
                 <div className='section' id='nav-6'>
+                    <div className='instagram-divider-wrapper'>
+                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
+                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>2nd Round Design Critique</p>
                         <p className='work-text'>
@@ -565,9 +584,11 @@ class Instagram extends Component {
                     </div>
     
                 </div>
-    
+
                 <div className='section' id='nav-7'>
-    
+                    <div className='instagram-divider-wrapper'>
+                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
+                    </div>
                     <div className='work-chapter-div'>
     
                         <p className='work-title-1'>
@@ -594,6 +615,9 @@ class Instagram extends Component {
                 </div>
     
                 <div className='section' id='nav-8'>
+                    <div className='instagram-divider-wrapper'>
+                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
+                    </div>
                     <div className='work-chapter-div'>
     
                     <p className='work-title-1'>
