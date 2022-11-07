@@ -58,7 +58,8 @@
 
 #divide-line {
     margin-top: 32px;
-    border: 0.5px solid #999999;;
+    border: 0.5px solid #999999;
+    width: 100%;
 }
 
 #develop-github {

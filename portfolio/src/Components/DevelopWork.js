@@ -82,7 +82,15 @@ function VideoPlayer(props) {
         return (
         <div>
             <p className='title-color title-size'>Video</p>
-            <ReactPlayer className='react-player' url={props.video} controls={true} width='100%'/>
+            <div className="player-wrapper margin-top-one-rem">
+                <ReactPlayer
+                url={props.video}
+                className="react-player"
+                width="100%"
+                height="100%"
+                controls={true}
+                />
+            </div>
         </div>);
     }
 }
