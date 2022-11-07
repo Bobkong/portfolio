@@ -8,6 +8,7 @@ import './Instagram.css';
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
 import classNames from 'classnames';
+import Iframe from 'react-iframe'
 const navArr = ['Overview', 'Understand', 'Explore', '1st Round Critique', 'AR Prototyping', 'Visual Design', '2nd Round Critique', 'Final Design', 'Takeaway'];
 
 class Instagram extends Component {
@@ -44,7 +45,8 @@ class Instagram extends Component {
                 break;
               }
           }
-          _this.setState({currentId:currentId})
+          _this.setState({
+            currentId:currentId})
          }
       }
     
@@ -672,6 +674,13 @@ class Instagram extends Component {
                         <p className='work-text'>
                             I received a lot of positive feedback from the team. I'm so honored that everyone loves my work and my workflow. These pieces of feedback are the most precious memory of this unforgettable summer!
                         </p>
+
+                        <Iframe url="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2tyC0lOABDAr9TwDruvTcI%2FFeedback-about-me!%3Fpage-id%3D0%253A1%26node-id%3D0%253A167%26viewport%3D479%252C395%252C0.36%26scaling%3Dscale-down"
+                            width="700px"
+                            height="700px"
+                            className='feedback-iframe'
+                            display="block"
+                            position="relative"/>
     
     
                     </div>
@@ -681,9 +690,8 @@ class Instagram extends Component {
 
     
             </div>
-            <div className='feedback-image'>
-                <img src={require('../Assets/feedback-about-me.png')} alt="feedback about me" className='instagram-image'/>
-            </div>
+            
+            
 
         </div>
 
