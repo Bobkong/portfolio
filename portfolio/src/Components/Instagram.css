@@ -122,6 +122,7 @@ hr {
     position: sticky;
     top: 100px;
     z-index: 999;
+    max-width: 20vw;
 }
 
 .instagram-work-content {
