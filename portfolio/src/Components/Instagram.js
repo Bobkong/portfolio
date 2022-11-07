@@ -362,14 +362,14 @@ class Instagram extends Component {
                         <p className='work-text margin-top-one-rem'>
                             Next, I started to prototype the design. I need to prototype text input, letter random animation, and hand tracking, so <span className='work-text-bold'>Figma is not the right prototyping tool</span> since it doesn't support these features. 
                         </p>
-                        <img src={require('../Assets/spark-ar.gif')} className='full-width-image margin-top-one-rem' alt='spark ar'></img>
+                        <img src={require('../Assets/spark-ar.png')} className='full-width-image margin-top-one-rem' alt='spark ar'></img>
                         <p className='work-text margin-top-one-rem'>
                             Here, I utilized <span className='work-text-bold'>Spark AR</span> to prototype my design. Spark AR is a prototyping tool for XR developers, 2D artists, and 3D modelers. All AR effects on Instagram have to be prototyped in Spark AR,
                         </p>
     
-                        <p className='work-title-2 work-text margin-top-four-rem'>User Flow Prototyping</p>
-                        <div className='instagram-left-right-div '>
+                        <div className='instagram-left-right-div margin-top-four-rem'>
                             <div className='instagram-half-div'>
+                                <p className='work-title-2 work-text'>User Flow Prototyping</p>
                                 <p className='work-text'>
                                     I prototyped the user flow of Floating Letters in Spark AR. In this stage, I mainly implemented the text input, letter random animation, hand tracking, and letter collection with Javascript development. 
                                 </p>
@@ -439,28 +439,27 @@ class Instagram extends Component {
                         </p>
                         <img src={require('../Assets/instagram-gradient.gif')} className='full-width-image' alt='instagram gradient'></img>
     
-                        <p className='work-title-2 work-text margin-top-four-rem'>Font</p>
                         <div className='instagram-left-right-div margin-top-two-rem'>
                             <div className='instagram-half-div'>
-                            <p className='work-text'>
-                                For the letter font, I viewed <span className='work-text-bold'>all fonts of the Instagram story</span>, then integrated them into my prototype and enabled users to change fonts. These fonts also align with the Instagram design.
-                            </p>
+                                <p className='work-title-2 work-text'>Font</p>
+                                <p className='work-text'>
+                                    For the letter font, I viewed <span className='work-text-bold'>all fonts of the Instagram story</span>, then integrated them into my prototype and enabled users to change fonts. These fonts also align with the Instagram design.
+                                </p>
                             </div>
                             <div className='instagram-half-div'>
                                 <img src={require('../Assets/typefaces.jpg')} className='full-width-image' alt='Instagram fonts'></img>
                             </div>
                         </div>
     
-                        <p className='work-title-2 work-text margin-top-four-rem'>3D-Like</p>
                         <div className='instagram-left-right-div margin-top-two-rem'>
                             <div className='instagram-half-div'>
+                            <p className='work-title-2 work-text margin-top-four-rem'>3D-Like</p>
                             <p className='work-text'>
                                 I also borrowed from an Instagram first-party effect - Dynamic Lyrics and learned how it makes the text 3D-like, which <span className='work-text-bold'>gives text a shadow</span> and can make the letters more like real objects.
                             </p>
                             </div>
                             <div className='instagram-half-div'>
-                                <img src={require('../Assets/lyric-3d.png')} className='half-width-image margin-right-tow-percent' alt='Dynamic Lyric 3D'></img>
-                                <img src={require('../Assets/floating-3d.png')} className='half-width-image' alt='Floating Letters 3D'></img>
+                                <img src={require('../Assets/floating-3d.png')} className='full-width-image' alt='Floating Letters 3D'></img>
                             </div>
                         </div>
                         
@@ -535,26 +534,26 @@ class Instagram extends Component {
                         </p>
     
                         <div className='instagram-left-right-div-stretch margin-top-one-rem'>
-                            <div className='instagram-half-div white-background design-decision-div'>
-                                <p className='work-title-2 black-text padding-left-right-one-rem margin-top-two-rem'>
+                            <div className='instagram-half-div grey-background design-decision-div'>
+                                <p className='work-title-2 padding-left-right-one-rem margin-top-two-rem'>
                                     Con of Two-layer Picker
                                 </p>
-                                <p className='work-text black-text padding-left-right-one-rem'>
+                                <p className='work-text padding-left-right-one-rem'>
                                     This solution will take more users’ time. If users want to change the font, they need to click the 1st layer picker and select a font in the second layer. If they want to adjust other attributes, they need to go back to the 1st layer.
                                 </p>
-                                <p className='work-text black-text padding-left-right-one-rem margin-bottom-two-rem'>
-                                    According to our statistics, <span className='work-text-bold black-text'>effects with longer user flows are less popular</span> So I ruled out this solution.
+                                <p className='work-text padding-left-right-one-rem margin-bottom-two-rem'>
+                                    According to our statistics, <span className='work-text-bold'>effects with longer user flows are less popular</span> So I ruled out this solution.
                                 </p>
                             </div>
     
-                            <div className='instagram-half-div white-background design-decision-div'>
-                                <p className='work-title-2 black-text padding-left-right-one-rem margin-top-two-rem'>
+                            <div className='instagram-half-div grey-background design-decision-div'>
+                                <p className='work-title-2 padding-left-right-one-rem margin-top-two-rem'>
                                     Con of Pinch to Zoom in/out
                                 </p>
-                                <p className='work-text black-text padding-left-right-one-rem'>
-                                    On Instagram, users have to pinch an object to zoom it in or out. However, the sentence has<span className='work-text-bold black-text'> exploded into many individual letter objects</span> and users can only pinch one letter at one time. 
+                                <p className='work-text padding-left-right-one-rem'>
+                                    On Instagram, users have to pinch an object to zoom it in or out. However, the sentence has<span className='work-text-bold'> exploded into many individual letter objects</span> and users can only pinch one letter at one time. 
                                 </p>
-                                <p className='work-text black-text padding-left-right-one-rem margin-bottom-two-rem'>
+                                <p className='work-text padding-left-right-one-rem margin-bottom-two-rem'>
                                     Hence, this is not a useful and effective way to solve this problem.
                                 </p>
                             </div>
