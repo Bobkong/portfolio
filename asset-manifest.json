@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.21b04a6d.css",
-    "main.js": "/portfolio/static/js/main.2fca20db.js",
+    "main.js": "/portfolio/static/js/main.1d017485.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/manipulation.gif": "/portfolio/static/media/manipulation.987b204182e3ced7ef20.gif",
     "static/media/floating-letters-sketch.gif": "/portfolio/static/media/floating-letters-sketch.9082b0854aec5770dc0c.gif",
@@ -33,8 +33,8 @@
     "static/media/third-party-1.png": "/portfolio/static/media/third-party-1.724ce9f9a385cfc8803e.png",
     "static/media/qqmusic.gif": "/portfolio/static/media/qqmusic.f4427af747be86a5f2f7.gif",
     "static/media/qqmusic-team-2.JPG": "/portfolio/static/media/qqmusic-team-2.cb1bad75d010f15da4c8.JPG",
-    "static/media/concepts-after-manager.png": "/portfolio/static/media/concepts-after-manager.30068bf1137586508067.png",
     "static/media/font-size-problem.png": "/portfolio/static/media/font-size-problem.402d9f18d5a709ec99f1.png",
+    "static/media/concepts-after-manager.png": "/portfolio/static/media/concepts-after-manager.7f761d00993bc7522a85.png",
     "static/media/initial-concepts.png": "/portfolio/static/media/initial-concepts.1a1981a42e31af16ab33.png",
     "static/media/mecat.gif": "/portfolio/static/media/mecat.c5750008377a9b12f5a1.gif",
     "static/media/floating-3d.png": "/portfolio/static/media/floating-3d.8f3cd3232f28821e5951.png",
@@ -64,11 +64,11 @@
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
     "main.21b04a6d.css.map": "/portfolio/static/css/main.21b04a6d.css.map",
-    "main.2fca20db.js.map": "/portfolio/static/js/main.2fca20db.js.map",
+    "main.1d017485.js.map": "/portfolio/static/js/main.1d017485.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21b04a6d.css",
-    "static/js/main.2fca20db.js"
+    "static/js/main.1d017485.js"
   ]
 }
