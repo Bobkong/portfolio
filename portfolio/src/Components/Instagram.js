@@ -674,6 +674,9 @@ class Instagram extends Component {
                         <p className='work-text'>
                             I received a lot of positive feedback from the team. I'm so honored that everyone loves my work and my workflow. These pieces of feedback are the most precious memory of this unforgettable summer!
                         </p>
+                        <p className='work-text-bold'>
+                            (Drag to see more feedback!)
+                        </p>
 
                         <Iframe url="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2tyC0lOABDAr9TwDruvTcI%2FFeedback-about-me!%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D479%252C395%252C0.36%26scaling%3Dmin-zoom"
                             width="700px"
