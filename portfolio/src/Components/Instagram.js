@@ -176,7 +176,9 @@ class Instagram extends Component {
                                 <p className='work-text'>
                                     Based on the learning from competitive analysis, game effects with hand-tracking capability are very popular in TikTok and Snapchat, so I concluded the first brainstorming direction: 
                                 </p>
-                                <p className='work-title-3 instagram-big-text'>Direction 1: Combine hand-tracking capability with games</p>
+                                <div className='instagram-full-div grey-background conclusion-div margin-top-one-rem'>
+                                    <p className='work-title-3'>Direction 1: Combine hand-tracking capability with games</p>
+                                </div>
                             </div>
                             <div className='instagram-half-div'>
                                 <img src={require('../Assets/third-party-1.png')} className='full-width-image' alt='Instagram third party research'></img>
@@ -196,7 +198,11 @@ class Instagram extends Component {
                                 <p className='work-text'>
                                     My team is doing a great job with creative tools, such as <span className='work-text-bold'>text, editing, and audio</span>. I think combining these useful tools with hand-tracking might be another brainstorming direction:
                                 </p>
-                                <p className='work-title-3 instagram-big-text'>Direction 2: Combine hand-tracking capability with the focus area of my team</p>
+
+                                <div className='instagram-full-div grey-background conclusion-div margin-top-one-rem'>
+                                    <p className='work-title-3'>Direction 2: Combine hand-tracking capability with the focus area of my team</p>
+                                </div>
+
                             </div>
                             <div className='instagram-half-div'>
                                 <img src={require('../Assets/instagram-first-party.png')} className='full-width-image one-one-image' alt='Instagram first party research'></img>

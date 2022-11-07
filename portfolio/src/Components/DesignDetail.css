@@ -62,11 +62,12 @@
 .work-title-3 {
     font-family: 'Exo';
     font-weight: 700;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0rem;
     font-size: 1.2rem;
     color: #e9e9e9;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 0rem;
 }
 
 .work-overview-text {

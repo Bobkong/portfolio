@@ -118,6 +118,11 @@ hr {
     border-radius: 8px;
 }
 
+.conclusion-div {
+    border-radius: 8px;
+    padding: 1rem;
+}
+
 .nav-con {
     position: sticky;
     top: 100px;
