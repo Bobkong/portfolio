@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d66e8f93.css",
-    "main.js": "/portfolio/static/js/main.5b723810.js",
+    "main.css": "/portfolio/static/css/main.21b04a6d.css",
+    "main.js": "/portfolio/static/js/main.2fca20db.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/manipulation.gif": "/portfolio/static/media/manipulation.987b204182e3ced7ef20.gif",
     "static/media/floating-letters-sketch.gif": "/portfolio/static/media/floating-letters-sketch.9082b0854aec5770dc0c.gif",
@@ -33,7 +33,9 @@
     "static/media/third-party-1.png": "/portfolio/static/media/third-party-1.724ce9f9a385cfc8803e.png",
     "static/media/qqmusic.gif": "/portfolio/static/media/qqmusic.f4427af747be86a5f2f7.gif",
     "static/media/qqmusic-team-2.JPG": "/portfolio/static/media/qqmusic-team-2.cb1bad75d010f15da4c8.JPG",
+    "static/media/concepts-after-manager.png": "/portfolio/static/media/concepts-after-manager.30068bf1137586508067.png",
     "static/media/font-size-problem.png": "/portfolio/static/media/font-size-problem.402d9f18d5a709ec99f1.png",
+    "static/media/initial-concepts.png": "/portfolio/static/media/initial-concepts.1a1981a42e31af16ab33.png",
     "static/media/mecat.gif": "/portfolio/static/media/mecat.c5750008377a9b12f5a1.gif",
     "static/media/floating-3d.png": "/portfolio/static/media/floating-3d.8f3cd3232f28821e5951.png",
     "static/media/feca.png": "/portfolio/static/media/feca.f5e73630ce2af2bb683e.png",
@@ -46,9 +48,8 @@
     "static/media/Inter-Bold.ttf": "/portfolio/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-SemiBold.ttf": "/portfolio/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
     "static/media/Inter-Regular.ttf": "/portfolio/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
-    "static/media/concepts-after-manager.png": "/portfolio/static/media/concepts-after-manager.86f695cdcd13e84e0d72.png",
     "static/media/spark-ar.png": "/portfolio/static/media/spark-ar.8436affa397aae704222.png",
-    "static/media/initial-concepts.png": "/portfolio/static/media/initial-concepts.91131991060879bbcd83.png",
+    "static/media/instagram-first-party.png": "/portfolio/static/media/instagram-first-party.e56f80e997b30c989f09.png",
     "static/media/typefaces.jpg": "/portfolio/static/media/typefaces.1bb996ecb61de3622538.jpg",
     "static/media/qqmusic-team-1.jpeg": "/portfolio/static/media/qqmusic-team-1.c507d13120829e6b4ee2.jpeg",
     "static/media/easymed-half.png": "/portfolio/static/media/easymed-half.ef349d5e4f980afa809f.png",
@@ -60,15 +61,14 @@
     "static/media/paint.png": "/portfolio/static/media/paint.a8eb3f919ce05428ef32.png",
     "static/media/school.png": "/portfolio/static/media/school.9e99fa492f6f93681393.png",
     "static/media/coding.png": "/portfolio/static/media/coding.3eb33a3e093e810add7c.png",
-    "static/media/instagram-first-party.png": "/portfolio/static/media/instagram-first-party.f521f62a674b24a9ba21.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
-    "main.d66e8f93.css.map": "/portfolio/static/css/main.d66e8f93.css.map",
-    "main.5b723810.js.map": "/portfolio/static/js/main.5b723810.js.map",
+    "main.21b04a6d.css.map": "/portfolio/static/css/main.21b04a6d.css.map",
+    "main.2fca20db.js.map": "/portfolio/static/js/main.2fca20db.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d66e8f93.css",
-    "static/js/main.5b723810.js"
+    "static/css/main.21b04a6d.css",
+    "static/js/main.2fca20db.js"
   ]
 }
