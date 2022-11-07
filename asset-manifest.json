@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.953cabbc.css",
-    "main.js": "/portfolio/static/js/main.e32e032f.js",
+    "main.css": "/portfolio/static/css/main.d66e8f93.css",
+    "main.js": "/portfolio/static/js/main.5b723810.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/manipulation.gif": "/portfolio/static/media/manipulation.987b204182e3ced7ef20.gif",
     "static/media/floating-letters-sketch.gif": "/portfolio/static/media/floating-letters-sketch.9082b0854aec5770dc0c.gif",
@@ -36,7 +36,6 @@
     "static/media/font-size-problem.png": "/portfolio/static/media/font-size-problem.402d9f18d5a709ec99f1.png",
     "static/media/mecat.gif": "/portfolio/static/media/mecat.c5750008377a9b12f5a1.gif",
     "static/media/floating-3d.png": "/portfolio/static/media/floating-3d.8f3cd3232f28821e5951.png",
-    "static/media/lyric-3d.png": "/portfolio/static/media/lyric-3d.457c96bea53ccb6cf67e.png",
     "static/media/feca.png": "/portfolio/static/media/feca.f5e73630ce2af2bb683e.png",
     "static/media/easymed_bg.png": "/portfolio/static/media/easymed_bg.2546c343700ce8256027.png",
     "static/media/nutrition_bg.png": "/portfolio/static/media/nutrition_bg.f29e577281d44fff137f.png",
@@ -44,11 +43,11 @@
     "static/media/figma-sketches.png": "/portfolio/static/media/figma-sketches.0d9338c855e3a7b9c99e.png",
     "static/media/homni_bg.png": "/portfolio/static/media/homni_bg.8a78c35ef06f2a8b654f.png",
     "static/media/instagram-banner.png": "/portfolio/static/media/instagram-banner.cd51e766e1d827543132.png",
-    "static/media/spark-ar.gif": "/portfolio/static/media/spark-ar.0884465e6a2cb13f2e89.gif",
     "static/media/Inter-Bold.ttf": "/portfolio/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-SemiBold.ttf": "/portfolio/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
     "static/media/Inter-Regular.ttf": "/portfolio/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/concepts-after-manager.png": "/portfolio/static/media/concepts-after-manager.86f695cdcd13e84e0d72.png",
+    "static/media/spark-ar.png": "/portfolio/static/media/spark-ar.8436affa397aae704222.png",
     "static/media/initial-concepts.png": "/portfolio/static/media/initial-concepts.91131991060879bbcd83.png",
     "static/media/typefaces.jpg": "/portfolio/static/media/typefaces.1bb996ecb61de3622538.jpg",
     "static/media/qqmusic-team-1.jpeg": "/portfolio/static/media/qqmusic-team-1.c507d13120829e6b4ee2.jpeg",
@@ -64,12 +63,12 @@
     "static/media/instagram-first-party.png": "/portfolio/static/media/instagram-first-party.f521f62a674b24a9ba21.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
-    "main.953cabbc.css.map": "/portfolio/static/css/main.953cabbc.css.map",
-    "main.e32e032f.js.map": "/portfolio/static/js/main.e32e032f.js.map",
+    "main.d66e8f93.css.map": "/portfolio/static/css/main.d66e8f93.css.map",
+    "main.5b723810.js.map": "/portfolio/static/js/main.5b723810.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.953cabbc.css",
-    "static/js/main.e32e032f.js"
+    "static/css/main.d66e8f93.css",
+    "static/js/main.5b723810.js"
   ]
 }
