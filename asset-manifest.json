@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9ca75ef7.css",
-    "main.js": "/portfolio/static/js/main.e3de2863.js",
+    "main.js": "/portfolio/static/js/main.c7b1c005.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/manipulation.gif": "/portfolio/static/media/manipulation.987b204182e3ced7ef20.gif",
     "static/media/floating-letters-sketch.gif": "/portfolio/static/media/floating-letters-sketch.9082b0854aec5770dc0c.gif",
@@ -33,8 +33,8 @@
     "static/media/qqmusic.gif": "/portfolio/static/media/qqmusic.f4427af747be86a5f2f7.gif",
     "static/media/qqmusic-team-2.JPG": "/portfolio/static/media/qqmusic-team-2.cb1bad75d010f15da4c8.JPG",
     "static/media/font-size-problem.png": "/portfolio/static/media/font-size-problem.402d9f18d5a709ec99f1.png",
-    "static/media/concepts-after-manager.png": "/portfolio/static/media/concepts-after-manager.7f761d00993bc7522a85.png",
-    "static/media/initial-concepts.png": "/portfolio/static/media/initial-concepts.1a1981a42e31af16ab33.png",
+    "static/media/concepts-after-manager.png": "/portfolio/static/media/concepts-after-manager.10b6cea711db9f81e807.png",
+    "static/media/initial-concepts.png": "/portfolio/static/media/initial-concepts.8dab196450b26122657d.png",
     "static/media/mecat.gif": "/portfolio/static/media/mecat.c5750008377a9b12f5a1.gif",
     "static/media/floating-3d.png": "/portfolio/static/media/floating-3d.8f3cd3232f28821e5951.png",
     "static/media/feca.png": "/portfolio/static/media/feca.f5e73630ce2af2bb683e.png",
@@ -48,7 +48,7 @@
     "static/media/Inter-SemiBold.ttf": "/portfolio/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
     "static/media/Inter-Regular.ttf": "/portfolio/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/spark-ar.png": "/portfolio/static/media/spark-ar.8436affa397aae704222.png",
-    "static/media/instagram-first-party.png": "/portfolio/static/media/instagram-first-party.e56f80e997b30c989f09.png",
+    "static/media/instagram-first-party.png": "/portfolio/static/media/instagram-first-party.f07b885bec79a841737e.png",
     "static/media/typefaces.jpg": "/portfolio/static/media/typefaces.1bb996ecb61de3622538.jpg",
     "static/media/qqmusic-team-1.jpeg": "/portfolio/static/media/qqmusic-team-1.c507d13120829e6b4ee2.jpeg",
     "static/media/easymed-half.png": "/portfolio/static/media/easymed-half.ef349d5e4f980afa809f.png",
@@ -63,11 +63,11 @@
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
     "main.9ca75ef7.css.map": "/portfolio/static/css/main.9ca75ef7.css.map",
-    "main.e3de2863.js.map": "/portfolio/static/js/main.e3de2863.js.map",
+    "main.c7b1c005.js.map": "/portfolio/static/js/main.c7b1c005.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ca75ef7.css",
-    "static/js/main.e3de2863.js"
+    "static/js/main.c7b1c005.js"
   ]
 }
