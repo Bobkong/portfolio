@@ -685,8 +685,8 @@ class Instagram extends Component {
                         </p>
 
                         <Iframe url="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2tyC0lOABDAr9TwDruvTcI%2FFeedback-about-me!%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D479%252C395%252C0.36%26scaling%3Dmin-zoom"
-                            width="700px"
-                            height="700px"
+                            width="768PX"
+                            height="768PX"
                             className='feedback-iframe margin-top-two-rem'
                             display="block"
                             position="relative"/>
