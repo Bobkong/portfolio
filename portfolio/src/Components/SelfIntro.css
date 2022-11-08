@@ -77,17 +77,18 @@
     font-family: 'oswald-regular';
     margin-top: 8px;
     margin-bottom: 0px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.5px;
 }
 
 .intro-text a {
+    font-size: 20px;
     color: white;
     font-family: 'oswald-bold';
+    letter-spacing: 0.5px;
 }
 
 .intro-text a:hover {
-    color: white;
-    font-family: 'oswald-bold';
+    color: #dddddd;
 }
 
 #first-past-experience {
@@ -128,6 +129,10 @@
     }
 
     .intro-text {
+        font-size: 16px;
+    }
+
+    .intro-text a {
         font-size: 16px;
     }
 }
