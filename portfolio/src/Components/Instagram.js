@@ -447,7 +447,7 @@ class Instagram extends Component {
                         </p>
                         <img src={require('../Assets/instagram-gradient.gif')} className='full-width-image' alt='instagram gradient'></img>
     
-                        <div className='instagram-left-right-div margin-top-two-rem'>
+                        <div className='instagram-left-right-div margin-top-four-rem'>
                             <div className='instagram-half-div'>
                                 <p className='work-title-2 work-text'>Font</p>
                                 <p className='work-text'>
@@ -459,9 +459,9 @@ class Instagram extends Component {
                             </div>
                         </div>
     
-                        <div className='instagram-left-right-div margin-top-two-rem'>
+                        <div className='instagram-left-right-div margin-top-four-rem'>
                             <div className='instagram-half-div'>
-                            <p className='work-title-2 work-text margin-top-four-rem'>3D-Like</p>
+                            <p className='work-title-2 work-text'>3D-Like</p>
                             <p className='work-text'>
                                 I also borrowed from an Instagram first-party effect - Dynamic Lyrics and learned how it makes the text 3D-like, which <span className='work-text-bold'>gives text a shadow</span> and can make the letters more like real objects.
                             </p>
