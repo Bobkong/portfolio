@@ -88,7 +88,7 @@ class Instagram extends Component {
                     <div className='work-chapter-div'>
                         <div className='instagram-left-right-div'>
                             <div className='instagram-half-div'>
-                                <p className='work-title-1 work-text instagram-internship-project-title'>My Internship Project</p>
+                                <p className='work-title-1 work-text instagram-internship-project-title'>My Project</p>
                                 <p className='work-text'>To achieve our goal, we identify strategic technology investments. The development and shipment of new AR capabilities (eg., <span className='work-text-bold'>hand tracking</span>) is a crucial part of our mission.</p>
                                 <p className='work-text'>The goal of my internship project is to <span className='work-text-bold'>ideate, design, and prototype 1-2 AR experiences</span> that align with our foundational strategy on Creative Lab utilizing the new hand-tracking capability.</p>
                             </div>

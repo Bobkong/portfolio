@@ -37,7 +37,7 @@ function FullCoverProject(props) {
         </div>
         
 
-        <div id="full-cover-less-than-768" onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }}>
+        <div id="full-cover-less-than-768" onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer"}}>
                     <div id='half-cover-img-div'>
                         <img id="half-cover-img" src={cover(props)} />
                     </div>
