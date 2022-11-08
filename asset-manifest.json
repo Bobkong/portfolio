@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9ca75ef7.css",
-    "main.js": "/portfolio/static/js/main.c7b1c005.js",
+    "main.js": "/portfolio/static/js/main.9e2fa3ef.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/manipulation.gif": "/portfolio/static/media/manipulation.987b204182e3ced7ef20.gif",
     "static/media/floating-letters-sketch.gif": "/portfolio/static/media/floating-letters-sketch.9082b0854aec5770dc0c.gif",
@@ -19,7 +19,7 @@
     "static/media/aramsay_bg.gif": "/portfolio/static/media/aramsay_bg.66c535b46ce090163378.gif",
     "static/media/instagram-lyrics.gif": "/portfolio/static/media/instagram-lyrics.0a810fed202ea162b6a5.gif",
     "static/media/instagram-half.png": "/portfolio/static/media/instagram-half.ec85cb66424085a38802.png",
-    "static/media/instagram_bg.png": "/portfolio/static/media/instagram_bg.1fa5e222bd9eb4bfc66a.png",
+    "static/media/instagram_bg.png": "/portfolio/static/media/instagram_bg.9b803b1421b157673084.png",
     "static/media/expression-open.png": "/portfolio/static/media/expression-open.c4cdc2d11b73b9e0db5e.png",
     "static/media/1st-critique.png": "/portfolio/static/media/1st-critique.efd8fc6db501262c388b.png",
     "static/media/superplant.gif": "/portfolio/static/media/superplant.3afe4d31d415a8460090.gif",
@@ -63,11 +63,11 @@
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
     "main.9ca75ef7.css.map": "/portfolio/static/css/main.9ca75ef7.css.map",
-    "main.c7b1c005.js.map": "/portfolio/static/js/main.c7b1c005.js.map",
+    "main.9e2fa3ef.js.map": "/portfolio/static/js/main.9e2fa3ef.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ca75ef7.css",
-    "static/js/main.c7b1c005.js"
+    "static/js/main.9e2fa3ef.js"
   ]
 }
