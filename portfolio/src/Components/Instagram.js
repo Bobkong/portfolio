@@ -96,7 +96,7 @@ class Instagram extends Component {
                         </div>
                     </div>
     
-                    <div className='work-chapter-div'>
+                    {/* <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Design Process</p>
                         <div className='instagram-design-process-div'>
                             <div className='instagram-single-process-div margin-top-two-rem'>
@@ -130,7 +130,7 @@ class Instagram extends Component {
                                 <p className='work-text instagram-proces-text'>2nd Round Design Critique</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className='section' id='nav-1'>
