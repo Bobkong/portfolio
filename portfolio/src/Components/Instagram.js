@@ -80,12 +80,12 @@ class Instagram extends Component {
                         </div>
                     </div>
     
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>Instagram AR Design</p>
                         <p className='work-text'>Instagram AR Design Team is a multidisciplinary team with the goal of <span className='work-text-bold'>empowering anyone to creatively experiment and express themselves.</span> To achieve this, we explore new opportunities for Instagram Reels by building differentiated creative tools and identifying strategic technology investments.</p>
                     </div>
     
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
                         <div className='instagram-left-right-div'>
                             <div className='instagram-half-div'>
                                 <p className='work-title-1 work-text instagram-internship-project-title'>My Project</p>
@@ -133,11 +133,7 @@ class Instagram extends Component {
                     </div> */}
                 </div>
 
-                <div className='section' id='nav-1'>
-
-                    <div className='instagram-divider-wrapper'>
-                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
-                    </div>
+                <div className='section section-with-bg' id='nav-1'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Competitive Analysis</p>
                         <p className='work-text'>First of all, I learned the landscape of effects and designs that utilize hand-tracking by conducting competitive analysis. I researched our main competitors: <span className='work-text-bold'>TikTok</span> and <span className='work-text-bold'>Snapchat</span>.</p>
@@ -166,7 +162,7 @@ class Instagram extends Component {
                         </div>
                     </div>
     
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>Instagram Third Party Research</p>
                         <div className='instagram-left-right-div instagram-third-party-research'>
                             <div className='instagram-half-div'>
@@ -187,7 +183,7 @@ class Instagram extends Component {
                         </div>
                     </div>
     
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>Instagram First Party Research</p>
     
                         <div className='instagram-left-right-div instagram-third-party-research'>
@@ -213,9 +209,6 @@ class Instagram extends Component {
                 </div>
 
                 <div className='section' id='nav-2'>
-                    <div className='instagram-divider-wrapper'>
-                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
-                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Initial Concepts</p>
                         <p className='work-text'>
@@ -227,7 +220,7 @@ class Instagram extends Component {
                         <img src={require('../Assets/initial-concepts.png')} className='full-width-image margin-top-two-rem' alt='initial concepts'></img>
                     </div>
     
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>Figma Sketches</p>
                         <p className='work-text'>
                             To better communicate with other team members and help them understand my ideas, I quickly sketched all ideas in Figma. Check <a target='_blank' href='https://www.figma.com/file/6tFMPjDEv37XzwCMGB4OJv/Design-Concept?node-id=37%3A1111'>All Sketches</a>.
@@ -237,10 +230,7 @@ class Instagram extends Component {
                     </div>
                 </div>
     
-                <div className='section' id='nav-3'>
-                    <div className='instagram-divider-wrapper'>
-                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
-                    </div>
+                <div className='section section-with-bg' id='nav-3'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Feedback from Manangers</p>
                         <p className='work-text'>
@@ -282,7 +272,7 @@ class Instagram extends Component {
                         <img src={require('../Assets/concepts-after-manager.png')} className='full-width-image margin-top-one-rem' alt='feedback from managers'></img>
                     </div>
                 
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>1st Round Design Critique</p>
                         <p className='work-text'>
                             Due to the limited time, I can’t prototype all 6 ideas, so I also presented these ideas in the team design critique and learn the preferences of team members. View <a target='_blank' href='https://www.figma.com/file/xokh22j4v8Og8FVa1msKrY/Concept-Feedback-Collection----Lingshuang?node-id=0%3A1'>Design Critique Doc</a>.
@@ -295,7 +285,7 @@ class Instagram extends Component {
                         </p>
                     </div>
     
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
     
                         <div className='instagram-left-right-div'>
                             <div className='instagram-half-div'>
@@ -313,7 +303,7 @@ class Instagram extends Component {
                         
                     </div>
     
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>Open Hand or Index Finger?</p>
                         <p className='work-text'>
                             I also collected much insightful feedback in the design critique. The most discussed feedback is <span className='work-text-bold'>why using the open hand as the collection gesture</span>. Is the narrative of open hand reasonable and versatile enough?
@@ -360,9 +350,6 @@ class Instagram extends Component {
                 </div>
                 
                 <div className='section' id='nav-4'>
-                    <div className='instagram-divider-wrapper'>
-                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
-                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>AR Prototyping</p>
     
@@ -398,10 +385,7 @@ class Instagram extends Component {
                     
                 </div>
 
-                <div className='section' id='nav-5'>
-                    <div className='instagram-divider-wrapper'>
-                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
-                    </div>
+                <div className='section section-with-bg' id='nav-5'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Visual Design</p>
                         <p className='work-text'>
@@ -477,9 +461,6 @@ class Instagram extends Component {
                 </div>
 
                 <div className='section' id='nav-6'>
-                    <div className='instagram-divider-wrapper'>
-                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
-                    </div>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>2nd Round Design Critique</p>
                         <p className='work-text'>
@@ -592,10 +573,7 @@ class Instagram extends Component {
     
                 </div>
 
-                <div className='section' id='nav-7'>
-                    <div className='instagram-divider-wrapper'>
-                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
-                    </div>
+                <div className='section section-with-bg' id='nav-7'>
                     <div className='work-chapter-div'>
     
                         <p className='work-title-1'>
@@ -622,9 +600,6 @@ class Instagram extends Component {
                 </div>
     
                 <div className='section' id='nav-8'>
-                    <div className='instagram-divider-wrapper'>
-                        <img src={require('../Assets/instagram-divider.png')} alt="divider" className='instagram-divider'></img>
-                    </div>
                     <div className='work-chapter-div'>
     
                     <p className='work-title-1'>
@@ -671,7 +646,7 @@ class Instagram extends Component {
     
                     </div>
     
-                    <div className='work-chapter-div'>
+                    <div className='work-chapter-div margin-top-six-rem'>
     
                         <p className='work-title-1'>
                             Feedback about Me
