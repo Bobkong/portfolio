@@ -17,7 +17,7 @@
 }
 
 #self-image-div-out {
-    width: 36%;
+    width: 28%;
     margin-top: auto;
     margin-bottom: auto;
     padding-left: 30px;
@@ -54,12 +54,12 @@
 
 #self-text {
     margin: auto;
-    width: 100%;
+    width: 70%;
 }
 
 #intro-title {
     color: white;
-    font-size: 28px;
+    font-size: 40px;
     font-family: 'oswald-bold';
     letter-spacing: 0.5px;
     margin-top: 0px;
@@ -97,6 +97,7 @@
 
 .past-experience-div {
     display: flex;
+    margin-bottom: 8px;
 }
 
 .past-experience-img {
