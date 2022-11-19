@@ -1,8 +1,7 @@
 #main-div {
     width: 90%;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-top: 60px;
 }
 
 

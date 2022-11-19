@@ -13,7 +13,7 @@ function Header() {
         <NavLink to={"/"}>
             <li className='navItem selected'>WORK</li>
         </NavLink>
-        <a href='https://www.lingshuangkong.com/about'><li className='navItem unSelected'>ABOUT</li></a>
+        <a href='https://lingshuang.webflow.io/about'><li className='navItem unSelected'>ABOUT</li></a>
         <a href='https://drive.google.com/file/d/10k0xKttE0a8xR5s4oG6pl8-8hOplCFbq/view?usp=sharing' target={'_blank'}><li className='navItem unSelected'>RESUME</li></a>
         </div>
     </div>);
