@@ -98,6 +98,7 @@
     font-family: 'inter-bold';
     margin-bottom: 8px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 #view-project:hover {
@@ -115,6 +116,7 @@
     font-family: 'inter-bold';
     margin-bottom: 8px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 #view-project-1:hover {
