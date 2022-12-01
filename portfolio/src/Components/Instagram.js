@@ -91,46 +91,15 @@ class Instagram extends Component {
                                 <p className='work-title-1 work-text instagram-internship-project-title'>My Project</p>
                                 <p className='work-text'>To achieve our goal, we identify strategic technology investments. The development and shipment of new AR capabilities (eg., <span className='work-text-bold'>hand tracking</span>) is a crucial part of our mission.</p>
                                 <p className='work-text'>The goal of my internship project is to <span className='work-text-bold'>ideate, design, and prototype 1-2 AR experiences</span> that align with our foundational strategy on Creative Lab utilizing the new hand-tracking capability.</p>
+                                <div id='view-project' className='margin-top-two-rem' onClick={this.scrollToAnchor.bind(this,'nav-7')}>
+                                    Jump to the final design!
+                                </div>
                             </div>
                             <img src={handtracking} className='hand-tracking-img instagram-half-div' alt='hand tracking'></img>
                         </div>
                     </div>
     
-                    {/* <div className='work-chapter-div'>
-                        <p className='work-title-1 work-text'>Design Process</p>
-                        <div className='instagram-design-process-div'>
-                            <div className='instagram-single-process-div margin-top-two-rem'>
-                                <p className='work-title-2 work-text'>1. Understand</p>
-                                <hr className='instagram-process-underline' />
-                                <p className='work-text instagram-proces-text'>Competitive Analysis</p>
-                                <p className='work-text instagram-proces-text'>Instagram Third Party Research</p>
-                                <p className='work-text instagram-proces-text'>Instagram First Party Research</p>
-                            </div>
-    
-                            <div className='instagram-single-process-div margin-top-two-rem'>
-                                <p className='work-title-2 work-text'>2. Explore</p>
-                                <hr className='instagram-process-underline' />
-                                <p className='work-text instagram-proces-text'>Initial Concepts</p>
-                                <p className='work-text instagram-proces-text'>Figma Sketches</p>
-                            </div>
-    
-                            <div className='instagram-single-process-div margin-top-two-rem'>
-                                <p className='work-title-2 work-text'>3. Evaluate</p>
-                                <hr className='instagram-process-underline' />
-                                <p className='work-text instagram-proces-text'>Feedback from Managers</p>
-                                <p className='work-text instagram-proces-text'>1st Round Design Critique</p>
-                                <p className='work-text instagram-proces-text'>Core Idea</p>
-                            </div>
-    
-                            <div className='instagram-single-process-div margin-top-two-rem'>
-                                <p className='work-title-2 work-text'>4. Prototyping</p>
-                                <hr className='instagram-process-underline' />
-                                <p className='work-text instagram-proces-text'>User Flow Prototyping</p>
-                                <p className='work-text instagram-proces-text'>Visual Design</p>
-                                <p className='work-text instagram-proces-text'>2nd Round Design Critique</p>
-                            </div>
-                        </div>
-                    </div> */}
+                  
                 </div>
 
                 <div className='section section-with-bg' id='nav-1'>
@@ -395,8 +364,9 @@ class Instagram extends Component {
                         <p className='work-text'>
                             I want to enable users to change the color of letters,  but the default color is still very important since according to our research, <span className='work-text-bold'>more than 90% of users won’t change the default settings</span> of effects.
                         </p>
+
                         <p className='work-text'>
-                            To define the default color, I created a mood board based on these 4 keywords which are the best description for Floating Letters:
+                            I first defined 4 keywords which represent the visual style of Floating Letters:
                         </p>
                     
                         <div className='evaluate-guideline-div margin-top-two-rem'>
@@ -419,40 +389,32 @@ class Instagram extends Component {
                                 <p className='work-title-3 work-text'>Cool</p>
                                 <hr className='instagram-process-underline' />
                             </div>
+
+                            <p className='work-text margin-top-one-rem'>
+                                Then I took inspiration from Behance, Pinterest, and Dribbble and created the mood board:
+                            </p>
+                            <img src={require('../Assets/moodboard.png')} className='full-width-image' alt='mood board'></img>
+        
+                            <p className='work-text margin-top-two-rem'>
+                                Based on the mood board, I decided to use <span className='work-text-bold'>#7638FA</span> as the default color, which also comes from the gradient of Instagram and aligns with the IG brand.
+                            </p>
+                            <img src={require('../Assets/instagram-gradient.gif')} className='full-width-image' alt='instagram gradient'></img>
                         </div>
     
-                        <p className='work-text margin-top-one-rem'>
-                            I took much inspiration from the existing products and designs on Dribbble, Behance, and Pinterest and created the mood board:
-                        </p>
-    
-                        <img src={require('../Assets/moodboard.png')} className='full-width-image' alt='mood board'></img>
-                        <p className='work-text margin-top-two-rem'>
-                            Based on the mood board, I decided to use <span className='work-text-bold'>#7638FA</span> as the default color, which also comes from the gradient of Instagram and aligns with the IG brand.
-                        </p>
-                        <img src={require('../Assets/instagram-gradient.gif')} className='full-width-image' alt='instagram gradient'></img>
-    
-                        <div className='instagram-left-right-div margin-top-four-rem'>
-                            <div className='instagram-half-div'>
-                                <p className='work-title-2 work-text'>Font</p>
-                                <p className='work-text'>
-                                    For the letter font, I viewed <span className='work-text-bold'>all fonts of the Instagram story</span>, then integrated them into my prototype and enabled users to change fonts. These fonts also align with the Instagram design.
-                                </p>
-                            </div>
-                            <div className='instagram-half-div'>
-                                <img src={require('../Assets/typefaces.jpg')} className='full-width-image' alt='Instagram fonts'></img>
-                            </div>
+                        <div className='margin-top-four-rem'>
+                            <p className='work-title-2 work-text'>Font</p>
+                            <p className='work-text'>
+                                For the letter font, I viewed <span className='work-text-bold'>all fonts of the Instagram story</span>, then integrated them into my prototype and enabled users to change fonts. These fonts also align with the Instagram design.
+                            </p>
+                            <img src={require('../Assets/typefaces.png')} className='full-width-image' alt='Instagram fonts'></img>
                         </div>
     
-                        <div className='instagram-left-right-div margin-top-four-rem'>
-                            <div className='instagram-half-div'>
+                        <div className='margin-top-four-rem'>
                             <p className='work-title-2 work-text'>3D-Like</p>
                             <p className='work-text'>
                                 I also borrowed from an Instagram first-party effect - Dynamic Lyrics and learned how it makes the text 3D-like, which <span className='work-text-bold'>gives text a shadow</span> and can make the letters more like real objects.
                             </p>
-                            </div>
-                            <div className='instagram-half-div'>
-                                <img src={require('../Assets/floating-3d.png')} className='full-width-image' alt='Floating Letters 3D'></img>
-                            </div>
+                            <img src={require('../Assets/floating-3d.png')} className='full-width-image' alt='Floating Letters 3D'></img>
                         </div>
                         
                         

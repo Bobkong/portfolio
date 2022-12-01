@@ -75,9 +75,9 @@
     color: #dddddd;
     font-size: 20px;
     font-family: 'oswald-regular';
-    margin-top: 8px;
-    margin-bottom: 0px;
     letter-spacing: 0.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .intro-text a {
@@ -97,14 +97,12 @@
 
 .past-experience-div {
     display: flex;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .past-experience-img {
     width: 24px;
     height: 24px;
-    margin-top: 8px;
-    margin-bottom: 0px;
     margin-right: 8px;
 }
 
