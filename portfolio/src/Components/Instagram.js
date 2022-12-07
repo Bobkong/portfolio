@@ -244,13 +244,13 @@ class Instagram extends Component {
                     <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>1st Round Design Critique</p>
                         <p className='work-text'>
-                            Due to the limited time, I can’t prototype all 6 ideas, so I also presented these ideas in the team design critique and learn the preferences of team members. View <a target='_blank' href='https://www.figma.com/file/xokh22j4v8Og8FVa1msKrY/Concept-Feedback-Collection----Lingshuang?node-id=0%3A1'>Design Critique Doc</a>.
+                            Due to the limited time, I can’t prototype all 6 ideas, so I also presented these ideas in the team design critique and evaluate these ideas with all team members. View <a target='_blank' href='https://www.figma.com/file/xokh22j4v8Og8FVa1msKrY/Concept-Feedback-Collection----Lingshuang?node-id=0%3A1'>Design Critique Doc</a>.
                         </p>
     
                         <img src={require('../Assets/1st-critique.png')} className='full-width-image margin-top-two-rem' alt='1st round critique feedback'></img>
     
                         <p className='work-text margin-top-one-rem'>
-                            Finally, I got the two most popular ideas. In this case study, I will show the subsequent design process of one core idea - <span className='work-text-bold'>Floating Letters</span>.
+                            Finally, I got the two most actionable and potential ideas. In this case study, I will show the subsequent design process of one core idea - <span className='work-text-bold'>Floating Letters</span>.
                         </p>
                     </div>
     
