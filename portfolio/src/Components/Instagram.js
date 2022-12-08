@@ -443,7 +443,7 @@ class Instagram extends Component {
                                 The Problem
                             </p>
                             <p className='work-text'>
-                                Only one sidebar and one bottom picker can be displayed at one time. Here, I supported color adjustment using a side color bar, and font adjustment using a bottom picker list. But <span className='work-text-bold'>font size adjustment is not supported</span>. 
+                                Only one sidebar and one bottom picker can be displayed at one time. Here, I supported color adjustment and font adjustment. But <span className='work-text-bold'>font size adjustment is not supported</span>. If users input too many letters and the font size can't be adjusted, the collected sentence may exceed the screen and make it difficult for the audience to read. 
                             </p>
                             </div>
                             <div className='instagram-half-div'>
