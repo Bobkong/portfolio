@@ -56,17 +56,17 @@ class Instagram extends Component {
             
         <div id="work-div">
             <img src={instagramBanner} className="work-banner" alt='Instagram banner'></img>
-            <ul className="nav-con" id="menu">
+            {/* <ul className="nav-con" id="menu">
                 {navArr.map((item,index)=>{
                     return <li><a className={classNames('nav-item', [this.state.currentId===index&&"nav-item-active"])} onClick={this.scrollToAnchor.bind(this,'nav-'+index)}>{item}</a></li>
                 })}
-            </ul>
-            <div className='work-content-div instagram-work-content'>
+            </ul> */}
+            <div className='work-content-div'>
                 <div className='section' id='nav-0'>
                     <div className='work-overview work-chapter-div'>
                         <div className='work-role'>
                             <h2 className='work-title-2 work-text-center'>Role</h2>
-                            <p className='work-text-center work-overview-text'>Designer & Prototyper Intern</p>
+                            <p className='work-text-center work-overview-text'>Product Design Prototyper Intern</p>
                         </div>
     
                         <div className='work-timeline'>
@@ -76,7 +76,7 @@ class Instagram extends Component {
     
                         <div className='work-tools'>
                             <h2 className='work-title-2 work-text-center'>Tools</h2>
-                            <p className='work-text-center work-overview-text'>Figma, Spark AR, Origami, After Effects, Figjam, Google Suites</p>
+                            <p className='work-text-center work-overview-text'>Figma, Spark AR, Origami, After Effects, Figjam</p>
                         </div>
                     </div>
     
@@ -86,23 +86,20 @@ class Instagram extends Component {
                     </div>
     
                     <div className='work-chapter-div margin-top-six-rem'>
-                        <div className='instagram-left-right-div'>
-                            <div className='instagram-half-div'>
-                                <p className='work-title-1 work-text instagram-internship-project-title'>My Project</p>
-                                <p className='work-text'>To achieve our goal, we identify strategic technology investments. The development and shipment of new AR capabilities (eg., <span className='work-text-bold'>hand tracking</span>) is a crucial part of our mission.</p>
-                                <p className='work-text'>The goal of my internship project is to <span className='work-text-bold'>ideate, design, and prototype 1-2 AR experiences</span> that align with our foundational strategy on Creative Lab utilizing the new hand-tracking capability.</p>
-                                <div id='view-project' className='margin-top-two-rem' onClick={this.scrollToAnchor.bind(this,'nav-7')}>
-                                    Jump to the final design!
-                                </div>
-                            </div>
-                            <img src={handtracking} className='hand-tracking-img instagram-half-div' alt='hand tracking'></img>
-                        </div>
+                        <p className='work-title-1 work-text'>My Project</p>
+                        <p className='work-text'>The goal of my internship project is to <span className='work-text-bold'>ideate, design, and prototype compelling AR experiences</span> that align with our foundational strategy on Creative Lab utilizing the new hand-tracking capability.</p>
+                    </div>
+
+                    <div className='work-chapter-div margin-top-six-rem'>
+                        <p className='work-title-1 work-text'>My Goals</p>
+                        <p className='work-text'>1. Design and prototype 1-2 working AR effects that showcase potential new hand tracking experience.</p>
+                        <p className='work-text'>2. Fully develop one of the prototypes and ship it as a first-party Instagram effect.</p>
                     </div>
     
                   
                 </div>
 
-                <div className='section section-with-bg' id='nav-1'>
+                {/* <div className='section section-with-bg' id='nav-1'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Competitive Analysis</p>
                         <p className='work-text'>First of all, I learned the landscape of effects and designs that utilize hand-tracking by conducting competitive analysis. I researched our main competitors: <span className='work-text-bold'>TikTok</span> and <span className='work-text-bold'>Snapchat</span>.</p>
@@ -175,9 +172,9 @@ class Instagram extends Component {
                         </div>
     
                     </div>
-                </div>
+                </div> */}
 
-                <div className='section' id='nav-2'>
+                {/* <div className='section' id='nav-2'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Initial Concepts</p>
                         <p className='work-text'>
@@ -197,9 +194,9 @@ class Instagram extends Component {
                         
                         <img src={require('../Assets/figma-sketches.png')} className='full-width-image margin-top-two-rem' alt='figma skteches'></img>
                     </div>
-                </div>
+                </div> */}
     
-                <div className='section section-with-bg' id='nav-3'>
+                {/* <div className='section section-with-bg' id='nav-3'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Feedback from Manangers</p>
                         <p className='work-text'>
@@ -316,9 +313,9 @@ class Instagram extends Component {
                         </p>
     
                     </div>
-                </div>
+                </div> */}
                 
-                <div className='section' id='nav-4'>
+                {/* <div className='section' id='nav-4'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>AR Prototyping</p>
     
@@ -352,9 +349,9 @@ class Instagram extends Component {
     
     
                     
-                </div>
+                </div> */}
 
-                <div className='section section-with-bg' id='nav-5'>
+                {/* <div className='section section-with-bg' id='nav-5'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Visual Design</p>
                         <p className='work-text'>
@@ -420,9 +417,9 @@ class Instagram extends Component {
                         
                         
                     </div>
-                </div>
+                </div> */}
 
-                <div className='section' id='nav-6'>
+                {/* <div className='section' id='nav-6'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>2nd Round Design Critique</p>
                         <p className='work-text'>
@@ -533,19 +530,24 @@ class Instagram extends Component {
     
                     </div>
     
-                </div>
+                </div> */}
 
                 <div className='section section-with-bg' id='nav-7'>
                     <div className='work-chapter-div'>
     
                         <p className='work-title-1'>
-                            Final Design
+                            Outcome
                         </p>
+
                         <p className='work-text'>
-                            Let’s watch the final design of Floating Letters!
+                        After 12 weeks of work, I beat all goals set in my project plan! I designed and prototyped two AR effects, which are <span className='work-text-bold'>floating letters</span> and <span className='work-text-bold'>green screen switch</span>. They both showcase how users can utilize hand-tracking technology to express themselves and tell their stories. In addition, floating letters will be launched at the end of 2022! 
+                        </p>
+
+                        <p className='work-title-2'>
+                            AR Effect 1: Floating Letters
                         </p>
                         
-                        <div className="player-wrapper">
+                        <div className="player-wrapper margin-top-one-rem">
                             <ReactPlayer
                             url="https://youtube.com/shorts/QmYTVsiASnk"
                             className="react-player"
@@ -554,10 +556,21 @@ class Instagram extends Component {
                             controls={true}
                             />
                         </div>
-    
-                        <p className='work-text margin-top-one-rem'>
-                            Floating letters will be launched in December 2022, so users will be able to express themselves creatively with Floating Letters on Instagram very soon!
+
+                        <p className='work-title-2 margin-top-four-rem'>
+                            AR Effect 2: Green Screen Switch
                         </p>
+
+                        <div className="player-wrapper margin-top-one-rem">
+                            <ReactPlayer
+                            url="https://youtu.be/8EAQrTb3MUk"
+                            className="react-player"
+                            width="100%"
+                            height="100%"
+                            controls={true}
+                            />
+                        </div>
+    
                     </div>
                 </div>
     
@@ -628,6 +641,18 @@ class Instagram extends Component {
                             display="block"
                             position="relative"/>
     
+    
+                    </div>
+
+                    <div className='work-chapter-div margin-top-six-rem'>
+    
+                        <p className='work-title-1'>
+                            Interested?
+                        </p>
+    
+                        <p className='work-text'>
+                            If you are interested in learning more about the work and the design process, feel free to contact me!
+                        </p>
     
                     </div>
     
