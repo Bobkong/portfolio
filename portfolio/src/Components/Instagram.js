@@ -79,14 +79,30 @@ class Instagram extends Component {
                             <p className='work-text-center work-overview-text'>Figma, Spark AR, Origami, After Effects, Figjam</p>
                         </div>
                     </div>
-    
-                    <div className='work-chapter-div margin-top-six-rem'>
-                        <p className='work-title-1 work-text'>Instagram AR Design</p>
-                        <p className='work-text'>Instagram AR Design Team is a multidisciplinary team with the goal of <span className='work-text-bold'>empowering anyone to creatively experiment and express themselves.</span> To achieve this, we explore new opportunities by identifying strategic technology investments. The development and shipment of <span className='work-text-bold'>hand-tracking capability</span> is a crucial part of our mission. The end product should provide a new way of creating stories and Reels on Instagram. </p>
+
+
+                    <div className='instagram-team-div margin-top-six-rem'>
+                        <div className='instagram-team-pic-div'>
+                            <img src={require('../Assets/arteam1.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                            <img src={require('../Assets/arteam2.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                            <img src={require('../Assets/arteam3.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                            <img src={require('../Assets/arteam5.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                            <img src={require('../Assets/arteam6.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                        </div>
+                   
+                        <div className='instagram-team-desc'>
+                            <p className='work-title-1 '>Instagram AR Design Team</p>
+                            <p className='work-title-2'>A multidisciplinary team with the goal of empowering anyone to creatively experiment and express themselves </p>
+                        </div>
+
                     </div>
+
 
                     <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>My Project Goals</p>
+                        <p className='work-text'>
+                            To achieve the goal of our team, we explore new opportunities by identifying strategic technology investments. The development and shipment of <span className='work-text-bold'>hand-tracking capability</span> is a crucial part of our mission. The end product should provide a new way of creating stories and Reels on Instagram. My project goals are:
+                        </p>
                         <p className='work-text'>1. Understand the product requirement and competitor landscape and ideate more than 5 potential design directions.</p>
                         <p className='work-text'>2. Design and prototype 1-2 working AR effects that showcase potential new hand-tracking experiences.</p>
                         <p className='work-text'>3. Fully develop one of the prototypes and ship it as a first-party Instagram effect.</p>

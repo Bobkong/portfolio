@@ -21,6 +21,8 @@
     column-gap: 2%;
 }
 
+
+
 .instagram-internship-project-title {
     margin-top: 0rem;
     margin-bottom: 2rem;
@@ -37,6 +39,33 @@
 
 .instagram-proces-text {
     margin-bottom: 0.4rem;
+}
+
+.instagram-team-div {
+    background-color: black;
+    position: relative;
+}
+
+.instagram-team-pic-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    opacity: 0.6;
+}
+
+.instagram-team-pic {
+    width: 100%;
+    aspect-ratio: 6/10;
+    object-fit: cover;
+}
+
+.instagram-team-desc {
+    position: absolute;
+    margin: 0px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
 }
 
 hr {
