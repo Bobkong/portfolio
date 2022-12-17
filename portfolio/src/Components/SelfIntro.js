@@ -23,7 +23,7 @@ function SelfIntro() {
             </div>
             <div className='past-experience-div' >
                 <img src={paint} alt="design" className='past-experience-img'/>
-                <p className='intro-text'>AR Designer at <a target="_blank" href='https://www.instagram.com/'>Instagram</a>, Summer 2022</p>
+                <p className='intro-text'>Product Design Prototyper at <a target="_blank" href='https://www.instagram.com/'>Instagram</a>, Summer 2022</p>
             </div>
             <div className='past-experience-div'>
                  <img src={coding} alt="coding" className='past-experience-img'/>
