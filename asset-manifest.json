@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.23d390a3.css",
-    "main.js": "/portfolio/static/js/main.056de3ba.js",
+    "main.css": "/portfolio/static/css/main.6a5708a9.css",
+    "main.js": "/portfolio/static/js/main.1b5d2b88.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/manipulation.gif": "/portfolio/static/media/manipulation.987b204182e3ced7ef20.gif",
     "static/media/game.gif": "/portfolio/static/media/game.c11940839d94c530dcb3.gif",
@@ -10,17 +10,21 @@
     "static/media/personal-website.png": "/portfolio/static/media/personal-website.c07786da66ade839dad9.png",
     "static/media/certificate.png": "/portfolio/static/media/certificate.2f38c694337b0c0dacc8.png",
     "static/media/aramsay_bg.gif": "/portfolio/static/media/aramsay_bg.66c535b46ce090163378.gif",
+    "static/media/metaoffice.jpeg": "/portfolio/static/media/metaoffice.cd5c5cb521b8685210de.jpeg",
     "static/media/instagram-half.png": "/portfolio/static/media/instagram-half.ec85cb66424085a38802.png",
     "static/media/instagram_bg.png": "/portfolio/static/media/instagram_bg.9b803b1421b157673084.png",
     "static/media/superplant.gif": "/portfolio/static/media/superplant.3afe4d31d415a8460090.gif",
+    "static/media/happyhour.jpeg": "/portfolio/static/media/happyhour.1324d4b0f990fa3db19b.jpeg",
     "static/media/qqmusic.gif": "/portfolio/static/media/qqmusic.f4427af747be86a5f2f7.gif",
     "static/media/qqmusic-team-2.JPG": "/portfolio/static/media/qqmusic-team-2.cb1bad75d010f15da4c8.JPG",
+    "static/media/hotpot.jpeg": "/portfolio/static/media/hotpot.5ede5e73ac0a0e03429c.jpeg",
     "static/media/mecat.gif": "/portfolio/static/media/mecat.c5750008377a9b12f5a1.gif",
     "static/media/feca.png": "/portfolio/static/media/feca.f5e73630ce2af2bb683e.png",
     "static/media/easymed_bg.png": "/portfolio/static/media/easymed_bg.2546c343700ce8256027.png",
     "static/media/nutrition_bg.png": "/portfolio/static/media/nutrition_bg.f29e577281d44fff137f.png",
     "static/media/homni_bg.png": "/portfolio/static/media/homni_bg.8a78c35ef06f2a8b654f.png",
     "static/media/instagram-banner.png": "/portfolio/static/media/instagram-banner.cd51e766e1d827543132.png",
+    "static/media/oceanview.jpg": "/portfolio/static/media/oceanview.7e8c0e575f623a6250fc.jpg",
     "static/media/Inter-Bold.ttf": "/portfolio/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-SemiBold.ttf": "/portfolio/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
     "static/media/Inter-Regular.ttf": "/portfolio/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
@@ -36,12 +40,12 @@
     "static/media/coding.png": "/portfolio/static/media/coding.3eb33a3e093e810add7c.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
-    "main.23d390a3.css.map": "/portfolio/static/css/main.23d390a3.css.map",
-    "main.056de3ba.js.map": "/portfolio/static/js/main.056de3ba.js.map",
+    "main.6a5708a9.css.map": "/portfolio/static/css/main.6a5708a9.css.map",
+    "main.1b5d2b88.js.map": "/portfolio/static/js/main.1b5d2b88.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23d390a3.css",
-    "static/js/main.056de3ba.js"
+    "static/css/main.6a5708a9.css",
+    "static/js/main.1b5d2b88.js"
   ]
 }
