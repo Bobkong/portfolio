@@ -66,6 +66,13 @@ hr {
     margin-bottom: 1rem;
 }
 
+.instagram-life-pic {
+    width: 100%;
+    aspect-ratio: 1.5/1;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
 .react-player {
     position: absolute;
     top: 0;

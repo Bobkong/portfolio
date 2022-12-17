@@ -82,18 +82,14 @@ class Instagram extends Component {
     
                     <div className='work-chapter-div margin-top-six-rem'>
                         <p className='work-title-1 work-text'>Instagram AR Design</p>
-                        <p className='work-text'>Instagram AR Design Team is a multidisciplinary team with the goal of <span className='work-text-bold'>empowering anyone to creatively experiment and express themselves.</span> To achieve this, we explore new opportunities for Instagram Reels by building differentiated creative tools and identifying strategic technology investments.</p>
-                    </div>
-    
-                    <div className='work-chapter-div margin-top-six-rem'>
-                        <p className='work-title-1 work-text'>My Project</p>
-                        <p className='work-text'>The goal of my internship project is to <span className='work-text-bold'>ideate, design, and prototype compelling AR experiences</span> that align with our foundational strategy on Creative Lab utilizing the new hand-tracking capability.</p>
+                        <p className='work-text'>Instagram AR Design Team is a multidisciplinary team with the goal of <span className='work-text-bold'>empowering anyone to creatively experiment and express themselves.</span> To achieve this, we explore new opportunities by identifying strategic technology investments. The development and shipment of <span className='work-text-bold'>hand-tracking capability</span> is a crucial part of our mission. The end product should provide a new way of creating stories and Reels on Instagram. </p>
                     </div>
 
                     <div className='work-chapter-div margin-top-six-rem'>
-                        <p className='work-title-1 work-text'>My Goals</p>
-                        <p className='work-text'>1. Design and prototype 1-2 working AR effects that showcase potential new hand tracking experience.</p>
-                        <p className='work-text'>2. Fully develop one of the prototypes and ship it as a first-party Instagram effect.</p>
+                        <p className='work-title-1 work-text'>My Project Goals</p>
+                        <p className='work-text'>1. Understand the product requirement and competitor landscape and ideate more than 5 potential design directions.</p>
+                        <p className='work-text'>2. Design and prototype 1-2 working AR effects that showcase potential new hand-tracking experiences.</p>
+                        <p className='work-text'>3. Fully develop one of the prototypes and ship it as a first-party Instagram effect.</p>
                     </div>
     
                   
@@ -540,7 +536,7 @@ class Instagram extends Component {
                         </p>
 
                         <p className='work-text'>
-                        After 12 weeks of work, I beat all goals set in my project plan! I designed and prototyped two AR effects, which are <span className='work-text-bold'>floating letters</span> and <span className='work-text-bold'>green screen switch</span>. They both showcase how users can utilize hand-tracking technology to express themselves and tell their stories. In addition, floating letters will be launched at the end of 2022! 
+                        After 12 weeks of work, I beat all goals set in my project plan! I ideated 10 initial ideas and designed and prototyped two AR effects,  which are <span className='work-text-bold'>Floating Letters</span> and <span className='work-text-bold'>Green Screen Switch</span>. They both showcase how users can utilize hand-tracking technology to express themselves and tell their stories. In addition, floating letters will be launched at the end of 2022! 
                         </p>
 
                         <p className='work-title-2'>
@@ -620,6 +616,46 @@ class Instagram extends Component {
                     </div>
     
                     </div>
+
+                    <div className='work-chapter-div margin-top-six-rem'>
+    
+                        <p className='work-title-1'>
+                            Life at Meta
+                        </p>
+    
+                        <p className='work-text'>
+                            I spent an amazing and memorable three months at Meta and met a lot of talented colleagues and friends. Here are some highlights of life at Meta!
+                        </p>
+
+                        <div className='instagram-left-right-div margin-top-one-rem'>
+    
+                            <div className='instagram-half-div '>
+                                <img src={require('../Assets/happyhour.jpeg')} alt="happy hour" className='instagram-life-pic'/>
+                                <p className='work-text-center'>Happy hour with Instagram AR design team</p>
+                            </div>
+    
+                            <div className='instagram-half-div'>
+                                <img src={require('../Assets/hotpot.jpeg')} alt="hot pot" className='instagram-life-pic'/>
+                                <p className='work-text-center'>Try Chinese hot pot with team members</p>
+                            </div>
+                            
+                        </div>
+
+                        <div className='instagram-left-right-div margin-top-two-rem'>
+    
+                            <div className='instagram-half-div'>
+                                <img src={require('../Assets/metaoffice.jpeg')} alt="meta office" className='instagram-life-pic'/>
+                                <p className='work-text-center'>Visit Instagram office at Menlo Park</p>
+                            </div>
+    
+                            <div className='instagram-half-div'>
+                                <img src={require('../Assets/oceanview.jpg')} alt="ocean view" className='instagram-life-pic'/>
+                                <p className='work-text-center'>Amazing ocean view from Meta SF office</p>
+                            </div>
+                            
+                        </div>
+    
+                    </div>
     
                     <div className='work-chapter-div margin-top-six-rem'>
     
@@ -658,6 +694,8 @@ class Instagram extends Component {
     
     
                 </div>
+
+
 
     
             </div>
