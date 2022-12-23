@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600;700&family=Lexend:wght@400;500;600;700;800&display=swap');
+
+
 .work-div {
     min-height: 100vh;
     margin: 0;
@@ -10,7 +11,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    column-gap: 2%;
+    column-gap: 10%;
 }
 
 .instagram-left-right-div-stretch {
@@ -21,15 +22,13 @@
     column-gap: 2%;
 }
 
-
-
 .instagram-internship-project-title {
     margin-top: 0rem;
     margin-bottom: 2rem;
 }
 
 .instagram-half-div {
-    width: 49%;
+    width: 45%;
 }
 
 .hand-tracking-img {
@@ -42,15 +41,13 @@
 }
 
 .instagram-team-div {
-    background-color: black;
     position: relative;
 }
 
 .instagram-team-pic-div {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 20%);
-    opacity: 0.5;
+    grid-template-columns: repeat(4, 25%);
 }
 
 .instagram-team-pic {
@@ -95,9 +92,13 @@ hr {
     margin-bottom: 1rem;
 }
 
+.instagram-half-div-text {
+    max-width: 80%;
+}
+
 .instagram-life-pic {
     width: 100%;
-    aspect-ratio: 1.5/1;
+    aspect-ratio: 5/4;
     object-fit: cover;
     margin-bottom: 1rem;
 }

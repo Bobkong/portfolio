@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@600;700&family=Lexend:wght@400;500;600;700;800&display=swap');
+@font-face{
+    font-family: 'instagram-sans';
+    src : url('../Assets/Fonts/Instagram-Sans.ttf');
+}
+
+@font-face{
+    font-family: 'instagram-sans-headline';
+    src : url('../Assets/Fonts/Instagram-Sans-Headline.ttf');
+}
 
 .work-banner {
     width: 100vw;
     object-fit: cover;
-
 }
 
 .work-content-div {
@@ -26,14 +34,29 @@
 
 
 .work-text {
-    max-width: 768px;
-    color: #e9e9e9;
-    line-height: 1.5rem;
+    max-width: 1000px;
+    color: #efefef;
+    line-height: 3rem;
     margin-top: 0;
     margin-bottom: 0.6rem;
     margin-left: 0px;
     margin-right: 0px;
-    font-family: 'Lexend';
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+    font-family: 'instagram-sans';
+}
+
+.work-sub-text {
+    max-width: 1000px;
+    color: #e9e9e9;
+    line-height: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    font-family: 'instagram-sans';
 }
 
 .work-text-bold {
@@ -43,14 +66,14 @@
 
 .work-text-center {
     text-align: center;
-    max-width: 768px;
+    max-width: 1000px;
     color: #e9e9e9;
     margin-top: 0;
     margin-bottom: 0.8rem;
 }
 
 .work-title-2 {
-    font-family: 'Exo';
+    font-family: 'instagram-sans-headline';
     font-weight: 600;
     margin-bottom: 0.4rem;
     font-size: 1.4rem;
@@ -60,7 +83,7 @@
 }
 
 .work-title-3 {
-    font-family: 'Exo';
+    font-family: 'instagram-sans';
     font-weight: 700;
     margin-bottom: 0rem;
     font-size: 1.2rem;
@@ -72,13 +95,13 @@
 
 .work-overview-text {
     max-width: 220px;
-    font-family: 'Lexend';
+    font-family: 'instagram-sans';
     font-weight: 400;
     font-size: 1rem;
 }
 
 .work-title-1 {
-    font-family: 'Exo';
+    font-family: 'instagram-sans-headline';
     font-weight: 700;
     font-size: 1.8rem;
     margin-bottom: 1.2rem;
@@ -96,7 +119,7 @@
 }
 
 .work-chapter-div {
-    max-width: 768px;
+    max-width: 1000px;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: auto;
@@ -119,8 +142,16 @@
     margin-top: 6rem;
 }
 
+.margin-top-ten-rem {
+    margin-top: 10rem;
+}
+
 .margin-bottom-two-rem {
     margin-bottom: 2rem;
+}
+
+.margin-bottom-ten-rem {
+    margin-bottom: 10rem;
 }
 
 .padding-left-right-one-rem {
@@ -134,7 +165,7 @@
 
 a {
     color: white;
-    font-family: 'Lexend';
+    font-family: 'instagram-sans';
     font-size: 1rem;
     font-weight: 700;
     
@@ -150,10 +181,23 @@ a {
 
 .section {
     width: 100vw;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
 }
 
 .section-with-bg {
-    background-color: #212121;
+}
+
+.section-with-white-bg {
+    background-color: #ffffff;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    width: 100vh;
+}
+
+.half-width {
+    width: 50%;
 }

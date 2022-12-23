@@ -55,7 +55,16 @@ class Instagram extends Component {
         return (
             
         <div id="work-div">
-            <img src={instagramBanner} className="work-banner" alt='Instagram banner'></img>
+
+            <div className='instagram-team-div full-width'>
+                <div className='full-width'>
+                    <video className="full-width" src={require('../Assets/instagram-ar.mp4')} autoPlay="autoplay" loop></video>
+                </div>
+                <div className='instagram-team-desc'>
+                    <p className='work-text'>Instagram AR Design Internship</p>
+                </div>
+            </div>
+            {/* <img src={instagramBanner} className="work-banner" alt='Instagram banner'></img> */}
             {/* <ul className="nav-con" id="menu">
                 {navArr.map((item,index)=>{
                     return <li><a className={classNames('nav-item', [this.state.currentId===index&&"nav-item-active"])} onClick={this.scrollToAnchor.bind(this,'nav-'+index)}>{item}</a></li>
@@ -63,7 +72,7 @@ class Instagram extends Component {
             </ul> */}
             <div className='work-content-div'>
                 <div className='section' id='nav-0'>
-                    <div className='work-overview work-chapter-div'>
+                    {/* <div className='work-overview work-chapter-div'>
                         <div className='work-role'>
                             <h2 className='work-title-2 work-text-center'>Role</h2>
                             <p className='work-text-center work-overview-text'>Product Design Prototyper Intern</p>
@@ -78,39 +87,68 @@ class Instagram extends Component {
                             <h2 className='work-title-2 work-text-center'>Tools</h2>
                             <p className='work-text-center work-overview-text'>Figma, Spark AR, Origami, After Effects, Figjam</p>
                         </div>
+                    </div> */}
+
+
+                    <div className='work-chapter-div margin-top-ten-rem'>
+                        <p className='work-text'>Instagram AR Design Team is a multidisciplinary team with the goal of empowering anyone to creatively experiment and express themselves.</p>
                     </div>
 
-
-                    <div className='instagram-team-div margin-top-six-rem'>
-                        <div className='instagram-team-pic-div'>
-                            <img src={require('../Assets/arteam1.gif')} alt="ar team 1" className='instagram-team-pic'/>
-                            <img src={require('../Assets/arteam2.gif')} alt="ar team 1" className='instagram-team-pic'/>
-                            <img src={require('../Assets/arteam3.gif')} alt="ar team 1" className='instagram-team-pic'/>
-                            <img src={require('../Assets/arteam5.gif')} alt="ar team 1" className='instagram-team-pic'/>
-                            <img src={require('../Assets/arteam6.gif')} alt="ar team 1" className='instagram-team-pic'/>
-                        </div>
-                   
-                        <div className='instagram-team-desc'>
-                            <p className='work-title-1 '>Instagram AR Design Team</p>
-                            <p className='work-title-2'>A multidisciplinary team with the goal of empowering anyone to creatively experiment and express themselves </p>
-                        </div>
-
-                    </div>
-
-
-                    <div className='work-chapter-div margin-top-six-rem'>
-                        <p className='work-title-1 work-text'>My Project Goals</p>
-                        <p className='work-text'>
-                            To achieve the goal of our team, we explore new opportunities by identifying strategic technology investments. The development and shipment of <span className='work-text-bold'>hand-tracking capability</span> is a crucial part of our mission. The end product should provide a new way of creating stories and Reels on Instagram. My project goals are:
-                        </p>
-                        <p className='work-text'>1. Understand the product requirement and competitor landscape and ideate more than 5 potential design directions.</p>
-                        <p className='work-text'>2. Design and prototype 1-2 working AR effects that showcase potential new hand-tracking experiences.</p>
-                        <p className='work-text'>3. Fully develop one of the prototypes and ship it as a first-party Instagram effect.</p>
-                    </div>
-    
-                  
                 </div>
 
+            
+                <div className='section margin-top-ten-rem'>
+                    <div className='instagram-team-div'>
+                            <div className='instagram-team-pic-div'>
+                                <img src={require('../Assets/arteam4.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                                <img src={require('../Assets/arteam2.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                                <img src={require('../Assets/arteam5.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                                <img src={require('../Assets/arteam6.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                            </div>
+
+                    </div>
+
+                    <div className='work-chapter-div margin-top-ten-rem'>
+                                <p className='work-text'>
+                                    We explore new opportunities by identifying strategic technology investments. The development and shipment of hand-tracking capability is a crucial part of our mission.
+                                </p>
+                                {/* <p className='work-text'>1. Understand the product requirement and competitor landscape and ideate more than 5 potential design directions.</p>
+                                <p className='work-text'>2. Design and prototype 1-2 working AR effects that showcase potential new hand-tracking experiences.</p>
+                                <p className='work-text'>3. Fully develop one of the prototypes and ship it as a first-party Instagram effect.</p> */}
+                    </div>
+
+                    
+
+                </div>
+
+                <div className='instagram-team-div full-width margin-top-ten-rem'>
+                    <div className='full-width'>
+                        <video className="full-width" src={require('../Assets/instagram-gradient.mp4')} autoPlay="autoplay" loop></video>
+                    </div>
+                    <div className='instagram-team-desc'>
+                        <p className='work-title-1 work-text-center'>
+                            My Role
+                        </p>
+                        <p className='work-text work-text-center'>
+                            AR Designer
+                        </p>
+
+                        <p className='work-title-1 margin-top-four-rem work-text-center'>
+                            Timeline
+                        </p>
+                        <p className='work-text work-text-center'>
+                            June - September, 2022
+                        </p>
+
+                        <p className='work-title-1 margin-top-four-rem work-text-center'>
+                            My Goals
+                        </p>
+                        <p className='work-text work-text-center'>
+                            Design and prototype 1-2 working AR effects that showcase potential new hand-tracking experiences
+                        </p>
+                    </div>
+                 </div>
+                
                 {/* <div className='section section-with-bg' id='nav-1'>
                     <div className='work-chapter-div'>
                         <p className='work-title-1 work-text'>Competitive Analysis</p>
@@ -544,52 +582,49 @@ class Instagram extends Component {
     
                 </div> */}
 
-                <div className='section section-with-bg' id='nav-7'>
+                <div className='section margin-top-ten-rem' id='nav-7'>
                     <div className='work-chapter-div'>
-    
-                        <p className='work-title-1'>
-                            Outcome
-                        </p>
 
                         <p className='work-text'>
-                        After 12 weeks of work, I beat all goals set in my project plan! I ideated 10 initial ideas and designed and prototyped two AR effects,  which are <span className='work-text-bold'>Floating Letters</span> and <span className='work-text-bold'>Green Screen Switch</span>. They both showcase how users can utilize hand-tracking technology to express themselves and tell their stories. In addition, floating letters will be launched at the end of 2022! 
+                        After 12 weeks of work, I beat all goals set in my project plan! I designed and prototyped two AR effects, which both showcase how users can utilize hand-tracking technology to express themselves.
                         </p>
 
-                        <p className='work-title-2'>
-                            AR Effect 1: Floating Letters
-                        </p>
-                        
-                        <div className="player-wrapper margin-top-one-rem">
-                            <ReactPlayer
-                            url="https://youtube.com/shorts/QmYTVsiASnk"
-                            className="react-player"
-                            width="100%"
-                            height="100%"
-                            controls={true}
-                            />
+                        <div className='instagram-left-right-div margin-top-six-rem'>
+                            <div className='instagram-half-div'>
+                                <video className='full-width' src={require('../Assets/floatingletters.mp4')} autoPlay="autoplay" controls muted></video>
+                            </div>
+                            <div className='instagram-half-div'>
+                                <p className='work-title-1'>
+                                    AR Effect 1: Floating Letters
+                                </p>
+                                <p className='work-text'>
+                                    A cool and interesting tool that utilizes AR text to enable users to express themselves, and hand gestures to collect letters and create a sense of superpower!
+                                </p>
+                            </div>
                         </div>
 
-                        <p className='work-title-2 margin-top-four-rem'>
-                            AR Effect 2: Green Screen Switch
-                        </p>
-
-                        <div className="player-wrapper margin-top-one-rem">
-                            <ReactPlayer
-                            url="https://youtu.be/8EAQrTb3MUk"
-                            className="react-player"
-                            width="100%"
-                            height="100%"
-                            controls={true}
-                            />
+                        <div className='instagram-left-right-div margin-top-six-rem'>
+                            <div className='instagram-half-div'>
+                                <p className='work-title-1'>
+                                    AR Effect 2: Green Screen Switch
+                                </p>
+                                <p className='work-text'>
+                                    A creative tool that enables users to select multiple media as their backgrounds and utilizes hand tracking to switch the media and tell stories more smoothly! 
+                                </p>
+                            </div>
+                            <div className='instagram-half-div'>
+                                <video className='full-width' src={require('../Assets/greenscreen.mov')} autoPlay="autoplay" controls muted></video>
+                            </div>
+                            
                         </div>
-    
+
                     </div>
                 </div>
     
                 <div className='section' id='nav-8'>
                     <div className='work-chapter-div'>
     
-                    <p className='work-title-1'>
+                    {/* <p className='work-title-1'>
                         Key Takeaways
                     </p>
     
@@ -629,74 +664,74 @@ class Instagram extends Component {
                             </p>
                         </div>
     
-                    </div>
+                    </div> */}
     
                     </div>
 
                     <div className='work-chapter-div margin-top-six-rem'>
-    
-                        <p className='work-title-1'>
-                            Life at Meta
-                        </p>
     
                         <p className='work-text'>
                             I spent an amazing and memorable three months at Meta and met a lot of talented colleagues and friends. Here are some highlights of life at Meta!
                         </p>
 
-                        <div className='instagram-left-right-div margin-top-one-rem'>
-    
-                            <div className='instagram-half-div '>
-                                <img src={require('../Assets/happyhour.jpeg')} alt="happy hour" className='instagram-life-pic'/>
-                                <p className='work-text-center'>Happy hour with Instagram AR design team</p>
-                            </div>
-    
+                        <div className='instagram-left-right-div margin-top-six-rem'>
                             <div className='instagram-half-div'>
-                                <img src={require('../Assets/hotpot.jpeg')} alt="hot pot" className='instagram-life-pic'/>
-                                <p className='work-text-center'>Try Chinese hot pot with team members</p>
+                                <img src={require('../Assets/happyhour.jpeg')} alt="happy hour" className='instagram-life-pic'/>
                             </div>
-                            
+                            <div className='instagram-half-div'>
+                                <p className='work-text'>Happy hour with Instagram AR design team</p>
+                            </div>
+                        </div>
+                        
+
+                        <div className='instagram-left-right-div'>
+                            <div className='instagram-half-div'>
+                                <p className='work-text'>Try Chinese hot pot with team members</p>
+                            </div>
+                            <div className='instagram-half-div'>
+                                <img src={require('../Assets/hotpot.jpeg')} alt="hot potr" className='instagram-life-pic'/>
+                            </div>
                         </div>
 
-                        <div className='instagram-left-right-div margin-top-two-rem'>
-    
+
+                        <div className='instagram-left-right-div'>
                             <div className='instagram-half-div'>
-                                <img src={require('../Assets/metaoffice.jpeg')} alt="meta office" className='instagram-life-pic'/>
-                                <p className='work-text-center'>Visit Instagram office at Menlo Park</p>
+                                <img src={require('../Assets/metaoffice.jpeg')} alt="happy hour" className='instagram-life-pic'/>
                             </div>
-    
                             <div className='instagram-half-div'>
-                                <img src={require('../Assets/oceanview.jpg')} alt="ocean view" className='instagram-life-pic'/>
-                                <p className='work-text-center'>Amazing ocean view from Meta SF office</p>
+                                <p className='work-text'>Visit Instagram office at Menlo Park</p>
                             </div>
-                            
+                        </div>
+                        
+
+                        <div className='instagram-left-right-div'>
+                            <div className='instagram-half-div'>
+                                <p className='work-text'>Amazing ocean view from Meta SF offic</p>
+                            </div>
+                            <div className='instagram-half-div'>
+                                <img src={require('../Assets/oceanview.jpg')} alt="hot potr" className='instagram-life-pic'/>
+                            </div>
                         </div>
     
                     </div>
     
-                    <div className='work-chapter-div margin-top-six-rem'>
-    
-                        <p className='work-title-1'>
-                            Feedback about Me
-                        </p>
-    
+                    <div className='work-chapter-div margin-top-ten-rem'>
+                       
                         <p className='work-text'>
-                            I received a lot of positive feedback from the team. I'm so honored that everyone loves my work and my workflow. These pieces of feedback are the most precious memory of this unforgettable summer!
-                        </p>
-                        <p className='work-text-bold'>
-                            (Drag to see more feedback!)
+                            I received a lot of positive feedback from the team. I'm so honored that everyone loves my work and my workflow. These pieces of feedback are the most precious memory of this unforgettable summer. (Drag to see more!)
                         </p>
 
                         <Iframe url="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2tyC0lOABDAr9TwDruvTcI%2FFeedback-about-me!%3Fpage-id%3D0%253A1%26node-id%3D0%253A1%26viewport%3D479%252C395%252C0.36%26scaling%3Dmin-zoom"
-                            width="768PX"
-                            height="768PX"
-                            className='feedback-iframe margin-top-two-rem'
+                            width="1000px"
+                            height="1000px"
+                            className='feedback-iframe margin-top-four-rem'
                             display="block"
                             position="relative"/>
     
     
                     </div>
 
-                    <div className='work-chapter-div margin-top-six-rem'>
+                    <div className='work-chapter-div margin-top-ten-rem margin-bottom-ten-rem'>
     
                         <p className='work-title-1'>
                             Interested?
