@@ -61,7 +61,7 @@ class Instagram extends Component {
                     <video className="full-width" src={require('../Assets/instagram-ar.mp4')} autoPlay="autoplay" loop></video>
                 </div>
                 <div className='instagram-team-desc'>
-                    <p className='work-text'>Instagram AR Design Internship</p>
+                    <p className='work-title-1'>Instagram AR Design</p>
                 </div>
             </div>
             {/* <img src={instagramBanner} className="work-banner" alt='Instagram banner'></img> */}
@@ -126,21 +126,21 @@ class Instagram extends Component {
                         <video className="full-width" src={require('../Assets/instagram-gradient.mp4')} autoPlay="autoplay" loop></video>
                     </div>
                     <div className='instagram-team-desc'>
-                        <p className='work-title-1 work-text-center'>
+                        <p className='work-title-2 work-text-center'>
                             My Role
                         </p>
                         <p className='work-text work-text-center'>
                             AR Designer
                         </p>
 
-                        <p className='work-title-1 margin-top-four-rem work-text-center'>
+                        <p className='work-title-2 margin-top-four-rem work-text-center'>
                             Timeline
                         </p>
                         <p className='work-text work-text-center'>
                             June - September, 2022
                         </p>
 
-                        <p className='work-title-1 margin-top-four-rem work-text-center'>
+                        <p className='work-title-2 margin-top-four-rem work-text-center'>
                             My Goals
                         </p>
                         <p className='work-text work-text-center'>
@@ -594,7 +594,7 @@ class Instagram extends Component {
                                 <video className='full-width' src={require('../Assets/floatingletters.mp4')} autoPlay="autoplay" controls muted></video>
                             </div>
                             <div className='instagram-half-div'>
-                                <p className='work-title-1'>
+                                <p className='work-title-2'>
                                     AR Effect 1: Floating Letters
                                 </p>
                                 <p className='work-text'>
@@ -605,7 +605,7 @@ class Instagram extends Component {
 
                         <div className='instagram-left-right-div margin-top-six-rem'>
                             <div className='instagram-half-div'>
-                                <p className='work-title-1'>
+                                <p className='work-title-2'>
                                     AR Effect 2: Green Screen Switch
                                 </p>
                                 <p className='work-text'>
