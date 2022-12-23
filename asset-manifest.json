@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.53bf50fc.css",
-    "main.js": "/portfolio/static/js/main.c67f982a.js",
+    "main.css": "/portfolio/static/css/main.04f85f80.css",
+    "main.js": "/portfolio/static/js/main.972e6ae6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/greenscreen.mov": "/portfolio/static/media/greenscreen.ef3ff065835e8cea69b0.mov",
     "static/media/floatingletters.mp4": "/portfolio/static/media/floatingletters.5bbdf7b624896d35eba3.mp4",
@@ -39,6 +39,7 @@
     "static/media/Instagram-Sans-Headline.ttf": "/portfolio/static/media/Instagram-Sans-Headline.7739165f17ee4b9c5f2b.ttf",
     "static/media/qqmusic-team-1.jpeg": "/portfolio/static/media/qqmusic-team-1.c507d13120829e6b4ee2.jpeg",
     "static/media/easymed-half.png": "/portfolio/static/media/easymed-half.ef349d5e4f980afa809f.png",
+    "static/media/down-arrow.gif": "/portfolio/static/media/down-arrow.eacd2ed628b2f2f77595.gif",
     "static/media/qqmusic-feedback.png": "/portfolio/static/media/qqmusic-feedback.ce5b50dfe527e857cacd.png",
     "static/media/mini-projects.jpeg": "/portfolio/static/media/mini-projects.2e5397bf7766381adee8.jpeg",
     "static/media/Oswald-Bold.ttf": "/portfolio/static/media/Oswald-Bold.87c9feafd7b2f3fd7992.ttf",
@@ -50,12 +51,12 @@
     "static/media/coding.png": "/portfolio/static/media/coding.3eb33a3e093e810add7c.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1b9cd3eed8885fb2720b.png",
     "index.html": "/portfolio/index.html",
-    "main.53bf50fc.css.map": "/portfolio/static/css/main.53bf50fc.css.map",
-    "main.c67f982a.js.map": "/portfolio/static/js/main.c67f982a.js.map",
+    "main.04f85f80.css.map": "/portfolio/static/css/main.04f85f80.css.map",
+    "main.972e6ae6.js.map": "/portfolio/static/js/main.972e6ae6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53bf50fc.css",
-    "static/js/main.c67f982a.js"
+    "static/css/main.04f85f80.css",
+    "static/js/main.972e6ae6.js"
   ]
 }
