@@ -65,6 +65,15 @@
     text-align: center;
 }
 
+.instagram-overview-desc {
+    position: absolute;
+    margin: 0px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
 hr {
     border: 0.5px solid #bbbbbb;
     width: 70%;
@@ -215,6 +224,10 @@ a {
     margin-top: 6rem;
 }
 
+.visible-in-desktop {
+    visibility: visible;
+}
+
 @media only screen and (max-width: 768px) {
     .instagram-hand-tracking-div {
         flex-direction: column;
@@ -260,3 +273,14 @@ a {
     }
     
 }
+
+@media only screen and (max-width: 1080px) {
+    .visible-in-desktop {
+        visibility: hidden;
+    }
+
+    .instagram-overview-desc {
+        position: relative;
+    }
+}
+

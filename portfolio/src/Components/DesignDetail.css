@@ -63,7 +63,7 @@
     font-family: 'instagram-sans-headline';
     font-weight: 700;
     letter-spacing: 0.1rem;
-    font-size: 4rem;
+    font-size: 3.6rem;
     color: #ffffff;
     margin-left: 0px;
     margin-right: 0px;
@@ -188,4 +188,22 @@ a {
 
 .half-width {
     width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .work-text {
+        font-size: 1.2rem;
+    }
+
+    .work-title-2 {
+        font-size: 1.4rem;
+    }
+
+    .margin-top-six-rem {
+        margin-top: 2rem;
+    }
+
+    .margin-top-ten-rem {
+        margin-top: 4rem;
+    }
 }

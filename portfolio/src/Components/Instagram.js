@@ -122,10 +122,10 @@ class Instagram extends Component {
                 </div>
 
                 <div className='instagram-team-div full-width margin-top-ten-rem'>
-                    <div className='full-width'>
+                    <div className='full-width visible-in-desktop'>
                         <video className="full-width" src={require('../Assets/instagram-gradient.mp4')} autoPlay="autoplay" loop></video>
                     </div>
-                    <div className='instagram-team-desc'>
+                    <div className='instagram-overview-desc'>
                         <p className='work-title-2 work-text-center'>
                             My Role
                         </p>
@@ -733,7 +733,7 @@ class Instagram extends Component {
 
                     <div className='work-chapter-div margin-top-ten-rem margin-bottom-ten-rem'>
     
-                        <p className='work-title-1'>
+                        <p className='work-title-2'>
                             Interested?
                         </p>
     
