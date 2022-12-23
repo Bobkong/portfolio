@@ -60,7 +60,9 @@
 }
 
 #self-text {
-    width: 70%;
+    width: 64%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #intro-title {
