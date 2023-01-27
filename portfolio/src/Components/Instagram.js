@@ -613,7 +613,7 @@ class Instagram extends Component {
                                 </p>
                             </div>
                             <div className='instagram-half-div'>
-                                <video className='full-width' src={require('../Assets/greenscreen.mov')} autoPlay="autoplay" controls muted></video>
+                                <video className='full-width' src={require('../Assets/greenscreen.mp4')} autoPlay="autoplay" controls muted></video>
                             </div>
                             
                         </div>
