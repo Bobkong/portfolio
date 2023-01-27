@@ -17,7 +17,7 @@ const Tooltip = styled((({ className, ...props }) => (
         maxWidth: "20rem",
         fontFamily: "instagram-sans",
         fontSize: "1.2rem",
-        padding: theme.spacing(1.2, 0.8),
+        padding: theme.spacing(1.6, 0.8),
         "& .MuiTooltip-arrow": {
             color: "#2a2a2a",
         },
