@@ -19,7 +19,7 @@ const Tooltip = styled((({ className, ...props }) => (
         fontSize: "1.2rem",
         padding: theme.spacing(1.2, 0.8),
         "& .MuiTooltip-arrow": {
-            color: "#0055FF",
+            color: "#2a2a2a",
         },
         textAlign: "center"
     },
