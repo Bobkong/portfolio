@@ -1,5 +1,5 @@
 import './MainDevelop.css';
-import SelfIntro from './SelfIntro';
+import Hero from "./Hero/Hero";
 import Filter from './Filter';
 import DevelopList from './DevelopList';
 
@@ -8,7 +8,7 @@ function MainDevelop() {
     
     return (
         <div id="main-div">
-            <SelfIntro />
+            <Hero />
             <Filter tag="1"/>
             <DevelopList />
         </div>
