@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import HeroTitle from "./HeroTitle";
 import { textAlign } from "@mui/system";
 import Skill from "./Skill/Skill";
+import Life from "./Life/Life";
 
 const AboutBox = styled((props) => (
     <Box component="section" {...props} />
@@ -106,6 +107,10 @@ export default function About() {
             <ChapterBox>
                 <HeroTitle type="heading1" text="Tools I utilize for creation" />
                 <Skill />
+            </ChapterBox>
+            <ChapterBox>
+                <HeroTitle type="heading1" text="Aside from design" />
+                <Life />
             </ChapterBox>
         </AboutBox>
     );
