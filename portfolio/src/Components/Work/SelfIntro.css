@@ -1,16 +1,16 @@
 @font-face{
     font-family: 'oswald-bold';
-    src : url('../Assets/Fonts/Oswald-Bold.ttf');
+    src : url('../../Assets/Fonts/Oswald-Bold.ttf');
 }
 
 @font-face{
     font-family: 'oswald-regular';
-    src : url('../Assets/Fonts/Oswald-Regular.ttf');
+    src : url('../../Assets/Fonts/Oswald-Regular.ttf');
 }
 
 @font-face{
     font-family: 'instagram-sans';
-    src : url('../Assets/Fonts/Instagram-Sans.ttf');
+    src : url('../../Assets/Fonts/Instagram-Sans.ttf');
 }
 
 .self-div {

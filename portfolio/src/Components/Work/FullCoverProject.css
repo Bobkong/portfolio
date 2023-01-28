@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'inter-bold';
-    src : url('../Assets/Fonts/Inter-Bold.ttf');
+    src : url('../../Assets/Fonts/Inter-Bold.ttf');
 }
 
 @font-face{
     font-family: 'inter-regular';
-    src : url('../Assets/Fonts/Inter-Regular.ttf');
+    src : url('../../Assets/Fonts/Inter-Regular.ttf');
 }
 
 #full-cover-project-div {

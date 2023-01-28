@@ -2,7 +2,7 @@ import { styled } from "@mui/material/styles";
 import { Box } from "@mui/material";
 import NavigationIcon from '@mui/icons-material/Navigation';
 import { motion } from "framer-motion";
-import Tooltip from "../Tooltip";
+import Tooltip from "../../Tooltip";
 
 const ChipContent = styled(({ description, placement, ...props }) => (
     <Tooltip title={description} placement={placement} arrow>

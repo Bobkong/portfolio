@@ -4,8 +4,8 @@ import data from "./HeroData.json"
 import HeroChip from "./HeroChip";
 import HeroTitle from "./HeroTitle";
 import { motion } from "framer-motion";
-import selfImage from '../../Assets/profile_img.png';
-import downarrow from '../../Assets/down-arrow.gif';
+import selfImage from '../../../Assets/profile_img.png';
+import downarrow from '../../../Assets/down-arrow.gif';
 
 const HeroBox = styled((props) => (
     <Box component="section" {...props} />

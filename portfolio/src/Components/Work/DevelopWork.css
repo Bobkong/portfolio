@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'inter-semibold';
-    src : url('../Assets/Fonts/Inter-SemiBold.ttf');
+    src : url('../../Assets/Fonts/Inter-SemiBold.ttf');
 }
 
 #dev-work-div {

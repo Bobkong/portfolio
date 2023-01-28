@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'instagram-sans';
-    src : url('../Assets/Fonts/Instagram-Sans.ttf');
+    src : url('../../Assets/Fonts/Instagram-Sans.ttf');
 }
 
 #filter-div {

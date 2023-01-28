@@ -1,14 +1,7 @@
-import instagramBanner from '../Assets/instagram-banner.png';
-import handtracking from '../Assets/hand-tracking.gif';
-import appearance from '../Assets/appearance.gif';
-import manipulation from '../Assets/manipulation.gif';
-import game from '../Assets/game.gif';
-import './DesignDetail.css';
-import './Instagram.css';
 import React, { Component } from 'react'
-import ReactPlayer from 'react-player'
-import classNames from 'classnames';
 import Iframe from 'react-iframe'
+import '../DesignDetail.css'
+import './Instagram.css'
 const navArr = ['Overview', 'Understand', 'Explore', '1st Round Critique', 'AR Prototyping', 'Visual Design', '2nd Round Critique', 'Final Design', 'Takeaway'];
 
 class Instagram extends Component {
@@ -58,7 +51,7 @@ class Instagram extends Component {
 
             <div className='instagram-team-div full-width'>
                 <div className='full-width'>
-                    <video className="full-width" src={require('../Assets/instagram-ar.mp4')} autoPlay="autoplay" loop></video>
+                    <video className="full-width" src={require('../../Assets/instagram-ar.mp4')} autoPlay="autoplay" loop></video>
                 </div>
                 <div className='instagram-team-desc'>
                     <p className='work-title-1'>Instagram AR Design</p>
@@ -100,10 +93,10 @@ class Instagram extends Component {
                 <div className='section margin-top-ten-rem'>
                     <div className='instagram-team-div'>
                             <div className='instagram-team-pic-div'>
-                                <img src={require('../Assets/arteam4.gif')} alt="ar team 1" className='instagram-team-pic'/>
-                                <img src={require('../Assets/arteam2.gif')} alt="ar team 1" className='instagram-team-pic'/>
-                                <img src={require('../Assets/arteam5.gif')} alt="ar team 1" className='instagram-team-pic'/>
-                                <img src={require('../Assets/arteam6.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                                <img src={require('../../Assets/arteam4.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                                <img src={require('../../Assets/arteam2.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                                <img src={require('../../Assets/arteam5.gif')} alt="ar team 1" className='instagram-team-pic'/>
+                                <img src={require('../../Assets/arteam6.gif')} alt="ar team 1" className='instagram-team-pic'/>
                             </div>
 
                     </div>
@@ -123,7 +116,7 @@ class Instagram extends Component {
 
                 <div className='instagram-team-div full-width margin-top-ten-rem'>
                     <div className='full-width visible-in-desktop'>
-                        <video className="full-width" src={require('../Assets/instagram-gradient.mp4')} autoPlay="autoplay" loop></video>
+                        <video className="full-width" src={require('../../Assets/instagram-gradient.mp4')} autoPlay="autoplay" loop></video>
                     </div>
                     <div className='instagram-overview-desc'>
                         <p className='work-title-2 work-text-center'>
@@ -591,7 +584,7 @@ class Instagram extends Component {
 
                         <div className='instagram-left-right-div margin-top-six-rem'>
                             <div className='instagram-half-div'>
-                                <video className='full-width' src={require('../Assets/floatingletters.mp4')} autoPlay="autoplay" controls muted></video>
+                                <video className='full-width' src={require('../../Assets/floatingletters.mp4')} autoPlay="autoplay" controls muted></video>
                             </div>
                             <div className='instagram-half-div'>
                                 <p className='work-title-2'>
@@ -613,7 +606,7 @@ class Instagram extends Component {
                                 </p>
                             </div>
                             <div className='instagram-half-div'>
-                                <video className='full-width' src={require('../Assets/greenscreen.mp4')} autoPlay="autoplay" controls muted></video>
+                                <video className='full-width' src={require('../../Assets/greenscreen.mp4')} autoPlay="autoplay" controls muted></video>
                             </div>
                             
                         </div>
@@ -676,7 +669,7 @@ class Instagram extends Component {
 
                         <div className='instagram-left-right-div margin-top-six-rem'>
                             <div className='instagram-half-div'>
-                                <img src={require('../Assets/happyhour.jpeg')} alt="happy hour" className='instagram-life-pic'/>
+                                <img src={require('../../Assets/happyhour.jpeg')} alt="happy hour" className='instagram-life-pic'/>
                             </div>
                             <div className='instagram-half-div'>
                                 <p className='work-text'>Happy hour with Instagram AR design team</p>
@@ -689,14 +682,14 @@ class Instagram extends Component {
                                 <p className='work-text'>Try Chinese hot pot with team members</p>
                             </div>
                             <div className='instagram-half-div'>
-                                <img src={require('../Assets/hotpot.jpeg')} alt="hot potr" className='instagram-life-pic'/>
+                                <img src={require('../../Assets/hotpot.jpeg')} alt="hot potr" className='instagram-life-pic'/>
                             </div>
                         </div>
 
 
                         <div className='instagram-left-right-div'>
                             <div className='instagram-half-div'>
-                                <img src={require('../Assets/metaoffice.jpeg')} alt="happy hour" className='instagram-life-pic'/>
+                                <img src={require('../../Assets/metaoffice.jpeg')} alt="happy hour" className='instagram-life-pic'/>
                             </div>
                             <div className='instagram-half-div'>
                                 <p className='work-text'>Visit Instagram office at Menlo Park</p>
@@ -709,7 +702,7 @@ class Instagram extends Component {
                                 <p className='work-text'>Amazing ocean view from Meta SF offic</p>
                             </div>
                             <div className='instagram-half-div'>
-                                <img src={require('../Assets/oceanview.jpg')} alt="hot potr" className='instagram-life-pic'/>
+                                <img src={require('../../Assets/oceanview.jpg')} alt="hot potr" className='instagram-life-pic'/>
                             </div>
                         </div>
     

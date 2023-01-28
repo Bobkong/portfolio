@@ -56,7 +56,7 @@ function FullCoverProject(props) {
 }
 
 function cover(props) {
-    return (props.projectName == "Instagram AR") ? require('../Assets/instagram-half.png') : props.bg;
+    return (props.projectName == "Instagram AR") ? require('../../Assets/instagram-half.png') : props.bg;
 }
 
 export default FullCoverProject;

@@ -2,10 +2,10 @@ import './DevelopWork.css';
 import { useLocation } from "react-router-dom";
 import React from 'react';
 import ReactPlayer from 'react-player';
-import QQMusicFeedback from '../Assets/qqmusic-feedback.png';
-import QQMusicTeam1 from '../Assets/qqmusic-team-1.jpeg';
-import QQMusicTeam2 from '../Assets/qqmusic-team-2.JPG';
-import Certificate from '../Assets/certificate.png';
+import QQMusicFeedback from '../../Assets/qqmusic-feedback.png';
+import QQMusicTeam1 from '../../Assets/qqmusic-team-1.jpeg';
+import QQMusicTeam2 from '../../Assets/qqmusic-team-2.JPG';
+import Certificate from '../../Assets/certificate.png';
 
 
 const development = [
