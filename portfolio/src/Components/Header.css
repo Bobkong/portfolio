@@ -46,17 +46,17 @@
 }
 
 .selected {
-    font-family: 'oswald-bold';
+    font-family: 'instagram-sans';
     opacity: 1;
 }
 
 .unSelected {
-    font-family: 'oswald-regular';
+    font-family: 'instagram-sans';
     opacity: 0.7;
 }
 
 .unSelected:hover {
-    font-family: 'oswald-regular';
+    font-family: 'instagram-sans';
     opacity: 0.95;
 }
 

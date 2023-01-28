@@ -13,7 +13,7 @@ const HeroBox = styled((props) => (
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    paddingTop: "4rem",
+    paddingTop: "6rem",
     marginBottom: "8rem"
 }));
 

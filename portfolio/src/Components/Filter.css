@@ -1,11 +1,6 @@
 @font-face{
-    font-family: 'oswald-bold';
-    src : url('../Assets/Fonts/Oswald-Bold.ttf');
-}
-
-@font-face{
-    font-family: 'oswald-regular';
-    src : url('../Assets/Fonts/Oswald-Regular.ttf');
+    font-family: 'instagram-sans';
+    src : url('../Assets/Fonts/Instagram-Sans.ttf');
 }
 
 #filter-div {
@@ -23,7 +18,7 @@
     font-size: 24px;
     padding-top: 16px;
     padding-bottom: 16px;
-    font-family: 'oswald-regular';
+    font-family: 'instagram-sans';
     text-decoration: underline;
 }
 
@@ -35,7 +30,8 @@
     font-size: 24px;
     padding-top: 16px;
     padding-bottom: 16px;
-    font-family: 'oswald-bold';
+    font-weight: 700;
+    font-family: 'instagram-sans';
     text-decoration: underline;
 }
 
