@@ -7,7 +7,7 @@ function Filter(props) {
 
     return (
     <div id="filter-div">
-        <Link to="/" className={props.tag == "0" ? "selectedTag" : "unSelectedTag"} style={{ cursor: "pointer" }}>
+        <Link to="/design" className={props.tag == "0" ? "selectedTag" : "unSelectedTag"} style={{ cursor: "pointer" }}>
             Design
         </Link>
         <Link to="/develop" className={props.tag == "1" ? "selectedTag" : "unSelectedTag"} style={{ cursor: "pointer" }}>

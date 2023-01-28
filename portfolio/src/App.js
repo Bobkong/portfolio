@@ -1,14 +1,18 @@
 import './App.css';
 import Header from './Components/Header';
-import MainDesign from './Components/Work/MainDesign';
-import MainDevelop from './Components/Work/MainDevelop';
-import Footer from './Components/Footer';
-import DevelopWork from './Components/Work/DevelopWork';
-import ScrollToTop from './Components/Work/ScrollToTop';
-import Instagram from './Components/Instagram/Instagram';
-import About from './Components/About/About';
 import React from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import loadable from '@loadable/component';
+
+const MainDesign = loadable(() => import('./Components/Work/MainDesign'));
+const MainDevelop = loadable(() => import('./Components/Work/MainDevelop'));
+const ScrollToTop = loadable(() => import('./Components/Work/ScrollToTop'));
+const Footer = loadable(() => import('./Components/Footer'));
+const DevelopWork = loadable(() => import('./Components/Work/DevelopWork'));
+const Instagram = loadable(() => import('./Components/Instagram/Instagram'));
+const About = loadable(() => import('./Components/About/About'));
+
+
 
 export default class App extends React.Component {
   constructor(props) {
@@ -24,6 +28,7 @@ export default class App extends React.Component {
           <ScrollToTop>
             <Routes>
                 <Route path="/" element={<MainDesign />} />
+                <Route path="/design" element={<MainDesign />} />
                 <Route path="/develop" element={<MainDevelop />} />
                 <Route path="/develop/work" element={<DevelopWork />} />
                 <Route path="/instagram" element={<Instagram />} />

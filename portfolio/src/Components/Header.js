@@ -11,7 +11,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <div id="header-div">
-                <NavLink to={"/"}>
+                <NavLink to={"/"} onClick = {this.selectWork}>
                     <img src={logo} alt="website logo" className='header-logo'/>
                     </NavLink>
                 <div className='navDiv'>
