@@ -7,14 +7,22 @@ import { motion } from "framer-motion";
 import selfImage from '../../../Assets/profile_img.png';
 import downarrow from '../../../Assets/down-arrow.gif';
 
+const SelfBox = styled((props) => (
+    <Box component="section" {...props} />
+))(({ theme }) => ({
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "100vh"
+}));
+
 const HeroBox = styled((props) => (
     <Box component="section" {...props} />
 ))(({ theme }) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    paddingTop: "6rem",
-    marginBottom: "8rem"
 }));
 
 const HeroAvatarComp = styled(({ img, ...props }) => (
@@ -73,16 +81,19 @@ const HeroDownArrow = styled(({ img, ...props }) => (
 
 export default function Hero() {
     return (
-        <HeroBox>
-            <HeroAvatarComp />
-            <HeroTitleBox>
-                <HeroTitle type="heading1" text="Hi, i'm Lingshuang Kong!" />
-                <HeroTitle type="heading2" href="mailto:klingshuang@gmail.com" text="product designer & creative technologist" />
-            </HeroTitleBox>
-            <HeroDownArrow />
-            {data.interest.map(({ name, ...props }) => (
-                <HeroChip {...props} key={name}>{name}</HeroChip>
-            ))}
-        </HeroBox>
+        <SelfBox>
+            <HeroBox>
+                <HeroAvatarComp />
+                <HeroTitleBox>
+                    <HeroTitle type="heading1" text="Hi, i'm Lingshuang Kong!" />
+                    <HeroTitle type="heading2" href="mailto:klingshuang@gmail.com" text="product designer & creative technologist" />
+                </HeroTitleBox>
+                <HeroDownArrow />
+                {data.interest.map(({ name, ...props }) => (
+                    <HeroChip {...props} key={name}>{name}</HeroChip>
+                ))}
+            </HeroBox>
+        </SelfBox>
+        
     );
 };
