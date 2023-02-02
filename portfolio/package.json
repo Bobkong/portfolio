@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bobkong.github.io/portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -13,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "classnames": "^2.3.2",
+    "firebase": "^9.16.0",
     "framer-motion": "^8.5.3",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
