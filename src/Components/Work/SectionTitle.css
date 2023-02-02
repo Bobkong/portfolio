@@ -1,0 +1,11 @@
+#section-title-div span {
+    color: #ffffff;
+    font-family: 'oswald-bold';
+    font-size: 28px;
+}
+
+#section-title-div {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}

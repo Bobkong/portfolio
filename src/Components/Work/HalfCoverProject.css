@@ -1,0 +1,41 @@
+
+#half-cover-project-div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #212121;
+    height: 100%;
+}
+
+#half-cover-project-text {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 80%;
+    text-decoration: none;
+    height: auto;
+}
+
+#half-cover-img-div {
+    width: 100%;
+    background-color: #2f2f2f;
+}
+
+#half-cover-img {
+    width: 100%;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+}
+
+#description-half {
+    color: #eeeeee;
+    font-family: 'inter-regular';
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.halfLink {
+    height: 100%;
+}

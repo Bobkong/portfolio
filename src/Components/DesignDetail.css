@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600;700&family=Lexend:wght@400;500;600;700;800&display=swap');
+@font-face{
+    font-family: 'instagram-sans';
+    src : url('../Assets/Fonts/Instagram-Sans.ttf');
+}
+
+@font-face{
+    font-family: 'instagram-sans-headline';
+    src : url('../Assets/Fonts/Instagram-Sans-Headline.ttf');
+}
+
+.work-banner {
+    width: 100vw;
+    object-fit: cover;
+}
+
+.work-content-div {
+    max-width: 1000rem;
+    padding: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-overview {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 768px;
+    column-gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.work-text {
+    max-width: 1000px;
+    color: #efefef;
+    line-height: 3rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+    font-family: 'instagram-sans';
+}
+
+.work-text-bold {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.work-text-center {
+    text-align: center;
+    max-width: 1000px;
+    color: #e9e9e9;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+.work-title-1 {
+    font-family: 'instagram-sans-headline';
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 3.6rem;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.work-title-3 {
+    font-family: 'instagram-sans';
+    font-weight: 700;
+    margin-bottom: 0rem;
+    font-size: 1.2rem;
+    color: #e9e9e9;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0rem;
+}
+
+.work-overview-text {
+    max-width: 220px;
+    font-family: 'instagram-sans';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.work-title-2 {
+    font-family: 'instagram-sans-headline';
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+
+.full-width-image {
+    width: 100%;
+}
+
+.half-width-image {
+    width: 49%;
+}
+
+.work-chapter-div {
+    max-width: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top-four-rem {
+    margin-top: 4rem;
+}
+
+.margin-top-two-rem {
+    margin-top: 2rem;
+}
+
+.margin-top-one-rem {
+    margin-top: 1rem;
+}
+
+.margin-top-six-rem {
+    margin-top: 6rem;
+}
+
+.margin-top-ten-rem {
+    margin-top: 10rem;
+}
+
+.margin-bottom-two-rem {
+    margin-bottom: 2rem;
+}
+
+.margin-bottom-ten-rem {
+    margin-bottom: 10rem;
+}
+
+.padding-left-right-one-rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.margin-right-tow-percent {
+    margin-right: 2%;;
+}
+
+a {
+    color: white;
+    font-family: 'instagram-sans';
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+.grey-background {
+    background-color: #323232;
+}
+
+.black-text {
+    color: black;
+}
+
+.section {
+    width: 100vw;
+}
+
+.section-with-bg {
+}
+
+.section-with-white-bg {
+    background-color: #ffffff;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    width: 100vh;
+}
+
+.half-width {
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .work-text {
+        font-size: 1.2rem;
+    }
+
+    .work-title-2 {
+        font-size: 1.4rem;
+    }
+
+    .margin-top-six-rem {
+        margin-top: 2rem;
+    }
+
+    .margin-top-ten-rem {
+        margin-top: 4rem;
+    }
+}

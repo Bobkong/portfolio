@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'instagram-sans';
+    src : url('../../Assets/Fonts/Instagram-Sans.ttf');
+}
+
+#filter-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    list-style-type: none;
+}
+
+.unSelectedTag {
+    background-color: #212121;
+    color: #dddddd;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'instagram-sans';
+    text-decoration: underline;
+}
+
+.selectedTag {
+    color: #000000;
+    background-color: #eeeeee;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-family: 'instagram-sans';
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #filter-div {
+        column-gap: 8px;
+    }
+
+    .unSelectedTag {
+        font-size: 20px;
+    }
+
+    .selectedTag {
+        font-size: 20px;
+    }
+}
