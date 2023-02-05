@@ -1,3 +1,10 @@
+
+@font-face{
+  font-family: 'instagram-sans';
+  src : url('./Assets/Fonts/Instagram-Sans.ttf');
+}
+
+
 #app-div {
   background-color: black;
   min-height: 100vh;

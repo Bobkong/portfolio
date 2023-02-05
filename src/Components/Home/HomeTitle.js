@@ -4,7 +4,6 @@ import { styled } from "@mui/material/styles";
 import { Link, Typography } from "@mui/material";
 import { maxWidth } from "@mui/system";
 
-
 // Word wrapper
 const Wrapper = (props) => {
     return <span style={{ whiteSpace: "nowrap", textAlign: "center" }}>{props.children}</span>;
@@ -40,7 +39,7 @@ const tagMap = {
     heading2: heading2
 };
 
-const HeroTitle = ({ href, ...props }) => {
+const HomeTitle = ({ href, ...props }) => {
     const item = {
         hidden: {
             y: "200%",
@@ -97,4 +96,4 @@ const HeroTitle = ({ href, ...props }) => {
     );
 };
 
-export default HeroTitle;
+export default HomeTitle;

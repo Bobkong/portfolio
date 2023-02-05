@@ -1,39 +1,57 @@
 import './Header.css';
 import React from 'react';
-import logo from '../Assets/logo.png';
+import logo from '../Assets/logo-page.png';
 import {NavLink } from 'react-router-dom';
+import {useState} from 'react';
+import burger from '../Assets/hamburger.svg'
 
-export default class Header extends React.Component {
-    constructor(props) {
-      super(props)
+const Header = () => {
+    const [showNav, setShowNav] = useState(false)
+
+    const handleShowNavbar = () => {
+        setShowNav(!showNav)
     }
-    
-    render() {
-        return (
-            <div id="header-div">
-                <NavLink to={"/"} onClick = {this.selectWork}>
-                    <img src={logo} alt="website logo" className='header-logo'/>
+
+    return (
+        <nav className='navbar'>
+            <div className='container'>
+                <div className='logo'>
+                    <NavLink to="/">
+                        <img src={logo} alt='logo' className='logo-icon'/>
                     </NavLink>
-                <div className='navDiv'>
-                <NavLink to={"/"} onClick = {this.selectWork}>
-                    <li className='navItem selected' id='work'>WORK</li>
-                </NavLink>
-                <NavLink to={"/about"} onClick = {this.selectAbout}>
-                    <li className='navItem unSelected' id='about'>ABOUT</li>
-                </NavLink>
-                <a href='https://drive.google.com/file/d/10k0xKttE0a8xR5s4oG6pl8-8hOplCFbq/view?usp=sharing' target={'_blank'}><li className='navItem unSelected'>RESUME</li></a>
                 </div>
-            </div>);
-    }
 
-    selectWork = () => {
-        document.getElementById('work').className = 'navItem selected'
-        document.getElementById('abuot').className = 'navItem unSelected'
-    }
+                <div className='menu' onClick={handleShowNavbar}>
+                <img src={burger} alt='menu icon' className='menu-icon'/>
+                </div>
 
-    selectAbout = () => {
-        document.getElementById('about').className = 'navItem selected'
-        document.getElementById('work').className = 'navItem unSelected'
-    }
+                <div className={`nav-elements ${showNav && 'active'}`}>
+                    <ul>
+                        <li>
+                            <NavLink to="/" end>HOME</NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to="/uxui">UX/UI DESIGN</NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to="/mobileweb">MOBLIE & WEB DEV</NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to="/arvr">AR/VR DEV</NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to="/other">OTHER EXPERIMENTS</NavLink>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    )
 }
-   
+
+export default Header

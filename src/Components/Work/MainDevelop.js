@@ -1,5 +1,5 @@
 import './MainDevelop.css';
-import Hero from "./Hero/Hero";
+import Hero from "../Home/Hero/Hero";
 import Filter from './Filter';
 import DevelopList from './DevelopList';
 

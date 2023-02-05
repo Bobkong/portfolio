@@ -41,6 +41,7 @@ const ChipContainer = styled(Box, {
     display: "flex",
     ...(reverse && { flexDirection: "row-reverse" }),
     left: "50%",
+    top: "32%",
     transform: `translate(${x}, ${y})`,
     zIndex: theme.zIndex.tooltip,
 }));

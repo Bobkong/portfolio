@@ -1,8 +1,7 @@
 import './MainDesign.css';
-import SelfIntro from './SelfIntro';
 import Filter from './Filter';
 import DesignList from './DesignList';
-import Hero from "./Hero/Hero";
+import Hero from "../Home/Hero/Hero";
 
 
 function MainDesign() {

@@ -10,7 +10,7 @@ const ScrollToTop = loadable(() => import('./Components/Work/ScrollToTop'));
 const Footer = loadable(() => import('./Components/Footer'));
 const DevelopWork = loadable(() => import('./Components/Work/DevelopWork'));
 const Instagram = loadable(() => import('./Components/Instagram/Instagram'));
-const About = loadable(() => import('./Components/About/About'));
+const Home = loadable(() => import('./Components/Home/Home'));
 
 
 
@@ -27,12 +27,12 @@ export default class App extends React.Component {
           <Header />
           <ScrollToTop>
             <Routes>
-                <Route path="/" element={<MainDesign />} />
-                <Route path="/design" element={<MainDesign />} />
-                <Route path="/develop" element={<MainDevelop />} />
-                <Route path="/develop/work" element={<DevelopWork />} />
-                <Route path="/instagram" element={<Instagram />} />
-                <Route path='/about' element={<About />} />
+                <Route path="/" element={<Home />} />
+                {/* <Route path="/uiux" element={<MainDesign />} />
+                <Route path="/mobileweb" element={<MainDevelop />} />
+                <Route path="/arvr" element={<MainDesign />} />
+                <Route path="/other" element={<MainDesign />} />
+                <Route path="/instagram" element={<Instagram />} /> */}
               </Routes>
           </ScrollToTop>
             
