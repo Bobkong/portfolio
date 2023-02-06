@@ -41,7 +41,7 @@ export default function Home() {
                 <Skill />
             </ChapterBox>
             <ChapterBox>
-                <HomeTitle type="heading1" text="Certificates and Awards" />
+                <HomeTitle type="heading1" text="Certificates and awards" />
                 <Honor />
             </ChapterBox>
             <ChapterBox>
@@ -49,7 +49,7 @@ export default function Home() {
                 <Journey />
             </ChapterBox>
             <ChapterBox>
-                <HomeTitle type="heading1" text="Aside from design" />
+                <HomeTitle type="heading1" text="Aside from work" />
                 <Life />
             </ChapterBox>
         </HomeBox>
