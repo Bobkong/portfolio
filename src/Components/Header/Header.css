@@ -1,5 +1,5 @@
 .container {
-    padding: 0 15px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,7 @@
 
 .navbar {
     height: 72px;
-    background-color: #00000066;
+    background-color: #00000077;
     position: sticky;
     top: 0;
     z-index: 10000;
@@ -81,7 +81,7 @@ text-decoration: none;
         position: absolute;
         right: 0;
         top: 60px;
-        background-color: #00000066;
+        background-color: #00000077;
         width: 0px;
         height: calc(100vh - 72px);
         transition: all 0.3s ease-in;

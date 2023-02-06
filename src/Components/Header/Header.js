@@ -1,9 +1,9 @@
 import './Header.css';
 import React from 'react';
-import logo from '../Assets/logo-page.png';
+import logo from '../../Assets/logo-page.png';
 import {NavLink } from 'react-router-dom';
 import {useState} from 'react';
-import burger from '../Assets/hamburger.svg'
+import burger from '../../Assets/hamburger.svg'
 
 const Header = () => {
     const [showNav, setShowNav] = useState(false)

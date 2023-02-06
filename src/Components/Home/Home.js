@@ -5,6 +5,7 @@ import { styled } from "@mui/material/styles";
 import { Avatar, Box } from "@mui/material";
 import HomeTitle from "./HomeTitle";
 import Honor from "./Honor/Honor"
+import Journey from "./Journey/Journey"
 
 const HomeBox = styled((props) => (
     <Box component="section" {...props} />
@@ -30,18 +31,6 @@ const ChapterBox = styled((props) => (
     marginBottom: "8rem"
 }));
 
-const JourneyImage = styled((props) => (
-    <img  src={require(`../../Assets/journey.png`)}
-    alt="self image"
-    {...props} />
-))(({ theme }) => ({
-    marginTop: "4rem",
-    width: "100%",
-    marginLeft: "auto",
-    marginRight: "auto",
-    [theme.breakpoints.up("lg")]: {
-    },
-}));
 
 export default function Home() {
     return (
@@ -57,7 +46,7 @@ export default function Home() {
             </ChapterBox>
             <ChapterBox>
                 <HomeTitle type="heading1" text="How did I get here?" />
-                <JourneyImage />
+                <Journey />
             </ChapterBox>
             <ChapterBox>
                 <HomeTitle type="heading1" text="Aside from design" />

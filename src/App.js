@@ -1,5 +1,7 @@
 import './App.css';
-import Header from './Components/Header';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+
 import React from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import loadable from '@loadable/component';
@@ -7,10 +9,9 @@ import loadable from '@loadable/component';
 const MainDesign = loadable(() => import('./Components/Work/MainDesign'));
 const MainDevelop = loadable(() => import('./Components/Work/MainDevelop'));
 const ScrollToTop = loadable(() => import('./Components/Work/ScrollToTop'));
-const Footer = loadable(() => import('./Components/Footer'));
+const Footer = loadable(() => import('./Components/Footer/Footer'));
 const DevelopWork = loadable(() => import('./Components/Work/DevelopWork'));
 const Instagram = loadable(() => import('./Components/Instagram/Instagram'));
-const Home = loadable(() => import('./Components/Home/Home'));
 
 
 

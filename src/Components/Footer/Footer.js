@@ -1,7 +1,7 @@
 
 import './Footer.css';
-import ins from '../Assets/ins-logo.png';
-import linkedin from '../Assets/linkedin.png';
+import ins from '../../Assets/ins-logo.png';
+import linkedin from '../../Assets/linkedin.png';
 
 function Footer() {
     return (
