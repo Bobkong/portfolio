@@ -1,5 +1,5 @@
-import './ProjectList.css';
-import FullCoverProject from './FullCoverProject';
+import '../Work/ProjectList.css';
+import FullCoverProject from '../Work/FullCoverProject';
 
 function DesignList() {
     const design = [{bg: 'https://ik.imagekit.io/poonr2gma/instagram_bg-min__2_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674947228706', role: "AR DESIGN, UI/UX DESIGN, B2C DESIGN", projectName: "Instagram AR", type: "Design Internship", description: "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.", theme: 0, url: 'https://www.lingshuangkong.com/work/instagram'}, 

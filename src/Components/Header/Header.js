@@ -32,20 +32,13 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <NavLink to="/uxui">UX/UI DESIGN</NavLink>
+                            <NavLink to="/uiux">UX/UI DESIGN</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/mobileweb">MOBLIE & WEB DEV</NavLink>
+                            <NavLink to="/dev">DEVELOPMENT</NavLink>
                         </li>
 
-                        <li>
-                            <NavLink to="/arvr">AR/VR DEV</NavLink>
-                        </li>
-
-                        <li>
-                            <NavLink to="/other">OTHER EXPERIMENTS</NavLink>
-                        </li>
                     </ul>
 
                 </div>

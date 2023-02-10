@@ -1,17 +1,16 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import Dev from './Components/Dev/Dev'
 
 import React from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import loadable from '@loadable/component';
 
-const MainDesign = loadable(() => import('./Components/Work/MainDesign'));
-const MainDevelop = loadable(() => import('./Components/Work/MainDevelop'));
+//const UIUX = loadable(() => import('./Components/UIUX/UIUX'));
+//const Dev = loadable(() => import('./Components/Dev/Dev'));
 const ScrollToTop = loadable(() => import('./Components/Work/ScrollToTop'));
 const Footer = loadable(() => import('./Components/Footer/Footer'));
-const DevelopWork = loadable(() => import('./Components/Work/DevelopWork'));
-const Instagram = loadable(() => import('./Components/Instagram/Instagram'));
 
 
 
@@ -29,6 +28,8 @@ export default class App extends React.Component {
           <ScrollToTop>
             <Routes>
                 <Route path="/" element={<Home />} />
+                {/* <Route path="/uiux" element={<UIUX />} /> */}
+                <Route path="/dev" element={<Dev />} />
                 {/* <Route path="/uiux" element={<MainDesign />} />
                 <Route path="/mobileweb" element={<MainDevelop />} />
                 <Route path="/arvr" element={<MainDesign />} />
