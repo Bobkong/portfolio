@@ -27,6 +27,7 @@
     "react-three-fiber": "5.0.0-beta.12",
     "react-zmage": "^0.8.5-beta.37",
     "three": "0.120.1",
+    "drei": "1.5.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,33 +1,12 @@
 import { Fragment, useRef } from "react";
-import { styled } from "@mui/material/styles";
-import { Box, CircularProgress, IconButton, useMediaQuery } from "@mui/material";
+import { styled, makeStyles } from "@mui/material/styles";
+import { Box, CircularProgress, colors, IconButton, useMediaQuery } from "@mui/material";
 import data from "./LifeData.json";
 import { ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
 import LazyImage from "../../Lazy/LazyImage";
 import { motion, useScroll, useTransform } from "framer-motion";
 import CameraIcon from '@mui/icons-material/Camera';
 
-// const BrowserContainer = styled(Box)(({ theme }) => ({
-//     fontWeight: 500,
-//     backgroundColor: "#fff",
-//     color: "#111",
-//     cursor: "default",
-//     overflow: "hidden",
-//     borderRadius: "1.2rem",
-//     marginTop: theme.spacing(4),
-//     position: "relative",
-// }));
-
-// const BrowserTabBox = styled(Box)(({ theme }) => ({
-//     position: "relative",
-//     zIndex: 1,
-//     backgroundColor: "transparent",
-//     overflow: "auto",
-//     colorScheme: "light",
-//     "& .MuiImageList-root": {
-//         marginBottom: 0,
-//     },
-// }));
 
 const LifeImgItem = ({ alt, src, place, idx }) => {
     const itemRef = useRef();
@@ -49,10 +28,11 @@ const LifeImgItem = ({ alt, src, place, idx }) => {
                     title={alt}
                     subtitle={`@${place}`}
                     actionIcon={
-                        <IconButton href={src} sx={{ marginTop: 0.5 }}>
-                            <CameraIcon />
+                        <IconButton onClick={() => window.open(src, "_blank")} sx={{ marginTop: 0.5 }} >
+                            <CameraIcon  style={{color: "#dddddd", width: "20px", marginRight: "12px"}}/>
                         </IconButton>
                     }
+                    
                     position="below"
                     sx={(theme) => ({
                         fontSize: "0.8rem",
@@ -80,56 +60,6 @@ export default function Life(props) {
     const smbk = useMediaQuery("(min-width: 480px)");
     return (
         <Fragment>
-           
-            {/* <BrowserContainer>
-                <Browser
-                    type="chrome"
-                    showHeader={false}
-                    activeTabKey="hkp"
-                    tabEnd={(
-                        <Fragment>
-                            <Divider />
-                            <AddButton />
-                        </Fragment>
-                    )}
-                >
-                    <Tab key="hkp" title="songs i love right now">
-                        <BrowserTabBox sx={{ minHeight: "64vh" }}>
-                            <iframe
-                                title="My Spotify Playlist"
-                                style={{
-                                    marginBottom: -4,
-                                    height: "max(36rem, 64vh)",
-                                }}
-                                src="https://open.spotify.com/embed/playlist/7hBSqiY7yd1KdJrSAnA4oG?utm_source=generator" width="100%"
-                                frameBorder={0} allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
-                            />
-                        </BrowserTabBox>
-                    </Tab>
-                    <Tab key="san" title="platlist w/ my friends">
-                        <BrowserTabBox>
-                            <iframe
-                                title="study at night"
-                                style={{
-                                    marginBottom: -4,
-                                    height: "max(36rem, 64vh)",
-                                }}
-                                src="https://open.spotify.com/embed/playlist/1tqPkeMlTl7asYMwhUju5V?utm_source=generator" width="100%"
-                                frameBorder={0} allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
-                            />
-                        </BrowserTabBox>
-                    </Tab>
-                </Browser>
-                <Box sx={{
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%, -50%)",
-                    zIndex: 0,
-                }} >
-                    <CircularProgress color="secondary" />
-                </Box>
-            </BrowserContainer> */}
             <ImageList variant="masonry" cols={smbk ? 2 : 1} gap={"max(3.2rem, 6.4vw)"} sx={{
                 marginTop: 12,
                 overflow: "visible",

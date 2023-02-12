@@ -6,7 +6,7 @@ export default function ScrollToTop({children}) {
 
 
   useEffect(() => {
-    if (pathname == "/develop/work" || pathname == "/instagram" || pathname == '/') {
+    if (pathname == "/dev" || pathname == '/') {
       window.scrollTo(0, 0);
     }
   }, [pathname]);

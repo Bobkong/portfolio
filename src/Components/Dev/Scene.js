@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import * as THREE from 'three'
 import { useFrame, useThree, useResource } from 'react-three-fiber'
-import { Text, Box, useMatcapTexture, Octahedron, OrbitControls } from '@react-three/drei'
+import { Text, Box, useMatcapTexture, Octahedron, OrbitControls } from 'drei'
 
 import { ThinFilmFresnelMap } from './ThinFilmFresnelMap'
 import { mirrorsData } from './data'
@@ -19,14 +19,31 @@ function Title({ layers = undefined, ...props }) {
 
   return (
     <group {...props} ref={group}>
-      <Text name="r" depthTest={false} material-toneMapped={false} position={[-2.2, 0.4, 0]} {...textProps} layers={layers}>
+      <Text name="d" depthTest={false} material-toneMapped={false} position={[-2.2, 1.5, 0]} {...textProps} layers={layers}>
         D
       </Text>
-      <Text name="3" depthTest={false} material-toneMapped={false} position={[0, -0.6, 0]} rotation={[0, 0, -Math.PI / 16]} {...textProps} layers={layers}>
+      <Text name="e" depthTest={false} material-toneMapped={false} position={[0, 0.9, 0]} rotation={[0, 0, -Math.PI / 16]} {...textProps} layers={layers}>
         E
       </Text>
-      <Text name="f" depthTest={false} material-toneMapped={false} position={[2.2, 0.2, 0]} scale={[-1, 1, 1]} {...textProps} layers={layers}>
+      <Text name="v" depthTest={false} material-toneMapped={false} position={[2.2, 1.5, 0]} scale={[-1, 1, 1]} {...textProps} layers={layers}>
         V
+      </Text>
+
+
+      <Text name="a" depthTest={false} material-toneMapped={false} position={[-2.2, -2, 0]}  scale={[0.1, 0.1, 0.1]} {...textProps} layers={layers} color={'#aaaaaa'}>
+        ARVR
+      </Text>
+      <Text name="|" depthTest={false} material-toneMapped={false} position={[-1.1, -2, 0]} scale={[0.1, 0.1, 0.1]} {...textProps} layers={layers} color={'#aaaaaa'}>
+        |
+      </Text>
+      <Text name="w" depthTest={false} material-toneMapped={false} position={[0, -2, 0]} scale={[0.1, 0.1, 0.1]} {...textProps} layers={layers} color={'#aaaaaa'}>
+        WEB
+      </Text>
+      <Text name="|" depthTest={false} material-toneMapped={false} position={[1.1, -2, 0]} scale={[0.1, 0.1, 0.1]} {...textProps} layers={layers} color={'#aaaaaa'}>
+        |
+      </Text>
+      <Text name="w" depthTest={false} material-toneMapped={false} position={[2.6, -2, 0]} scale={[0.1, 0.1, 0.1]} {...textProps} layers={layers} color={'#aaaaaa'}>
+        MOBILE
       </Text>
     </group>
   )
@@ -99,8 +116,8 @@ export default function Scene() {
   }, [])
 
   useFrame(({ mouse }) => {
-    const x = (mouse.x * viewport.width) / 100
-    const y = (mouse.y * viewport.height) / 100
+    const x = (mouse.x * viewport.width) / 50
+    const y = (mouse.y * viewport.height) / 50
 
     rotationEuler.set(y, x, 0)
     rotationQuaternion.setFromEuler(rotationEuler)

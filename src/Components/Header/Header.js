@@ -32,12 +32,14 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <NavLink to="/uiux">UX/UI DESIGN</NavLink>
+                            <NavLink to="/uiux">DESIGN</NavLink>
                         </li>
 
                         <li>
                             <NavLink to="/dev">DEVELOPMENT</NavLink>
                         </li>
+
+                        
 
                     </ul>
 

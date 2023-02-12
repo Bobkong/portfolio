@@ -3,6 +3,7 @@ import { styled } from "@mui/material/styles";
 import data from "./HonorData.json";
 import { motion } from "framer-motion";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 const HonorGrid = styled((props) => (
     <Grid
@@ -60,12 +61,11 @@ export default function Honor(props) {
     return (
         <Fragment>
             <HonorGrid>
-                {data.map(({ title, src, award }, idx) => (
+                {data.map(({ title, src, link }, idx) => (
                     <HonorItem key={title} custom={idx}>
-                        <HonorImg src={src} alt={`img-for-${title}`} />
-                        <HonorText>
-                            <Typography color="primary" variant="span">{award}</Typography>{award && ", "} {title}
-                        </HonorText>
+                        <Link>
+                            <HonorImg src={src} alt={`img-for-${title}`} onClick={() => {window.open(link, '_blank')}}  />
+                        </Link>
                     </HonorItem>
                 ))}
             </HonorGrid>
