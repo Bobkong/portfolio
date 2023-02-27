@@ -1,4 +1,4 @@
-import { Fragment, useRef } from "react";
+import { Fragment, useRef, useState } from "react";
 import { styled } from "@mui/material/styles";
 import { Box, CircularProgress, IconButton, useMediaQuery } from "@mui/material";
 import data from "./ProjectData.json";
@@ -19,14 +19,16 @@ const ProjectImageItem = ({ title, src, tech, idx }) => {
     const y = useTransform(scrollYProgress, [0, 1], [margin, 0]);
     const opacity = useTransform(scrollYProgress, [0, 0.4, 1], [0, 0.1, 1]);
 
+    const [hover, setHover] = useState(false)
+
     return (
         <ImageListItem key={title} sx={{ overflow: "visible" }} ref={itemRef}>
-            <motion.div whileHover={{ scale: 1.1 }} style={{ y, opacity, overflow: "hidden" }} >
+            <motion.div whileHover={{ scale: 1.1 }} style={{ y, opacity, overflow: "hidden" }} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                 <LazyImage src={src} alt={title} margin={margin + 64} trim={1} aspectRatio={"16/10"} width="100%" />
                 <ImageListItemBar
                     title={title}
                     subtitle={`${tech}`}
-                    style = {{display: "block"}}
+                    style = {{display: hover ? "block" : "none"}}
 
                     sx={(theme) => ({
                         fontSize: "0.8rem",

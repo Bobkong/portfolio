@@ -14,7 +14,7 @@ const SelfBox = styled((props) => (
     alignItems: "center",
     justifyContent: "center",
     height: "90vh",
-    paddingTop: "3rem"
+    paddingTop: "3rem",
 }));
 
 const HeroBox = styled((props) => (
@@ -26,12 +26,7 @@ const HeroBox = styled((props) => (
 }));
 
 const HeroAvatarComp = styled(({ img, ...props }) => (
-    <motion.div
-        whileHover={{
-            scale: 1.1,
-            rotateZ: -6,
-        }}
-    >
+    <motion.div>
         <Avatar
             src={selfImage}
             alt="profile"
@@ -49,9 +44,6 @@ const HeroTitleBox = styled((props) => (
     <motion.div
         initial="hidden"
         animate="visible"
-        whileHover={{
-            y: "-1.2rem",
-        }}
         variants={{
             visible: {
                 transition: {

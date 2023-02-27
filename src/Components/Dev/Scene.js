@@ -5,6 +5,8 @@ import { Text, Box, useMatcapTexture, Octahedron, OrbitControls } from 'drei'
 
 import { ThinFilmFresnelMap } from './ThinFilmFresnelMap'
 import { mirrorsData } from './data'
+// A React animation lib, see: https://github.com/react-spring/react-spring
+import { useSpring, a, interpolate } from 'react-spring/three'
 
 const textProps = {
   fontSize: 3.9,
@@ -19,13 +21,13 @@ function Title({ layers = undefined, ...props }) {
 
   return (
     <group {...props} ref={group}>
-      <Text name="d" depthTest={false} material-toneMapped={false} position={[-2.2, 1.5, 0]} {...textProps} layers={layers}>
+      <Text name="d" depthTest={false} material-toneMapped={false} position={[-2.3, 1.5, 0]} {...textProps} layers={layers}>
         D
       </Text>
       <Text name="e" depthTest={false} material-toneMapped={false} position={[0, 0.9, 0]} rotation={[0, 0, -Math.PI / 16]} {...textProps} layers={layers}>
         E
       </Text>
-      <Text name="v" depthTest={false} material-toneMapped={false} position={[2.2, 1.5, 0]} scale={[-1, 1, 1]} {...textProps} layers={layers}>
+      <Text name="v" depthTest={false} material-toneMapped={false} position={[2.3, 1.5, 0]} scale={[-1, 1, 1]} {...textProps} layers={layers}>
         V
       </Text>
 
@@ -92,7 +94,7 @@ function TitleCopies({ layers }) {
   )
 }
 
-export default function Scene() {
+export default function Scene({ position, opacity }) {
   const renderTarget = useMemo(
     () => new THREE.WebGLCubeRenderTarget(1024, { format: THREE.RGBAFormat, generateMipmaps: true, minFilter: THREE.LinearMipmapLinearFilter }),
     []
@@ -124,7 +126,7 @@ export default function Scene() {
 
     group.current.quaternion.slerp(rotationQuaternion, 0.1)
   })
-
+  
   return (
     <group name="sceneContainer" ref={group}>
       <Octahedron layers={[11]} name="background" ref={sphere} args={[20, 4, 4]} position={[0, 0, -5]}>
@@ -138,6 +140,7 @@ export default function Scene() {
       <Title name="title" position={[0, 0, -10]} />
 
       {window.location.search.indexOf('ctrl') > -1 && <OrbitControls />}
+      
     </group>
   )
 }

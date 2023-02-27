@@ -19,13 +19,15 @@ const HonorGrid = styled((props) => (
 }));
 
 const HonorItem = styled((props) => (
+
+
     <Grid
         component={motion.li}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         variants={{
-            visible: (i) => ({ opacity: 1, scale: 1, transition: { type: "spring", delay: 0.2 * i } }),
+            visible: (i) => ({ opacity: 1, scale: 1, transition: { type: "spring", delay: 0.5 * i } }),
             hidden: { opacity: 0, scale: 0 }
         }}
         item

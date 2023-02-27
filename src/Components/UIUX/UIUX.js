@@ -1,73 +1,146 @@
-// import { useRef, useState} from 'react';
-// import { Canvas, useFrame, useLoader, useThree } from '@react-three/fiber';
-// import './UIUX.css'
-// import { TextureLoader } from 'three/src/loaders/TextureLoader'
-// import texture from '../../Assets/texture.png'
-// import * as Three from 'three'
-// import {Vector3} from 'three'
-// import { useGLTF, SpotLight, useDepthBuffer, OrbitControls } from '@react-three/drei'
+import React from "react";
+import "./UIUX.css";
+// import { GlobalCanvas, VirtualScrollbar } from "@14islands/r3f-scroll-rig";
+// import { Loader } from "@react-three/drei";
 
-// function Box(props) {
-//     // const mesh = useRef()
-//     // const colorMap = useLoader(TextureLoader, texture)
-//     // //useFrame((state, delta) => (mesh.current.rotation.x += delta/2, mesh.current.rotation.y += delta/2))
-//     // return (
-//     //   <mesh
-//     //     position={[0, 0, 0]} 
-//     //     castShadow 
-//     //     receiveShadow 
-//     //     ref={mesh}
-//     //     {...props}
-//     //     >
-//     //     <boxGeometry args={[1.2, 1.2, 1.2]} />
-//     //     <meshStandardMaterial color={0xffffff}/>
-//     //   </mesh>
-//     // )
+// import Lights from "./components/Lights";
+import { Avatar, Box } from "@mui/material";
+// import Text from "./components/text/Text";
+// import StickyText from "./components/text/StickyText";
+// import StickyModel from "./components/StickyModel";
+// import InlineModel from "./components/InlineModel";
+// import StickySnowfall from "./components/StickySnowfall";
+// import Aurora from "./components/aurora/Aurora";
 
-//     const colorMap = useLoader(TextureLoader, texture)
-//     // This reference gives us direct access to the THREE.Mesh object
-//     const ref = useRef()
-//     // Hold state for hovered and clicked events
-//     // Subscribe this component to the render-loop, rotate the mesh every frame
-//     useFrame((state, delta) => (ref.current.rotation.x += delta))
-//     // Return the view, these are regular Threejs elements expressed in JSX
+
+import tree from "./assets/desk1.glb";
+import { styled } from "@mui/material/styles";
+import Projects from "./Projects";
+
+
+function UIUX() {
+  return (
+    <div>
+        {/* <div className="uiux-container">
+            <VirtualScrollBar />
+            <GloabalCanvas />
+            <AnimLoader />
+        </div> */}
+            <Projects />
+    </div>
+
+  );
+}
+
+
+// function AnimLoader() {
 //     return (
-//         <mesh
-//         {...props}
-//         ref={ref}>
-//         <boxGeometry args={[1, 1, 1]} />
-//         <meshStandardMaterial map={colorMap} />
-//         </mesh>
-//     )
-//   }
+//         <Loader
+//             containerStyles={{
+//             background: "#111111",
+//             opacity: 1 // disable transition out
+//             }}
+//             innerStyles={{
+//             background: "transparent",
+//             height: "10px",
+//             width: "100vw"
+//             }}
+//             barStyles={{
+//             background: "linear-gradient(90deg, magenta 0%, #51ffad 100%)",
+//             height: "14px",
+//             width: "100vw",
+//             transformOrigin: "center center",
+//             transition: "all .14s ease-out"
+//             }}
+//             dataStyles={{
+//             display: "none"
+//             }}
+//         />
+//     );
+    
+// }
 
-//   function MovingSpot({ vec = new Vector3(), ...props }) {
-//     const light = useRef()
-//     const viewport = useThree((state) => state.viewport)
-//     useFrame((state) => {
-//       light.current.target.position.lerp(vec.set((state.mouse.x * viewport.width) / 2, (state.mouse.y * viewport.height) / 2, 0), 0.1)
-//       //light.current.target.updateMatrixWorld()
-//     })
-//     return <SpotLight castShadow ref={light} penumbra={1} distance={6} angle={0.35} attenuation={5} anglePower={4} intensity={5} {...props} />
-//   }
-
-//   function UIUX() {
+// function GloabalCanvas() {
 //     return (
-//         <div style={{ width: "100vw", height: "90vh" }}>
-            
-//             <Canvas shadows dpr={[1, 2]} camera={{ position: [-2, 2, 6], fov: 50, near: 1, far: 20 }}>
-//                 <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-//                 <MovingSpot color="#0c8cbf" position={[-2, 2.5, 0]} />
-//                 <MovingSpot color="#b00c3f" position={[3, 2.5, 2]} />
-//                 <MovingSpot color="#25E39F" position={[1, 2.5, 0]} />
-//                 <Box position={[0, 0, 0]} />
-//             </Canvas>
-//         </div>
-        
-        
-//     )
-//   }
+//         <GlobalCanvas
+//             gl={{
+//             antialias: true,
+//             depth: true
+//             }}
+//             config={{
+//             scaleMultiplier: 0.001
+//             }}
+//             noEvents={true}
+//             //shadowMap
+//         >
+//             <Lights />
+//         </GlobalCanvas>
+//     );
+// }
 
+// function VirtualScrollBar() {
+//     return (
+//         <VirtualScrollbar>
+//             {(bind) => (
+//             <article {...bind}>
+//                 <header
+//                 style={{
+//                     height: "100vh",
+//                     width: "100%",
+//                     display: "flex",
+//                     alignItems: "center",
+//                     justifyContent: "center",
+//                     position: "relative",
+//                     background: "#111111"
+//                 }}
+//                 >
+//                 {/* <Aurora /> */}
+//                 </header>
+//                 <section
+//                 style={{
+//                     position: "relative",
+//                     height: "150vh",
+//                     background: "#111111"
+//                 }}
+//                 >
+//                 <StickyText
+//                     style={{
+//                     fontSize: "15vmin",
+//                     position: "absolute",
+//                     width: "100%",
+//                     height: "100%",
+//                     textAlign: "center",
+//                     whiteSpace: "nowrap",
+//                     }}
+//                 >
+//                     Lingshuang is passionate about making the world more enjoyable through design.
+//                 </StickyText>
+//                 <StickyModel url={tree} position={[0, -0.2, 0]} size={0.07} />
+//                 </section>
+                
+//             </article>
+//             )}
+//         </VirtualScrollbar>
+//     );
+// }
+const ChapterBox = styled((props) => (
+    <Box component="section" {...props} />
+  ))(({ theme }) => ({
+    display: "flex",
+    flexDirection: "column",
+    marginBottom: "8rem",
+    marginLeft: "2rem",
+    marginRight: "2rem",
+    zIndex: 10000,
+    [theme.breakpoints.up("md")]: {
+        marginLeft: "6rem",
+        marginRight: "6rem",
+    },
+    [theme.breakpoints.up("lg")]: {
+        marginLeft: "8rem",
+        marginRight: "8rem",
+    },
+  }));
+  
 
-
-// export default UIUX;
+export default UIUX;

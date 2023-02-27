@@ -32,14 +32,12 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <NavLink to="/uiux">DESIGN</NavLink>
+                            <NavLink to="/uiux">DESIGN WORK</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/dev">DEVELOPMENT</NavLink>
+                            <NavLink to="/dev">DEVELOPMENT WORK</NavLink>
                         </li>
-
-                        
 
                     </ul>
 
@@ -48,5 +46,7 @@ const Header = () => {
         </nav>
     )
 }
+
+
 
 export default Header

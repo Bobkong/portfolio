@@ -8,11 +8,11 @@ function Footer() {
     <div id="footer-div">
         <div id='footer-content-div'>
             <div className='footer-half-div'>
-                <span className='footer-text'>Thansk for viewing my work. Let's chat!</span>
-                <div>
+                <span className='footer-text'>Thansk for viewing my work!</span>
+                {/* <div>
                     <img src={linkedin} onClick={() => {window.open('https://www.linkedin.com/in/lingshuangkong/')}} className="footer-logo"/>
                     <img src={ins} onClick={() => {window.open('https://www.instagram.com/bobkong96/')}} className="footer-logo"/>
-                </div>
+                </div> */}
             </div>
             <div className='footer-half-div'>
                 <p id='built-info'>Copyright @ 2022 Lingshuang Kong</p>

@@ -1,14 +1,34 @@
 
-
-.canvas-div {
-    min-height: 100vh;
-    margin: 0;
+  
+.uiux-container {
+    font-family: "Helvetica", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0em;
     padding: 0;
+    margin: 0;
+    max-width: "250vh";
+    color: white;
+    overscroll-behavior: none;
 }
 
-.webgl {
+.uiux-container:before {
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
-    outline: none;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    /* background-image: radial-gradient(circle closest-side, #00b8ff, #006ab5); */
+    background-image: radial-gradient(
+        circle,
+        transparent 45%,
+        rgba(255, 255, 255, 0.1) 60%,
+        rgba(0, 0, 0, 0.11) 75%,
+        rgba(0, 0, 0, 0.33) 90%,
+        rgba(0, 0, 0, 0.6)
+    );
+    pointer-events: none;
 }
+

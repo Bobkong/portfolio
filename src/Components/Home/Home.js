@@ -6,6 +6,7 @@ import { Avatar, Box } from "@mui/material";
 import HomeTitle from "./HomeTitle";
 import Honor from "./Honor/Honor"
 import Journey from "./Journey/Journey"
+import { StrictMode } from "react";
 
 const HomeBox = styled((props) => (
     <Box component="section" {...props} />
@@ -37,12 +38,12 @@ export default function Home() {
         <HomeBox>
             <Hero />
             <ChapterBox>
-                <HomeTitle type="heading1" text="Tools I utilize for creation" />
-                <Skill />
-            </ChapterBox>
-            <ChapterBox>
                 <HomeTitle type="heading1" text="Certificates and awards" />
                 <Honor />
+            </ChapterBox>
+            <ChapterBox>
+                <HomeTitle type="heading1" text="Tools I utilize for creation" />
+                <Skill />
             </ChapterBox>
             <ChapterBox>
                 <HomeTitle type="heading1" text="How did I get here?" />
