@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+    margin-bottom: 0rem;
+  }
+
+  .card {
+    width: 50vw;
+    transform-origin: 10% 60%;
+    margin-bottom: 2rem;
+  }

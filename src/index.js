@@ -3,11 +3,16 @@ import { render } from 'react-dom'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AnimatedCursor from './Components/HoverText/AnimatedCursor';
+import AnimatedCursorProvider from './Components/HoverText/AnimatedCursorManager';
 
 function Body() {
   return (
     <React.StrictMode>
-      <App />
+      <AnimatedCursorProvider>
+        <AnimatedCursor />
+        <App />
+      </AnimatedCursorProvider>
     </React.StrictMode>
   )
 }

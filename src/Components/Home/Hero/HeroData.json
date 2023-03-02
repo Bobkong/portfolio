@@ -6,21 +6,21 @@
             "angle": 120,
             "x": "calc(-100% - max(2.4rem, 12vw))",
             "y": "-4rem",
-            "description": "Currently designing at Blue Raven Solar, formerly at Instagram design",
+            "description": "I'm currently a full-time UX designer at Blue Raven Solar, formerly working at Instagram AR Design and Homni Health",
             "placement": "bottom"
         },
         {
-            "name": "ar/vr design",
-            "description": "Hope to revolutionize the way people interact with the world with ar/vr design",
+            "name": "AR/VR design",
+            "description": "I am motivated to revolutionize the way people interact with the world and bring immersive and creative experiences to humans with AR/VR technology",
             "reverse": true,
             "angle": -60,
-            "x": "max(4.8rem, 7.2vw)",
-            "y": "16.5rem",
+            "x": "max(5rem, 8vw)",
+            "y": "12rem",
             "placement": "top"
         },
         {
             "name": "7 years+ engineering",
-            "description": "Started studying computer science from 2015, and worked as an Android UX engineer at Tencent for 2.5 years",
+            "description": "I started studying computer science from 2015, and worked as a full-time Android UX engineer at Tencent for 2.5 years",
             "reverse": true,
             "vertical": "end",
             "angle": -110,
@@ -29,11 +29,11 @@
             "placement": "bottom"
         },
         {
-            "name": "ui/ux design",
+            "name": "UI/UX design",
             "angle": 60,
-            "x": "calc(-100% - max(6.4rem, 8vw))",
-            "y": "14.6rem",
-            "description": "Passionate about making the world more enjoyable and simple with ux/ui design",
+            "x": "calc(-100% - max(2rem, 10vw))",
+            "y": "12rem",
+            "description": "I'm passionate about figuring out pain points and designing human-centered solutions, making the world more enjoyable and connecting technology and humanity",
             "placement": "top"
         }
     ]

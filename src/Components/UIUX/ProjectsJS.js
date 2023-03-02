@@ -25,7 +25,7 @@ const ProjectImageItem = ({ title, src, skill, desc, idx, detail }) => {
     
     return (
         <ImageListItem key={title} sx={{ overflow: "visible" }} ref={itemRef}>
-                <motion.div whileHover={{ scale: 1.05 }} style={{ y, opacity, overflow: "hidden", cursor: "pointer"}} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                <motion.div whileHover={{ scale: 1.05 }} style={{ y, opacity, overflow: "hidden"}} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                     <LazyImage src={src} alt={title} margin={margin + 64} trim={1} aspectRatio={"16/9"} width="100%" />
                     <ImageListItemBar
                         title={title}

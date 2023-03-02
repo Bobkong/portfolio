@@ -4,7 +4,7 @@ import { Link, hash } from "react-router-dom";
 function ProjectinWebflow(props) {
     if (props.projectName == "EasyMed" || props.projectName == "ARamsay" || props.projectName == "Front-end Mini Projects") {
         return( 
-        <div onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }} className="halfLink">
+        <div onClick={() => {window.open(props.url, '_self')}} className="halfLink">
         <div id="half-cover-project-div">
                 <div id='half-cover-img-div'>
                     <img id="half-cover-img" src={props.bg} />

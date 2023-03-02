@@ -4,6 +4,7 @@ import logo from '../../Assets/logo-page.png';
 import {NavLink } from 'react-router-dom';
 import {useState} from 'react';
 import burger from '../../Assets/hamburger.svg'
+import HoverText from '../HoverText/HoverText';
 
 const Header = () => {
     const [showNav, setShowNav] = useState(false)
@@ -28,15 +29,27 @@ const Header = () => {
                 <div className={`nav-elements ${showNav && 'active'}`}>
                     <ul>
                         <li>
-                            <NavLink to="/" end>HOME</NavLink>
+                            <NavLink to="/" end>
+                                <HoverText text = "HOME"/>
+                            </NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/uiux">DESIGN WORK</NavLink>
+                            <NavLink to="/uiux" end>
+                                <HoverText text = "DESIGN WORK"/>
+                            </NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/dev">DEVELOPMENT WORK</NavLink>
+                            <NavLink to="/dev" end>
+                                <HoverText text = "DEVELOPMENT WORK"/>
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink to="/life" end>
+                                <HoverText text = "LIFE"/>
+                            </NavLink>
                         </li>
 
                     </ul>

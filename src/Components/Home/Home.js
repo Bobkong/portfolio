@@ -3,10 +3,11 @@ import Skill from "./Skill/Skill"
 import Life from "./Life/Life"
 import { styled } from "@mui/material/styles";
 import { Avatar, Box } from "@mui/material";
-import HomeTitle from "./HomeTitle";
 import Honor from "./Honor/Honor"
 import Journey from "./Journey/Journey"
-import { StrictMode } from "react";
+import { StrictMode, useState } from "react";
+import { padding } from "@mui/system";
+import {Panels} from "../LoadingPanel/panels"
 
 const HomeBox = styled((props) => (
     <Box component="section" {...props} />
@@ -32,28 +33,53 @@ const ChapterBox = styled((props) => (
     marginBottom: "8rem"
 }));
 
+const HeroChipDetail = styled((props) => (
+    <Box component="section" display={props.hover ? "flex" : "none"} {...props}/>
+))(({ theme }) => ({
+    height: "100vh",
+    width: "100vw",
+    backgroundColor: "#00000088",
+    position: "fixed",
+    top: "0",
+    left: "0",
+    zIndex: "10001",
+    alignItems: "center",
+    justifyContent: "center",
+    pointerEvents: "none",
+    textAlign: "center",
+}));
 
 export default function Home() {
+    const [hover, setHover] = useState(false);
+    const [chipIndex, setChipIndex] = useState("");
+
     return (
-        <HomeBox>
-            <Hero />
+        <>
+            <Panels />
+            <HomeBox>
+            <HeroChipDetail hover={hover}>
+                <span className="neutrals display-large">{chipIndex}</span>
+            </HeroChipDetail>
+            <Hero setHover={setHover} setChipIndex={setChipIndex}/>
             <ChapterBox>
-                <HomeTitle type="heading1" text="Certificates and awards" />
+                <span className="neutrals display-large">Certificates and awards</span>
                 <Honor />
             </ChapterBox>
             <ChapterBox>
-                <HomeTitle type="heading1" text="Tools I utilize for creation" />
+            <span className="neutrals display-large">Tools I utilize for creation</span>
                 <Skill />
             </ChapterBox>
             <ChapterBox>
-                <HomeTitle type="heading1" text="How did I get here?" />
+                <span className="neutrals display-large">How did I get here?</span>
                 <Journey />
             </ChapterBox>
             <ChapterBox>
-                <HomeTitle type="heading1" text="Aside from work" />
+                 <span className="neutrals display-large">Aside from work</span>
                 <Life />
             </ChapterBox>
         </HomeBox>
+        </>
+        
         
     );
 };

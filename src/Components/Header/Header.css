@@ -8,17 +8,10 @@
 
 .navbar {
     height: 72px;
-    background-image: radial-gradient(
-        rgba(0, 0, 0, 0) 1px,
-        #212121 1px
-      );
-    background-size: 3px 3px;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    -moz-backdrop-filter: blur(2px);
+    background-color: #00000077;
     position: sticky;
     top: 0;
-    z-index: 10000;
+    z-index: 1000;
 }
 
 .logo {
@@ -69,19 +62,19 @@ text-decoration: none;
     color: #dddddd;
     font-weight: 400;
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.125rem;
+    cursor: none;
 }
 
 .nav-elements ul a.active {
     color: #ffffff;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
 }
 
 @media (max-width:768px) {
     .menu {
         display: block;
-        cursor: pointer;
     }
 
     .nav-elements {

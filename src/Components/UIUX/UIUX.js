@@ -11,7 +11,7 @@ import { Avatar, Box } from "@mui/material";
 // import InlineModel from "./components/InlineModel";
 // import StickySnowfall from "./components/StickySnowfall";
 // import Aurora from "./components/aurora/Aurora";
-
+import {Panels} from "../LoadingPanel/panels"
 
 import tree from "./assets/desk1.glb";
 import { styled } from "@mui/material/styles";
@@ -21,6 +21,7 @@ import Projects from "./Projects";
 function UIUX() {
   return (
     <div>
+      <Panels />
         {/* <div className="uiux-container">
             <VirtualScrollBar />
             <GloabalCanvas />

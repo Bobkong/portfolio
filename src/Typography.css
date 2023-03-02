@@ -1,0 +1,113 @@
+@font-face{
+    font-family: 'instagram-sans';
+    src : url('./Assets/Fonts/Instagram-Sans.ttf');
+}
+
+@font-face{
+    font-family: 'instagram-sans-headline';
+    src : url('./Assets/Fonts/Instagram-Sans-Headline.ttf');
+}
+
+.display-large {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    max-width: 90vw;
+    display: block;
+    font-family: "instagram-sans-headline";
+}
+
+.headline-large {
+    font-size: 1.375rem;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    max-width: 90vw;
+    display: block;
+    font-family: "instagram-sans-headline";
+}
+
+.headline-medium {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 700;
+    max-width: 90vw;
+    display: block;
+    font-family: "instagram-sans-headline";
+}
+
+.headline-small {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 700;
+    max-width: 90vw;
+    display: block;
+    font-family: "instagram-sans-headline";
+}
+
+.title-large {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 400;
+    max-width: 90vw;
+    display: block;
+    font-family: "instagram-sans";
+}
+
+.title-medium {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 400;
+    max-width: 90vw;
+    display: block;
+    font-family: "instagram-sans";
+}
+
+.label-large {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 700;
+    max-width: 90vw;
+    font-family: "instagram-sans";
+}
+
+.label-medium {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-weight: 700;
+    max-width: 90vw;
+    font-family: "instagram-sans";
+}
+
+.label-small {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    font-weight: 700;
+    max-width: 90vw;
+    font-family: "instagram-sans";
+}
+
+.body-large {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    max-width: 90vw;
+    font-family: "instagram-sans";
+}
+
+.body-medium {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    font-weight: 400;
+    max-width: 90vw;
+    font-family: "instagram-sans";
+}
+
+.body-small {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    font-weight: 400;
+    max-width: 90vw;
+    font-family: "instagram-sans";
+}

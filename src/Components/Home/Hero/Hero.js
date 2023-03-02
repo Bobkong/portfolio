@@ -2,7 +2,6 @@ import { styled } from "@mui/material/styles";
 import { Avatar, Box } from "@mui/material";
 import data from "./HeroData.json"
 import HeroChip from "./HeroChip";
-import HomeTitle from "../HomeTitle";
 import { motion } from "framer-motion";
 import selfImage from '../../../Assets/about_img.jpg';
 
@@ -14,7 +13,6 @@ const SelfBox = styled((props) => (
     alignItems: "center",
     justifyContent: "center",
     height: "90vh",
-    paddingTop: "3rem",
 }));
 
 const HeroBox = styled((props) => (
@@ -37,6 +35,7 @@ const HeroAvatarComp = styled(({ img, ...props }) => (
     width: "18rem",
     height: "18rem",
     position: "relative",
+    zIndex: "-1",
     boxShadow: "0 0 64px 0px hsl(0deg 0% 100% / 15%)",
 }));
 
@@ -56,21 +55,22 @@ const HeroTitleBox = styled((props) => (
 ))(({ theme }) => ({
     marginTop: theme.spacing(12),
     textAlign: "center",
-    cursor: "default",
     padding: theme.spacing(2, 0, 3),
 }));
 
-export default function Hero() {
+export default function Hero(props) {
+    const hoverFunc = props.setHover
+    const chipIndexFunc = props.setChipIndex
     return (
         <SelfBox>
             <HeroBox>
                 <HeroAvatarComp />
                 <HeroTitleBox>
-                    <HomeTitle type="heading1" text="Hi, i'm Lingshuang Kong!" />
-                    <HomeTitle type="heading2" href="mailto:klingshuang@gmail.com" text="product designer & creative technologist" />
+                    <span className="neutrals display-large">Hi, i'm Lingshuang Kong!</span>
+                    <span className="neutrals-lighten-1 title-medium">product designer & creative technologist</span>
                 </HeroTitleBox>
                 {data.interest.map(({ name, ...props }) => (
-                    <HeroChip {...props} key={name}>{name}</HeroChip>
+                    <HeroChip {...props} key={name} setHover={hoverFunc} setChipIndex={chipIndexFunc}>{name}</HeroChip>
                 ))}
             </HeroBox>
         </SelfBox>

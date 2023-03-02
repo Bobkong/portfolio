@@ -3,33 +3,49 @@ import { Box } from "@mui/material";
 import NavigationIcon from '@mui/icons-material/Navigation';
 import { motion } from "framer-motion";
 import Tooltip from "../../Tooltip";
+import { useState } from "react";
 
-const ChipContent = styled(({ description, placement, ...props }) => (
-    <Tooltip title={description} placement={placement} arrow>
-        <motion.div
-            whileHover={{
-                scale: 1.1,
-            }}
-            {...props}
-        />
-    </Tooltip>
+const ChipContent = styled(({ description, placement, setHover, setChipIndex, ...props }) => (
+    <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+            default: {
+            duration: 0.3,
+            ease: [0, 0.71, 0.2, 1.01]
+            },
+            delay: 2.8,
+            scale: {
+            type: "spring",
+            damping: 5,
+            stiffness: 100,
+            restDelta: 0.001
+            }
+        }}
+
+        onMouseEnter={() => {
+            setHover(true)
+            setChipIndex(description)
+        }}
+        onMouseLeave={() => {
+            setHover(false)
+        }}
+        {...props}
+    />
 ))(({ theme }) => ({
+
     backgroundColor: "#2a2a2a",
     borderRadius: "10rem",
-    cursor: "default",
-    fontSize: "0.8rem",
-    fontWeight: 400,
     color: "#ffffff",
-    fontFamily: "instagram-sans",
+    boxShadow: "inset -4px -4px 5px #20202088, inset 4px 4px 5px #42424255, 0px 0px 20px #42424299",
     padding: theme.spacing(0.8, 1.2),
     margin: theme.spacing(0, 0.8),
+    
     [theme.breakpoints.up("sm")]: {
-        fontSize: "1rem",
         padding: theme.spacing(1, 2),
         margin: theme.spacing(0, 1.5),
     },
     [theme.breakpoints.up("lg")]: {
-        fontSize: "1.2rem",
         margin: theme.spacing(0, 2),
     },
 }));
@@ -37,13 +53,16 @@ const ChipContent = styled(({ description, placement, ...props }) => (
 const ChipContainer = styled(Box, {
     shouldForwardProp: (prop) => prop !== "reverse" && prop !== "x" && prop !== "y"
 })(({ theme, reverse, x, y }) => ({
-    position: "absolute",
-    display: "flex",
-    ...(reverse && { flexDirection: "row-reverse" }),
-    left: "50%",
-    top: "32%",
-    transform: `translate(${x}, ${y})`,
-    zIndex: theme.zIndex.tooltip,
+    display: "none",
+    [theme.breakpoints.up("md")]: {
+        display: "flex",
+        position: "absolute",
+        ...(reverse && { flexDirection: "row-reverse" }),
+        left: "50%",
+        top: "32%",
+        transform: `translate(${x}, ${y})`,
+        zIndex: theme.zIndex.tooltip,
+    },
 }));
 
 const ArrowIcon = styled(NavigationIcon, {
@@ -57,16 +76,19 @@ const ArrowIcon = styled(NavigationIcon, {
     },
 }));
 
+
 export default function HeroChip({
     x, y,
     vertical,
     reverse,
     angle,
+    setHover,
+    setChipIndex,
     ...props
 }) {
     return (
-        <ChipContainer reverse={reverse} x={x} y={y}>
-            <ChipContent {...props} />
+        <ChipContainer reverse={reverse} x={x} y={y} className="body-large">
+            <ChipContent setHover = {setHover} setChipIndex = {setChipIndex} {...props} />
             <ArrowIcon vertical={vertical} angle={angle} />
         </ChipContainer>
     );

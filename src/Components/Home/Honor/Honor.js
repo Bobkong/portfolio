@@ -27,7 +27,7 @@ const HonorItem = styled((props) => (
         whileInView="visible"
         viewport={{ once: true }}
         variants={{
-            visible: (i) => ({ opacity: 1, scale: 1, transition: { type: "spring", delay: 0.5 * i } }),
+            visible: (i) => ({ opacity: 1, scale: 1, transition: { type: "spring", delay: 0.5} }),
             hidden: { opacity: 0, scale: 0 }
         }}
         item
@@ -38,14 +38,14 @@ const HonorItem = styled((props) => (
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    cursor: "default",
 }));
 
 const HonorImg = styled((props) => (
     <motion.img whileHover={{ y: "-1.2rem" }} {...props} />
 ))(({ theme }) => ({
     width: "100%",
-    aspectRatio: "92 / 100"
+    aspectRatio: "92 / 100",
+    cursor: "none"
 }));
 
 const HonorText = styled(Box)(({ theme }) => ({

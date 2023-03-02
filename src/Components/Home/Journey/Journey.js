@@ -1,7 +1,9 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Fragment } from "react";
+import "./Journey.css"
+import data from "./JourneyData.json";
 
 const JourneyDiv = styled((props) => (
     <motion.div
@@ -18,22 +20,55 @@ const JourneyDiv = styled((props) => (
 }));
 
 const JourneyImage = styled((props) => (
-    <img  src={require(`../../../Assets/journey.png`)}
+    <img  src={require(`../../../Assets/designjourney.png`)}
     alt="self image"
     {...props} />
 ))(({ theme }) => ({
     marginTop: "4rem",
-    width: "100%",
+    width: "10%",
     marginLeft: "auto",
     marginRight: "auto",
-    [theme.breakpoints.up("lg")]: {
-    },
+    position: "absolute",
+    top: "0",
+    left: "0",
+    zIndex: "1000"
 }));
+
+const cardVariants = {
+    offscreen: {
+      y: 300
+    },
+    onscreen: {
+      y: 50,
+      transition: {
+        type: "spring",
+        bounce: 0.4,
+        duration: 0.8
+      }
+    }
+};
+
+function JourneyCard({ image}) {
+  
+    return (
+      <motion.div
+        className="card-container"
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+      >
+        {/* <div className="splash" style={{ background }} /> */}
+        <motion.img className="card" variants={cardVariants} src={image} />
+      </motion.div>
+    );
+  }
 
 export default function Honor(props) {
     return (
         <JourneyDiv>
-            <JourneyImage />
+            {data.map(({ src }) => (
+                <JourneyCard image={src} />
+            ))}
         </JourneyDiv>
     );
 };

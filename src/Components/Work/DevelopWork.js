@@ -71,7 +71,7 @@ const development = [
 function GithubRepo(props) {
     if (props.github != null && props.github != "") {
         return (
-        <div id="develop-github" onClick={() => {window.open(props.github)}} style={{ cursor: "pointer" }}>
+        <div id="develop-github" onClick={() => {window.open(props.github)}}>
         VIEW GITHUB REPO
         </div>);
     }

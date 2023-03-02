@@ -1,13 +1,20 @@
 
-@font-face{
-  font-family: 'instagram-sans';
-  src : url('./Assets/Fonts/Instagram-Sans.ttf');
-}
-
 
 #app-div {
-  background-color: #111111;
   min-height: 100vh;
   margin: 0;
   padding: 0;
 }
+
+.cursor {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-color: #111;
+  z-index: 10000;
+}
+

@@ -1,18 +1,6 @@
 #footer-div {
     padding: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: radial-gradient(
-        rgba(0, 0, 0, 0) 1px,
-        #212121 1px
-      );
-    background-size: 3px 3px;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    -moz-backdrop-filter: blur(2px);
-    
+    background-color: #00000077;
 }
 
 #footer-content-div {
@@ -34,7 +22,6 @@
     height: 40px;
     margin-top: 12px;
     margin-right: 8px;
-    cursor: pointer;
 }
 
 #built-info {

@@ -12,7 +12,7 @@ function JumpButton(props) {
            ); 
     } else {
         return(
-            <div id={props.theme == 0 ? "view-project" : "view-project-1"} onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer" }}>
+            <div id={props.theme == 0 ? "view-project" : "view-project-1"} onClick={() => {window.open(props.url, '_self')}} >
                 VIEW PROJECT
             </div>
            );
@@ -37,7 +37,7 @@ function FullCoverProject(props) {
         </div>
         
 
-        <div id="full-cover-less-than-768" onClick={() => {window.open(props.url, '_self')}} style={{ cursor: "pointer"}}>
+        <div id="full-cover-less-than-768" onClick={() => {window.open(props.url, '_self')}}>
                     <div id='half-cover-img-div'>
                         <img id="half-cover-img" src={cover(props)} />
                     </div>
