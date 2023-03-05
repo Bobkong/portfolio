@@ -61,7 +61,7 @@ const ChipContainer = styled(Box, {
         left: "50%",
         top: "32%",
         transform: `translate(${x}, ${y})`,
-        zIndex: theme.zIndex.tooltip,
+        zIndex: 100,
     },
 }));
 

@@ -11,16 +11,14 @@
     background-color: #00000077;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1001;
 }
 
-.logo {
-    
-}
 
 .logo-icon {
     width: 44px;
     height: 44px;
+    cursor: none;
 }
 
 .menu {
@@ -63,6 +61,8 @@ text-decoration: none;
     font-weight: 400;
     position: relative;
     font-size: 1.125rem;
+    font-family: "instagram-sans";
+    letter-spacing: 0.02rem;
     cursor: none;
 }
 
@@ -70,6 +70,8 @@ text-decoration: none;
     color: #ffffff;
     font-weight: 700;
     font-size: 1.25rem;
+    font-family: "instagram-sans";
+    letter-spacing: 0.02rem;
 }
 
 @media (max-width:768px) {

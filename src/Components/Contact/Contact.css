@@ -1,0 +1,17 @@
+.contact-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1001;
+}
+
+.contact-item {
+    margin-right: 3rem;
+}
+
+.contact-item:last-of-type {
+    margin-right: 2rem;
+}

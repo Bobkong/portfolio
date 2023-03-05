@@ -9,6 +9,7 @@ import React, {useEffect} from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import loadable from '@loadable/component';
 import Life from './Components/Life/Life';
+import Contact from './Components/Contact/Contact';
 
 const ScrollToTop = loadable(() => import('./Components/Work/ScrollToTop'));
 const Footer = loadable(() => import('./Components/Footer/Footer'));
@@ -41,8 +42,8 @@ export default function App() {
                   */}
                 </Routes>
             </ScrollToTop>
-              
-            <Footer />
+            <Contact />
+            {/* <Footer /> */}
           </BrowserRouter>
        
 
