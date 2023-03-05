@@ -4,6 +4,7 @@ import data from "./HeroData.json"
 import HeroChip from "./HeroChip";
 import { motion } from "framer-motion";
 import selfImage from '../../../Assets/about_img.jpg';
+import Character from "./BlastChracter";
 
 const SelfBox = styled((props) => (
     <Box component="section" {...props} />
@@ -66,8 +67,28 @@ export default function Hero(props) {
             <HeroBox>
                 <HeroAvatarComp />
                 <HeroTitleBox>
-                    <span className="neutrals display-large">Hi, i'm Lingshuang Kong!</span>
-                    <span className="neutrals-lighten-1 title-medium">product designer & creative technologist</span>
+                <Character content={"H"} />
+                <Character content={"i"} />
+                <Character content={",\u00A0"} />
+                <Character content={"I"} />
+                <Character content={"'"} />
+                <Character content={"m\u00A0"} />
+                <Character content={"L"} />
+                <Character content={"i"} />
+                <Character content={"n"} />
+                <Character content={"g"} />
+                <Character content={"s"} />
+                <Character content={"h"} />
+                <Character content={"u"} />
+                <Character content={"a"} />
+                <Character content={"n"} />
+                <Character content={"g\u00A0"} />
+                <Character content={"K"} />
+                <Character content={"o"} />
+                <Character content={"n"} />
+                <Character content={"g"} />
+                <Character content={"!"} />
+                <span className="neutrals-lighten-1 title-medium">product designer & creative technologist</span>
                 </HeroTitleBox>
                 {data.interest.map(({ name, ...props }) => (
                     <HeroChip {...props} key={name} setHover={hoverFunc} setChipIndex={chipIndexFunc}>{name}</HeroChip>

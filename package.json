@@ -20,6 +20,8 @@
     "firebase": "^9.16.0",
     "framer-motion": "7.5.0",
     "gh-pages": "^4.0.0",
+    "gsap": "^3.11.4",
+    "popmotion": "^11.0.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-iframe": "^1.8.5",
@@ -27,8 +29,10 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "react-spring": "8.0.19",
+    "react-three-fiber": "^6.0.13",
     "react-zmage": "^0.8.5-beta.37",
     "styled-components": "^5.3.7",
+    "three": "^0.150.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -192,7 +192,6 @@ ul {
     margin-bottom: 1rem;
     margin-left: 0px;
     margin-right: 0px;
-    cursor: pointer;
 }
 
 .nav-item-active {
@@ -203,11 +202,9 @@ ul {
     margin-bottom: 1rem;
     margin-left: 0px;
     margin-right: 0px;
-    cursor: pointer;
 }
 
 a {
-    cursor: pointer;
 }
 
 .feedback-iframe {

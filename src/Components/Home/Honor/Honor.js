@@ -2,8 +2,9 @@ import { Box, Grid, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import data from "./HonorData.json";
 import { motion } from "framer-motion";
-import { Fragment } from "react";
+import { Fragment, useContext } from "react";
 import { Link } from "react-router-dom";
+import { AnimatedCursorContext } from "../../HoverText/AnimatedCursorManager";
 
 const HonorGrid = styled((props) => (
     <Grid
@@ -21,6 +22,7 @@ const HonorGrid = styled((props) => (
 const HonorItem = styled((props) => (
 
 
+    
     <Grid
         component={motion.li}
         initial="hidden"
@@ -60,13 +62,23 @@ const HonorText = styled(Box)(({ theme }) => ({
 }));
 
 export default function Honor(props) {
+    const { cursorStyleHandler } = useContext(AnimatedCursorContext);
+
+    const imageEnter = () => {
+      cursorStyleHandler("image");
+    };
+  
+    const imageLeave = () => {
+      cursorStyleHandler("default");
+    };
+
     return (
         <Fragment>
             <HonorGrid>
                 {data.map(({ title, src, link }, idx) => (
-                    <HonorItem key={title} custom={idx}>
+                    <HonorItem key={title} custom={idx} onMouseEnter={imageEnter} onMouseLeave={imageLeave}>
                         <Link>
-                            <HonorImg src={src} alt={`img-for-${title}`} onClick={() => {window.open(link, '_blank')}}  />
+                            <HonorImg src={src} alt={`img-for-${title}`} onClick={() => {window.open(link, '_blank')}} />
                         </Link>
                     </HonorItem>
                 ))}
