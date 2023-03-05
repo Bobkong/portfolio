@@ -8,15 +8,7 @@
     display: none;
     visibility: hidden;
   }
-  
-  .progress {
-    position: fixed;
-    left: 2vw;
-    right: 2vw;
-    bottom: 50px;
-    height: 5px;
-    background: #ffffff;
-  }
+
   
   .project-image {
     position: absolute;
@@ -45,7 +37,7 @@
   
   .scroll-down {
     position: absolute;
-    bottom: 70px;
+    bottom: 2rem;
     text-align: center;
     width: 100%;
   }

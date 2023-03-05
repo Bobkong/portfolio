@@ -10,8 +10,8 @@
             "placement": "bottom"
         },
         {
-            "name": "AR/VR design",
-            "description": "I am motivated to revolutionize the way people interact with the world and bring immersive and creative experiences to humans with AR/VR technology",
+            "name": "Creative tech",
+            "description": "I am a creative technologist, whose work covers a wide variety of technologies and skills and always looks to push the envelope where creativity and tech converge",
             "reverse": true,
             "angle": -60,
             "x": "max(5rem, 8vw)",
@@ -33,7 +33,7 @@
             "angle": 60,
             "x": "calc(-100% - max(2rem, 10vw))",
             "y": "12rem",
-            "description": "I'm passionate about figuring out pain points and designing human-centered solutions, making the world more enjoyable and connecting technology and humanity",
+            "description": "I'm a passionate designer who loves figuring out inconvenience, designing human-centered solutions, and connecting technology and humanity",
             "placement": "top"
         }
     ]

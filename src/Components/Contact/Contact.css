@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: end;
     position: fixed;
-    bottom: 2rem;
+    bottom: 3rem;
     right: 2rem;
     z-index: 1001;
 }
