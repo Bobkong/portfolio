@@ -1,6 +1,5 @@
 import Hero from "./Hero/Hero";
 import Skill from "./Skill/Skill"
-import Life from "./Life/Life"
 import { styled } from "@mui/material/styles";
 import { Avatar, Box } from "@mui/material";
 import Honor from "./Honor/Honor"
@@ -72,10 +71,6 @@ export default function Home() {
             <ChapterBox>
                 <span className="neutrals display-large">How did I get here?</span>
                 <Journey />
-            </ChapterBox>
-            <ChapterBox>
-                 <span className="neutrals display-large">Aside from work</span>
-                <Life />
             </ChapterBox>
         </HomeBox>
         </>

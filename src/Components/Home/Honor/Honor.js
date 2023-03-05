@@ -29,7 +29,7 @@ const HonorItem = styled((props) => (
         whileInView="visible"
         viewport={{ once: true }}
         variants={{
-            visible: (i) => ({ opacity: 1, scale: 1, transition: { type: "spring", delay: 0.5} }),
+            visible: (i) => ({ opacity: 1, scale: 1, transition: { type: "spring"} }),
             hidden: { opacity: 0, scale: 0 }
         }}
         item

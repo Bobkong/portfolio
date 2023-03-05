@@ -1,51 +1,82 @@
 [
     {
-        "src": "https://ik.imagekit.io/poonr2gma/qqmusic.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001190185",
-        "title": "TENCENT MUSIC",
-        "tech": "ANDROID | JAVA | KOTLIN | JSON | XML"
+        "title" : "MOBILE",
+        "projects":[
+            {
+                "src": "https://ik.imagekit.io/poonr2gma/qqmusic.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001190185",
+                "title": "TENCENT MUSIC",
+                "tech": "ANDROID | JAVA | KOTLIN | JSON | XML"
+            },
+
+            {
+                "src": "https://ik.imagekit.io/poonr2gma/Frame_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678049470620",
+                "title": "GOOGLE AROUND",
+                "tech": "ANDROID | ARCORE | NODEJS"
+            },
+
+            {
+                "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677462367544",
+                "title": "EASYMED",
+                "tech": "ANDROID | JAVA | KOTLIN | AZURE"
+            }
+
+        ]
     },
+
+    {
+        "title" : "WEB",
+        "projects":[{
+            "src": "https://ik.imagekit.io/poonr2gma/meta-front-end-developer-certificate-review.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676002634691",
+            "title": "META FRONT-END CERTIFICATE",
+            "tech": "HTML | CSS | JAVASCRIPT | REACT"
+        },
+
+        {
+            "src": "https://ik.imagekit.io/poonr2gma/Frame_65.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678049877107",
+            "title": "FRONT-END MINI PROJECTS",
+            "tech": "HTML | CSS | JAVASCRIPT"
+        }
+
+        ]
+    },
+
+    {
+        "title" : "AR/VR",
+        "projects":[{
+            "src": "https://ik.imagekit.io/poonr2gma/instagram-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676002089776",
+            "title": "INSTAGRAM AR",
+            "tech": "JAVASCRIPT | REACTOVE"
+        },
+
+        {
+            "src": "https://ik.imagekit.io/poonr2gma/aramsay_bg.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001159109",
+            "title": "ARAMSAY",
+            "tech": "UNITY 3D | C# | NODEJS"
+        },
+
+        {
+            "src": "https://ik.imagekit.io/poonr2gma/Frame_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678049470620",
+            "title": "GOOGLE AROUND",
+            "tech": "ANDROID | ARCORE | NODEJS"
+        }
+
+        ]
+    },
+
+    {
+        "title" : "OTHER EXPERIMENT",
+        "projects":[{
+            "src": "https://ik.imagekit.io/poonr2gma/superplant.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001158381",
+            "title": "SUPER PLANT",
+            "tech": "C# | COCOS2D"
+        },
     
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/aramsay_bg.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001159109",
-        "title": "ARAMSAY",
-        "tech": "UNITY 3D | C# | NODEJS"
-    },
+        {
+            "src": "https://ik.imagekit.io/poonr2gma/mecat.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001158022",
+            "title": "MECAT",
+            "tech": "ARDUINO | PROCESSING"
+        }
 
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/easymed-half.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676002680405",
-        "title": "EASYMED",
-        "tech": "ANDROID | JAVA | KOTLIN | JSON | XML"
-    },
-
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/superplant.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001158381",
-        "title": "SUPER PLANT",
-        "tech": "C# | COCOS2D"
-    },
-
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/instagram-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676002089776",
-        "title": "INSTAGRAM AR",
-        "tech": "JAVASCRIPT | REACTOVE"
-    },
-
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/meta-front-end-developer-certificate-review.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676002634691",
-        "title": "META FRONT-END CERTIFICATE",
-        "tech": "HTML | CSS | JAVASCRIPT | REACT"
-    },
-
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/mini-projects.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1676001157150",
-        "title": "FRONT-END MINI PROJECTS",
-        "tech": "HTML | CSS | JAVASCRIPT"
-    },
-
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/mecat.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001158022",
-        "title": "MECAT",
-        "tech": "ARDUINO | PROCESSING"
+        ]
     }
-
-    
 ]

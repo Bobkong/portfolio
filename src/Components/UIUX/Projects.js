@@ -52,7 +52,7 @@ export default function Projects() {
       <section className="projects-div">
         <div>
           <motion.div className="image-section" style={{pointerEvents: "none"}}>
-            <span className="display-large neutrals" style={{marginLeft: "10vw", marginRight: "10vw"}}>Lingshuang is a passionate designer who loves figuring out inconvenience, designing human-centered solutions, and connecting technology and humanity.</span>
+            <span className="display-large neutrals" style={{marginLeft: "10vw", marginRight: "10vw", textAlign: "center"}}>Lingshuang is a passionate designer who loves figuring out inconvenience, designing human-centered solutions, and connecting technology and humanity.</span>
             <motion.span className="headline-medium neutrals scroll-down" style={{marginLeft: "12px"}}
               initial={{ y: -10}}
               animate={{ y: 5 }}

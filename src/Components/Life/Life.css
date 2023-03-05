@@ -1,0 +1,20 @@
+.scroll-down {
+    position: absolute;
+    bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+.life-header-section {
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.projects-div {
+    display: flex;
+    flex-direction: column;
+}
