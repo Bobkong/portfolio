@@ -2,8 +2,6 @@ import { styled } from "@mui/material/styles";
 import { Box } from "@mui/material";
 import NavigationIcon from '@mui/icons-material/Navigation';
 import { motion } from "framer-motion";
-import Tooltip from "../../Tooltip";
-import { useState } from "react";
 
 const ChipContent = styled(({ description, placement, setHover, setChipIndex, ...props }) => (
     <motion.div
@@ -59,9 +57,12 @@ const ChipContainer = styled(Box, {
         position: "absolute",
         ...(reverse && { flexDirection: "row-reverse" }),
         left: "50%",
-        top: "32%",
+        top: "36%",
         transform: `translate(${x}, ${y})`,
         zIndex: 100,
+    },
+    [theme.breakpoints.up("xl")]: {
+        top: "32%",
     },
 }));
 

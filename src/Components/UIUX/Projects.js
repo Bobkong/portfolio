@@ -13,7 +13,15 @@ import { Scale } from "@mui/icons-material";
 import HoverText from '../HoverText/HoverText';
 import { AnimatedCursorContext } from "../HoverText/AnimatedCursorManager";
 
-const Image = ({ title, src, skill }) => {
+function SkillTag(props) {
+  return(
+    <div className="skill-tag">
+      <span className="neutrals-lighten-1 label-small">{props.value}</span>
+    </div>
+  )
+}
+
+const Project = ({ title, src, skill, idx, timeline }) => {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
     const y = useTransform(scrollYProgress, [0, 1], [-300, 300])
@@ -26,16 +34,23 @@ const Image = ({ title, src, skill }) => {
     const imageLeave = () => {
       cursorStyleHandler("default");
     };
-  
+
     return (
-      <section className="image-section">
+      <section className="project-section">
         <motion.div ref={ref} className="image-div" onMouseEnter={imageEnter} onMouseLeave={imageLeave}>
           <img src={src} alt="project" className="project-image"/>
         </motion.div>
         <motion.div style={{ y }} className="project-text-area">
           <motion.h2 className="project-name neutrals display-large"><HoverText text={title}/></motion.h2>
-          <motion.h2 className="project-name neutrals-lighten-1 body-large"><HoverText text={skill}/></motion.h2>
+          <motion.h2 className="project-name neutrals-lighten-1 body-large"><HoverText text={timeline}/></motion.h2>
+          <div className="tag-section">
+            {skill.map((props, idx) => (
+              <SkillTag key={idx} idx={idx} value={props} />
+            ))}
+          </div>
         </motion.div>
+        
+        <span className="project-index">0{idx+1}</span>
       </section>
     );
 }
@@ -51,20 +66,9 @@ export default function Projects() {
     return (
       <section className="projects-div">
         <div>
-          <motion.div className="image-section" style={{pointerEvents: "none"}}>
-            <span className="display-large neutrals" style={{marginLeft: "10vw", marginRight: "10vw", textAlign: "center"}}>Lingshuang is a passionate designer who loves figuring out inconvenience, designing human-centered solutions, and connecting technology and humanity.</span>
-            <motion.span className="headline-medium neutrals scroll-down" style={{marginLeft: "12px"}}
-              initial={{ y: -10}}
-              animate={{ y: 5 }}
-              transition={{
-                duration: 1,
-                repeat: Infinity,
-                repeatType: "reverse",
-              }}
-            >Scroll Down</motion.span>
-          </motion.div>
+          
           {data.map((props, idx) => (
-                    <Image key={idx} idx={idx} {...props} />
+            <Project key={idx} idx={idx} {...props} />
           ))}
         </div>
         

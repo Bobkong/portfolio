@@ -1,6 +1,5 @@
 import React from "react";
 import {Panels} from "../LoadingPanel/panels"
-import CircleBackground from "../CircleBackground/CircleBackground";
 import LifePics from "./LifePics/LifePics";
 import {
   motion
@@ -14,7 +13,6 @@ function Life() {
   return (
     <div>
       <Panels />
-      <CircleBackground />
       <LifeContent />
     </div>
 
@@ -26,7 +24,7 @@ function LifeContent() {
     return (
       <section className="projects-div">
         <div className="life-header-section">
-          <span className="display-large neutrals" style={{marginLeft: "10vw", marginRight: "10vw", textAlign: "center"}}>Aside from design and development, I love playing tennis, hiking, music, and traveling. These hobbies make me better both physically and mentally.</span>
+          <span className="display-large neutrals" style={{marginLeft: "10vw", marginRight: "10vw", textAlign: "center"}}>Beyond design and development, I enjoy playing tennis, hiking, music, and exploring new destinations, which keep me both physically and mentally fit and inspire me to bring fresh perspectives to my work.</span>
           <motion.span className="headline-medium neutrals scroll-down" style={{marginLeft: "12px"}}
               initial={{ y: -10}}
               animate={{ y: 5 }}

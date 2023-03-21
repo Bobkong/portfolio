@@ -20,42 +20,16 @@
     height: 100%;
     object-fit: cover;
   }
-  
-  .project-text-area {
-    position: absolute;
-    left: calc(70vw);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    row-gap: 1rem;
-    width: 26vw;
-  }
-  
+
   .hidden {
     display: none;
   }
-  
-  .scroll-down {
-    position: absolute;
-    bottom: 2rem;
-    text-align: center;
-    width: 100%;
-  }
-  
+
   .project-name {
     margin: 0;
   }
   
-  .image-section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    position: relative;
-    scroll-snap-align: center;
-    perspective: 500px;
-  }
-
-  .project-section {
+  .dev-project-section {
     height: 100vh;
     scroll-snap-align: center;
     perspective: 500px;
@@ -63,7 +37,6 @@
     flex-direction: column;
     justify-content: center;
     overflow-x: auto;
-    
   }
 
   .projects-list::-webkit-scrollbar {
@@ -73,10 +46,11 @@
   .projects-list {
     display: flex;
     list-style: none;
-    overflow-x: scroll;
+    overflow-x: auto;
     column-gap: 2vw;
     padding: 0;
   }
+
 
   .project-div:last-of-type {
     margin-right: 4vw;
@@ -84,6 +58,37 @@
   
   html {
     scroll-snap-type: y mandatory;
+  }
+
+  .left-scroll {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-scroll {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chevron-icon {
+    width: 32px;
+    height: 32px;
   }
   
   
@@ -93,18 +98,7 @@
           aspect-ratio: 3/4;
     }
   
-    .project-text-area {
-      position: relative;
-      left: 0;
-      top: calc(10vh);
-      row-gap: 0rem;
-      width: 92vw;
-      row-gap: 0.6rem;
-      text-align: center;
-    }
-  
-  
-    .image-section {
+    .dev-project-section {
       flex-direction: column;
       justify-content: center;
     }

@@ -35,8 +35,19 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  row-gap: 1rem;
   width: 26vw;
+}
+
+.tag-section {
+  display: flex;
+  column-gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.skill-tag {
+  padding: 4px 12px;
+  border: 1px solid #ffffffaa;
+  border-radius: 12px;
 }
 
 .hidden {
@@ -55,7 +66,7 @@
   margin: 0;
 }
 
-.image-section {
+.project-section {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -64,6 +75,24 @@
   padding-right: 4vw;
   scroll-snap-align: center;
   perspective: 500px;
+}
+
+.project-index {
+  color: #ffffff1a;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-family: "instagram-sans-headline";
+  font-size: 18rem;
+  font-weight: 900;
+}
+
+.intro-header-section {
+  height: 100vh;
+  display: flex;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  position: relative;
 }
 
 .image-div {
@@ -97,7 +126,7 @@ html {
   }
 
 
-  .image-section {
+  .project-section {
     flex-direction: column;
     justify-content: center;
   }

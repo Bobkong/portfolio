@@ -1,4 +1,4 @@
-import { Fragment, useRef, useState, useContext } from "react";
+import { Fragment, useRef, useState, useContext, useEffect } from "react";
 import { Box, CircularProgress, IconButton, useMediaQuery } from "@mui/material";
 import data from "./ProjectData.json";
 import { ImageList, ImageListItem, ImageListItemBar } from "@mui/material";
@@ -6,6 +6,8 @@ import LazyImage from "../Lazy/LazyImage";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import "./Projects.css"
 import { AnimatedCursorContext } from "../HoverText/AnimatedCursorManager";
+import cheveronLeft from '../../Assets/chevron-left.svg'
+import cheveronRight from '../../Assets/chevron-right.svg'
 
 const ProjectImageItem = ({ title, src, tech, idx }) => {
     const itemRef = useRef();
@@ -71,38 +73,61 @@ export default function Projects(props) {
       restDelta: 0.00001,
     });
 
+    const projectsRef = [];
+    let projectRefs = useRef({});
+    let leftScrollRefs = useRef({});
+    let rightScrollRefs = useRef({});
+
     const projects = [];
     for (let i = 0; i < data.length; i++) {
         projects.push(
-        <div className="project-section" style={{marginLeft: "4vw"}}>
-            <span className="display-large neutrals" style={{marginBottom: "2vh"}}>{data[i].title}</span>
-            <ul className="projects-list">
+        <div className="dev-project-section" style={{marginLeft: "4vw"}}>
+            <span className="display-large neutrals project-title" style={{marginBottom: "2vh"}}>{data[i].title}</span>
+            <span className="project-index">0{i+1}</span>
+            <ul className="projects-list" ref={ref => projectRefs.current[i] = ref} onScroll={() => {
+                console.log(projectRefs.current[i].scrollLeft)
+                leftScrollRefs.current[i].className = `left-scroll ${projectRefs.current[i].scrollLeft == 0 ? "hidden" : ""}`;
+                rightScrollRefs.current[i].className = `right-scroll ${projectRefs.current[i].scrollLeft > window.innerWidth * 0.38 ? "hidden" : ""}`;
+            }}>
                 {data[i].projects.map((props, idx) => (
                     <li className="project-div">
                         <ProjectImageItem  {...props}/>
                     </li>
                 ))}
             </ul>
+
+            <div className="left-scroll hidden" ref={ref => leftScrollRefs.current[i] = ref}>
+                <img src={cheveronLeft} className="chevron-icon" onClick={() => {
+                    if (projectRefs.current[i].scrollLeft > 0) {
+                        let timer = setInterval(() => {
+                            projectRefs.current[i].scrollLeft -= 3
+                        })
+                        setTimeout(() => {
+                            clearInterval(timer)
+                        }, 1000)
+                    }
+                }}></img>
+            </div>
+
+            <div className={`right-scroll ${data[i].projects.length > 2 ? "" : "hidden"}`} ref={ref => rightScrollRefs.current[i] = ref}>
+                <img src={cheveronRight} className="chevron-icon" onClick={() => {
+                    
+                    console.log("right scroll")
+                    let timer = setInterval(() => {
+                        projectRefs.current[i].scrollLeft += 3
+                    })
+                    setTimeout(() => {
+                        clearInterval(timer)
+                        
+                    }, 1000)
+                }}></img>
+            </div>
         </div>);
     }
 
     return (
         <div>
-             <motion.div className="image-section" style={{pointerEvents: "none"}}>
-                <span className="display-large neutrals" style={{marginLeft: "10vw", marginRight: "10vw", textAlign: "center"}}>Lingshuang is a creative technologist, whose work covers a wide variety of technologies and skills and always looks to push the envelope where creativity and tech converge.</span>
-                <motion.span className="headline-medium neutrals scroll-down" style={{marginLeft: "12px"}}
-                initial={{ y: -10}}
-                animate={{ y: 5 }}
-                transition={{
-                    duration: 1,
-                    repeat: Infinity,
-                    repeatType: "reverse",
-                }}
-                >Scroll Down</motion.span>
-            </motion.div>
-
             {projects}
-
             <motion.div className={"progress"} style={{ scaleX }} />
         </div>
         

@@ -4,18 +4,18 @@
             "name": "2 years+ design",
             "vertical": "end",
             "angle": 120,
-            "x": "calc(-100% - max(2.4rem, 12vw))",
-            "y": "-4rem",
+            "x": "calc(-100% - 10rem)",
+            "y": "-6.8rem", 
             "description": "I'm currently a full-time UX designer at Blue Raven Solar, formerly working at Instagram AR Design and Homni Health",
             "placement": "bottom"
         },
         {
             "name": "Creative tech",
-            "description": "I am a creative technologist, whose work covers a wide variety of technologies and skills and always looks to push the envelope where creativity and tech converge",
+            "description": "As a creative technologist, my work spans a wide range of technologies and I thrive on pushing the boundaries of what's possible at the intersection of technology and creativity",
             "reverse": true,
             "angle": -60,
-            "x": "max(5rem, 8vw)",
-            "y": "12rem",
+            "x": "10rem",
+            "y": "6.8rem",
             "placement": "top"
         },
         {
@@ -23,17 +23,17 @@
             "description": "I started studying computer science from 2015, and worked as a full-time Android UX engineer at Tencent for 2.5 years",
             "reverse": true,
             "vertical": "end",
-            "angle": -110,
-            "x": "max(6.4rem, 12vw)",
-            "y": "-1.8rem",
+            "angle": -120,
+            "x": "10rem",
+            "y": "-6.8rem",
             "placement": "bottom"
         },
         {
             "name": "UI/UX design",
             "angle": 60,
-            "x": "calc(-100% - max(2rem, 10vw))",
-            "y": "12rem",
-            "description": "I'm a passionate designer who loves figuring out inconvenience, designing human-centered solutions, and connecting technology and humanity",
+            "x": "calc(-100% - 10rem)",
+            "y": "6.8rem",
+            "description": "I'm driven by a deep passion for solving everyday inconveniences, creating human-centered solutions, and bridging the gap between technology and humanity.",
             "placement": "top"
         }
     ]
