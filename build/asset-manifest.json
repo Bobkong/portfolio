@@ -1,30 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf632d69.css",
-    "main.js": "/static/js/main.17616bcd.js",
-    "static/js/448.11ad3301.chunk.js": "/static/js/448.11ad3301.chunk.js",
-    "static/css/975.35d805f0.chunk.css": "/static/css/975.35d805f0.chunk.css",
-    "static/js/975.213a66c3.chunk.js": "/static/js/975.213a66c3.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/about_img.jpg": "/static/media/about_img.43f8c010730c77bc4fdb.jpg",
-    "static/media/Instagram-Sans-Headline.ttf": "/static/media/Instagram-Sans-Headline.7739165f17ee4b9c5f2b.ttf",
-    "static/media/down-arrow.gif": "/static/media/down-arrow.eacd2ed628b2f2f77595.gif",
-    "static/media/Instagram-Sans.ttf": "/static/media/Instagram-Sans.b876e2bcb9bbaafee643.ttf",
-    "static/media/designjourney.png": "/static/media/designjourney.f46431fd13f2969a5ff9.png",
-    "static/media/logo-page.png": "/static/media/logo-page.fdfa32b161439193a206.png",
-    "index.html": "/index.html",
-    "static/media/hamburger.svg": "/static/media/hamburger.ba1e907da6313e83227931e7ba4891aa.svg",
-    "static/media/chevron-left.svg": "/static/media/chevron-left.3490f5eea08639f690a34846479b9689.svg",
-    "static/media/chevron-right.svg": "/static/media/chevron-right.cb3e629604702ef8bc6635945ad81bd6.svg",
-    "main.cf632d69.css.map": "/static/css/main.cf632d69.css.map",
-    "main.17616bcd.js.map": "/static/js/main.17616bcd.js.map",
-    "448.11ad3301.chunk.js.map": "/static/js/448.11ad3301.chunk.js.map",
-    "975.35d805f0.chunk.css.map": "/static/css/975.35d805f0.chunk.css.map",
-    "975.213a66c3.chunk.js.map": "/static/js/975.213a66c3.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "./static/css/main.8e1ee064.css",
+    "main.js": "./static/js/main.26aaa986.js",
+    "static/js/516.ce92314a.chunk.js": "./static/js/516.ce92314a.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
+    "static/media/about_img.jpg": "./static/media/about_img.43f8c010730c77bc4fdb.jpg",
+    "static/media/Instagram-Sans-Headline.ttf": "./static/media/Instagram-Sans-Headline.7739165f17ee4b9c5f2b.ttf",
+    "static/media/down-arrow.gif": "./static/media/down-arrow.eacd2ed628b2f2f77595.gif",
+    "static/media/Instagram-Sans.ttf": "./static/media/Instagram-Sans.b876e2bcb9bbaafee643.ttf",
+    "static/media/logo-page.png": "./static/media/logo-page.fdfa32b161439193a206.png",
+    "index.html": "./index.html",
+    "static/media/hamburger.svg": "./static/media/hamburger.ba1e907da6313e83227931e7ba4891aa.svg",
+    "static/media/chevron-left.svg": "./static/media/chevron-left.3490f5eea08639f690a34846479b9689.svg",
+    "static/media/chevron-right.svg": "./static/media/chevron-right.cb3e629604702ef8bc6635945ad81bd6.svg",
+    "main.8e1ee064.css.map": "./static/css/main.8e1ee064.css.map",
+    "main.26aaa986.js.map": "./static/js/main.26aaa986.js.map",
+    "516.ce92314a.chunk.js.map": "./static/js/516.ce92314a.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf632d69.css",
-    "static/js/main.17616bcd.js"
+    "static/css/main.8e1ee064.css",
+    "static/js/main.26aaa986.js"
   ]
 }

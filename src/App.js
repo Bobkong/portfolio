@@ -10,11 +10,9 @@ import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import loadable from '@loadable/component';
 import Life from './Components/Life/Life';
 import Contact from './Components/Contact/Contact';
+import Instagram from './Components/Instagram/Instagram'
 
-const ScrollToTop = loadable(() => import('./Components/Work/ScrollToTop'));
-const Footer = loadable(() => import('./Components/Footer/Footer'));
-
-
+const ScrollToTop = loadable(() => import('./ScrollToTop'));
 
 export default function App() {
 
@@ -35,6 +33,7 @@ export default function App() {
                   <Route path="/uiux" element={<UIUX />} />
                   <Route path="/dev" element={<Dev />} />
                   <Route path="/life" element={<Life />} />
+                  <Route path="/uiux/instagram" element={<Instagram/>} />
                   {/* <Route path="/uiux" element={<MainDesign />} />
                   <Route path="/mobileweb" element={<MainDevelop />} />
                   <Route path="/arvr" element={<MainDesign />} />

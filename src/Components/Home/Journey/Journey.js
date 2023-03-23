@@ -19,21 +19,6 @@ const JourneyDiv = styled((props) => (
 ))(({ theme }) => ({
 }));
 
-const JourneyImage = styled((props) => (
-    <img  src={require(`../../../Assets/designjourney.png`)}
-    alt="self image"
-    {...props} />
-))(({ theme }) => ({
-    marginTop: "4rem",
-    width: "10%",
-    marginLeft: "auto",
-    marginRight: "auto",
-    position: "absolute",
-    top: "0",
-    left: "0",
-    zIndex: "1000"
-}));
-
 const cardVariants = {
     offscreen: {
       y: 300

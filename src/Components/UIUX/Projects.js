@@ -12,6 +12,7 @@ import './Projects.css'
 import { Scale } from "@mui/icons-material";
 import HoverText from '../HoverText/HoverText';
 import { AnimatedCursorContext } from "../HoverText/AnimatedCursorManager";
+import { Link } from 'react-router-dom';
 
 function SkillTag(props) {
   return(
@@ -21,7 +22,7 @@ function SkillTag(props) {
   )
 }
 
-const Project = ({ title, src, skill, idx, timeline }) => {
+const Project = ({ title, src, skill, idx, timeline, link }) => {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
     const y = useTransform(scrollYProgress, [0, 1], [-300, 300])
@@ -33,22 +34,29 @@ const Project = ({ title, src, skill, idx, timeline }) => {
   
     const imageLeave = () => {
       cursorStyleHandler("default");
+      console.log("mouseLeave")
     };
 
     return (
       <section className="project-section">
-        <motion.div ref={ref} className="image-div" onMouseEnter={imageEnter} onMouseLeave={imageLeave}>
-          <img src={src} alt="project" className="project-image"/>
-        </motion.div>
+        <Link to={link} style={{cursor:"none"}} onClick={imageLeave}>
+          <motion.div ref={ref} className="image-div" onMouseEnter={imageEnter} onMouseLeave={imageLeave}>
+              <img src={src} alt="project" className="project-image"/>
+          </motion.div>
+        </Link>
+
         <motion.div style={{ y }} className="project-text-area">
-          <motion.h2 className="project-name neutrals display-large"><HoverText text={title}/></motion.h2>
-          <motion.h2 className="project-name neutrals-lighten-1 body-large"><HoverText text={timeline}/></motion.h2>
-          <div className="tag-section">
-            {skill.map((props, idx) => (
-              <SkillTag key={idx} idx={idx} value={props} />
-            ))}
-          </div>
+          <Link to={link} style={{cursor:"none"}} onClick={imageLeave}>
+            <motion.h2 className="project-name neutrals display-large"><HoverText text={title}/></motion.h2>
+            <motion.h2 className="project-name neutrals-lighten-1 body-large"><HoverText text={timeline}/></motion.h2>
+            <div className="tag-section">
+              {skill.map((props, idx) => (
+                <SkillTag key={idx} idx={idx} value={props} />
+              ))}
+            </div>
+          </Link>
         </motion.div>
+        
         
         <span className="project-index">0{idx+1}</span>
       </section>

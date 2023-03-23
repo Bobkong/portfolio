@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'instagram-sans';
-    src : url('./Assets/Fonts/Instagram-Sans.ttf');
+    src : url('Assets/Fonts/Instagram-Sans.ttf');
 }
 
 @font-face{
     font-family: 'instagram-sans-headline';
-    src : url('./Assets/Fonts/Instagram-Sans-Headline.ttf');
+    src : url('Assets/Fonts/Instagram-Sans-Headline.ttf');
 }
 
 .display-large {
@@ -15,7 +15,7 @@
     letter-spacing: 0.1rem;
     max-width: 90vw;
     display: block;
-    font-family: "instagram-sans-headline";
+    font-family: "instagram-sans";
 }
 
 .headline-large {
@@ -25,7 +25,7 @@
     letter-spacing: 0.1rem;
     max-width: 90vw;
     display: block;
-    font-family: "instagram-sans-headline";
+    font-family: "instagram-sans";
 }
 
 .headline-medium {
@@ -34,7 +34,8 @@
     font-weight: 700;
     max-width: 90vw;
     display: block;
-    font-family: "instagram-sans-headline";
+    letter-spacing: 0.08rem;
+    font-family: "instagram-sans";
 }
 
 .headline-small {
@@ -43,7 +44,8 @@
     font-weight: 700;
     max-width: 90vw;
     display: block;
-    font-family: "instagram-sans-headline";
+    letter-spacing: 0.04rem;
+    font-family: "instagram-sans";
 }
 
 .title-large {

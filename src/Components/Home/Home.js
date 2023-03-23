@@ -39,7 +39,7 @@ const HeroChipDetail = styled((props) => (
 ))(({ theme }) => ({
     height: "100vh",
     width: "100vw",
-    backgroundColor: "#00000088",
+    backgroundColor: "#000000cc",
     position: "fixed",
     top: "0",
     left: "0",

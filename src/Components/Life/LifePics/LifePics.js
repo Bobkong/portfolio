@@ -27,11 +27,6 @@ const LifeImgItem = ({ alt, src, place, idx }) => {
                 <ImageListItemBar
                     title={alt}
                     subtitle={`@${place}`}
-                    actionIcon={
-                        <IconButton onClick={() => window.open(src, "_blank")} sx={{ marginTop: 0.5 }} >
-                            <CameraIcon  style={{color: "#dddddd", width: "20px", marginRight: "12px"}}/>
-                        </IconButton>
-                    }
                     
                     position="below"
                     sx={(theme) => ({
@@ -48,6 +43,7 @@ const LifeImgItem = ({ alt, src, place, idx }) => {
                         ".MuiImageListItemBar-subtitle": {
                             fontSize: "0.9em",
                             color: "#cacaca",
+                            lineHeight: "1.3"
                         },
                     })}
                 />

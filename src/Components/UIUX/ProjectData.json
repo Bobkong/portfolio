@@ -5,7 +5,7 @@
         "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
         "skill": ["B2B", "DESIGN SYSYTEM", "WEB", "MOBILE"],
         "timeline": "Jan 2023 - Present",
-        "detail": "/uiux/instagram"
+        "detail": "/uiux/blueraven"
     },
     
     {
@@ -14,7 +14,7 @@
         "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
         "skill": ["AR DESIGN", "AR PROTOTYPING", "MOBILE"],
         "timeline": "Jun - Sep, 2022",
-        "detail": "/uiux/instagram"
+        "link": "/uiux/instagram"
     },
 
     {
@@ -23,7 +23,7 @@
         "desc": "I eased the concern of adverse drug-to-drug and drug-to-food interactions by building an efficient and effective AI mobile application",
         "skill": ["HEALTHCARE", "MOBILE", "MICROSOFT FEATURED"],
         "timeline": "May - Jun, 2022",
-        "detail": "/uiux/instagram"
+        "link": "/uiux/easymed"
     },
 
     {
@@ -32,7 +32,7 @@
         "desc": "I helped Chipotle customers find out exactly how the nutrition of their meals stack up and choose the healthiest food for themselves.",
         "skill": ["AR DESIGN", "MOBILE", "GOOGLE FEATURED"],
         "timeline": "Dec 2022 - Jan 2023",
-        "detail": "/uiux/instagram"
+        "link": "/uiux/googlearound"
     },
     
     {
@@ -41,6 +41,6 @@
         "desc": "I helped stroke nurses and doctors save stroke patients' life more confidently by designing the machine learning-driven stroke detector application.",
         "skill": ["HEALTHCARE", "TABLET", "B2B"],
         "timeline": "Jan 2022 - Jan 2023",
-        "detail": "/uiux/instagram"
+        "link": "/uiux/homnihealth"
     }
 ]

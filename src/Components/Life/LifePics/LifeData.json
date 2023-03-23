@@ -1,7 +1,7 @@
 [
     {
         "src": "https://ik.imagekit.io/poonr2gma/slc.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1674946827277",
-        "alt": "Relocation to Salt Lake City",
+        "alt": "Where I live now!",
         "place": "salt lake city, utah, 2023"
     },
 
@@ -13,16 +13,15 @@
     },
 
     {
-        "src": "https://ik.imagekit.io/poonr2gma/IMG_7555.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1674946053703",
-        "alt": "San Diego Open 2022",
+        "src": "https://ik.imagekit.io/poonr2gma/ucsd.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1674946497239",
+        "alt": "My favorite sport!",
         "place": "san diego, california, 2022"
     },
 
-
     {
-        "src": "https://ik.imagekit.io/poonr2gma/ucsd.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1674946497239",
-        "alt": "Tennis!",
-        "place": "san diego, california, 2022"
+        "src": "https://ik.imagekit.io/poonr2gma/IMG_7936.JPG?updatedAt=1679363806614",
+        "alt": "BNP Paribas Open",
+        "place": "indian wells, california, 2023"
     },
 
     {
