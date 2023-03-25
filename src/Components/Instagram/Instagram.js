@@ -48,7 +48,16 @@ const ChapterBox = styled((props) => (
 function Instagram() {
 
     const {state} = useLocation()
-    var prev, next = null;
+    var prev = {
+        src: null,
+        title: null,
+        link: null
+    }
+    var next = {
+        src: null,
+        title: null,
+        link: null
+    }
     if(state.type == "design") {
         if (state.id > 0) {
             prev = designData[state.id - 1]

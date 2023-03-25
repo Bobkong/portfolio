@@ -62,7 +62,7 @@ function Takeaway() {
     return(
         <div style={{marginTop: "8rem"}}>
             <span className='headline-large neutrals' style={{margin: "1.2rem auto", maxWidth: "70vw"}}>
-                As a result of my work, I've gained several important takeaways that have informed my approach to design:
+                As a result of my work, I've gained two takeaways that have informed my approach to design:
             </span>
             <div style={{
                 display: "flex",

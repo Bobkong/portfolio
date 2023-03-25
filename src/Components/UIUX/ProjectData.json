@@ -1,12 +1,4 @@
 [
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/albatross-min.png?updatedAt=1679282494657",
-        "title": "BLUE RAVEN SOLAR",
-        "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
-        "skill": ["B2B", "DESIGN SYSYTEM", "WEB", "MOBILE"],
-        "timeline": "Jan 2023 - Present",
-        "detail": "/uiux/blueraven"
-    },
     
     {
         "src": "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
@@ -24,6 +16,15 @@
         "skill": ["HEALTHCARE", "MOBILE", "MICROSOFT FEATURED"],
         "timeline": "May - Jun, 2022",
         "link": "/uiux/easymed"
+    },
+
+    {
+        "src": "https://ik.imagekit.io/poonr2gma/albatross-min.png?updatedAt=1679282494657",
+        "title": "BLUE RAVEN SOLAR",
+        "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
+        "skill": ["B2B", "DESIGN SYSYTEM", "WEB", "MOBILE"],
+        "timeline": "Jan 2023 - Present",
+        "link": "/uiux/blueraven"
     },
 
     {
