@@ -9,10 +9,10 @@ import "./Instagram.css";
 
 const EffectTextArea = styled((props) => (
   <Box component="section" {...props}>
-    <span className='display-large neutrals' style={{marginTop: "1.2rem", maxWidth: "70vw"}}>
+    <span className='display-large white' style={{maxWidth: "70vw"}}>
           {props.title}
       </span>
-      <span className='headline-medium neutrals' style={{marginTop: "1.2rem", maxWidth: "70vw"}}>
+      <span className='headline-small neutrals' style={{maxWidth: "70vw"}}>
           {props.desc}
       </span>
       <div className="dive-effect-button" onClick={()=> window.open(props.link, "_blank")}>
@@ -47,7 +47,6 @@ const EffectSection = styled((props) => (
   </Box>
 ))(({ theme, idx }) => ({
   position: "relative",
-  width: "38vw",
   display: "flex",
   alignItems: "center",
   rowGap: "4rem",
@@ -55,7 +54,7 @@ const EffectSection = styled((props) => (
   justifyContent: "center",
   flexDirection: "column",
   marginTop: "2rem",
-  marginBottom: "2rem",
+  marginBottom: "3.6rem",
   [theme.breakpoints.up("md")]: {
       flexDirection: idx == 0 ? "row" : "row-reverse",
       columnGap: "4rem"
@@ -71,7 +70,7 @@ function AREffect() {
           alignItems: "center",
           rowGap: "1rem"
         }}>
-          <span className='headline-medium neutrals' style={{marginTop: "1.2rem", maxWidth: "70vw", textAlign: "center"}}>
+          <span className='headline-large neutrals' style={{marginTop: "1.2rem", width: "70vw"}}>
               After 12 weeks of internship, I created two new ways to help users express themselves on Instagram.
           </span>
           {data.map((props, idx) => (

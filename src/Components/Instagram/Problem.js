@@ -14,7 +14,7 @@ function Problem() {
             To achieve our mission, the development and shipment of new AR hand-tracking capabilities is a crucial part of our roadmap. 
             </span>
             <span className="display-large neutrals" style={{maxWidth: "70vw", textAlign: "center"}}>
-                My goal is to design and launch 1-2 AR experiences that showcase potential new hand-tracking experiences on Instagram.
+            My objective is to create and release 1-2 AR experiences that demonstrate the exciting possibilities of hand-tracking technology on Instagram.
             </span>
         </div>
         

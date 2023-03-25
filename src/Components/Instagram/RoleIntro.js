@@ -10,7 +10,7 @@ function Title(props) {
 
 function Desc(props) {
     return(
-        <span className='display-large neutrals' style={{marginTop: "1.2rem", maxWidth: "70vw", textAlign: "center"}}>
+        <span className='display-large white' style={{marginTop: "1.2rem", maxWidth: "70vw", textAlign: "center"}}>
             {props.content}
         </span>
     );

@@ -1,6 +1,11 @@
 .neutrals {
     color: #ffffff;
-    opacity: 0.9;
+    opacity: 0.85;
+}
+
+.white {
+    color: #ffffff;
+    opacity: 0.95;
 }
 
 .neutrals-lighten-1 {

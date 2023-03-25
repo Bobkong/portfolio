@@ -67,7 +67,7 @@ function LifePics(props) {
 function InstagramLife() {
     return(
         <div>
-            <span className='headline-medium neutrals' style={{marginTop: "6rem", maxWidth: "70vw", marginLeft: "auto", marginRight: "auto"}}>
+            <span className='headline-large neutrals' style={{marginTop: "8rem", maxWidth: "70vw", marginLeft: "auto", marginRight: "auto"}}>
             I spent an amazing and memorable three months at Meta and met a lot of talented colleagues and friends. Here are some highlights of life at Meta!
             </span>
             <LifePics/>

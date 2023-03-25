@@ -157,7 +157,7 @@ function Camera({ mouseX, mouseY, ...props }) {
     <motion.perspectiveCamera
       ref={cameraRef}
       fov={90}
-      position={[cameraX, cameraY, 3.8]}
+      position={[cameraX, 0, 3.8]}
     />
   );
 }

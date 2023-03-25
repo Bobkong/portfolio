@@ -3,8 +3,8 @@ import { Box } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
 const Video = styled((props) => (
-    <Box component="section" {...props} >
-        <video style={{width: "100vw", height: "100vh"}} src="https://ik.imagekit.io/poonr2gma/instagram-gradient.mp4?updatedAt=1679544868985" autoPlay="autoplay" loop></video>
+    <Box component="section" {...props}>
+        <video style={{width: "100vw"}} src="https://ik.imagekit.io/poonr2gma/instagram-gradient.mp4?updatedAt=1679544868985" autoPlay="autoplay" loop></video>
     </Box>
 ))(({ theme }) => ({
     display: "none",
@@ -15,7 +15,7 @@ const Video = styled((props) => (
 
 function TeamIntro() {
     return(
-        <div style={{position: "relative", width: "100vw", height: "100vh"}}>
+        <div style={{position: "relative"}}>
             <Video />
             <span className='display-large neutrals' style={{width: "70vw", textAlign: "center",
                 position: "absolute", 

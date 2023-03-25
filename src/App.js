@@ -11,8 +11,8 @@ import loadable from '@loadable/component';
 import Life from './Components/Life/Life';
 import Contact from './Components/Contact/Contact';
 import Instagram from './Components/Instagram/Instagram'
+import ScrollToTop from './ScrollToTop';
 
-const ScrollToTop = loadable(() => import('./ScrollToTop'));
 
 export default function App() {
 

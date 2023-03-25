@@ -39,9 +39,9 @@ const Project = ({ title, src, skill, idx, timeline, link }) => {
 
     return (
       <section className="project-section">
-        <Link to={link} style={{cursor:"none"}} onClick={imageLeave}>
+        <Link to={link} state={{id: idx, type: "design"}} style={{cursor:"none"}} onClick={imageLeave}>
           <motion.div ref={ref} className="image-div" onMouseEnter={imageEnter} onMouseLeave={imageLeave}>
-              <img src={src} alt="project" className="project-image"/>
+              <img src={src} alt="project" className="project-image" style={{objectFit: "cover"}}/>
           </motion.div>
         </Link>
 
