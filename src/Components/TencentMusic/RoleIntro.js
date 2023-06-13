@@ -1,4 +1,9 @@
 import React from "react";
+import {
+    motion,
+  } from "framer-motion";
+import { AnimatedCursorContext } from "../HoverText/AnimatedCursorManager";
+import { useContext } from "react";
 
 function Title(props) {
     return(
@@ -17,6 +22,17 @@ function Desc(props) {
 }
 
 function RoleIntro() {
+
+    const { cursorStyleHandler } = useContext(AnimatedCursorContext);
+    const imageEnter = () => {
+        cursorStyleHandler("image");
+      };
+    
+      const imageLeave = () => {
+        cursorStyleHandler("default");
+        console.log("mouseLeave")
+      };
+
     return(
         <div>
             <div style={{
@@ -26,17 +42,18 @@ function RoleIntro() {
                 alignItems: "center",
                 justifyContent: "center",
                 flexDirection: "column"}}>
-                <div style={{
+                <motion.div onMouseEnter={imageEnter} onMouseLeave={imageLeave} style={{
                     display: "flex",
                     alignItems: "center",
                     flexDirection: "row",
                     columnGap: "0.8rem"
-                }}>
+                }} onClick={() => {window.open("https://www.tencentmusic.com/en-us/", '_blank')}}>
                     <img src="https://ik.imagekit.io/poonr2gma/616817.png?updatedAt=1686626641767" style={{width: "4rem", height: "4rem"}}/>
                     <span className='display-large h1'>
                         Tencent Music Entertainment
                     </span>
-                </div>
+                </motion.div>
+                    
 
                 <div style={{
                     display: "flex",
