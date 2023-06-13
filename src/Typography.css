@@ -32,7 +32,7 @@
     font-size: 1.375rem;
     line-height: 1.4;
     font-weight: 500;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.06rem;
     max-width: 90vw;
     display: block;
     font-family: "instagram-sans";
@@ -42,7 +42,7 @@
     font-size: 1.375rem;
     line-height: 1.4;
     font-weight: 700;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.06rem;
     max-width: 90vw;
     font-family: "instagram-sans";
 }

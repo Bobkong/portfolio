@@ -50,7 +50,7 @@ function RoleIntro() {
                         width: "22vw"
                     }}>
                         <Title content="MY ROLE"/>
-                        <Desc content="AR Design Intern"/>
+                        <Desc content="Mobile Front-end Development"/>
                     </div>
 
                     <div style={{
