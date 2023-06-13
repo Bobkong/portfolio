@@ -4,7 +4,10 @@ import { styled } from "@mui/material/styles";
 
 const FeedbackItem = styled((props) => (
     <Box component="section" {...props}>
-        <span className="headline-large neutrals">{props.content}</span>
+        <div>
+            <span className="headline-large neutrals">{props.content}</span>
+            <span className="headline-large neutrals" style={{marginTop: "0.8rem"}}>{props.from}</span>
+        </div>
         <img src={props.src} style={{width: "14vw", aspectRatio: "1/1"}}/>
     </Box>
 ))(({ theme, idx }) => ({
@@ -36,8 +39,8 @@ function Recommendations() {
             <span className='display-large h1' >
                 Received Recommendations
             </span>
-            <FeedbackItem idx="0" src="https://ik.imagekit.io/poonr2gma/Group_427321956.png?updatedAt=1686628105698" content="“Lingshuang was an absolute pleasure to work with. He is a reliable partner, and he always has a positive attitude and is always willing and excited to explore better experiences for users, since he doesn't only treat a job as a job, but as a way to make other's life better.” - Olivian Chen, Product Manager @ Tencent"/>
-            <FeedbackItem idx="1" src="https://ik.imagekit.io/poonr2gma/Group_427321957.png?updatedAt=1686628105400" content="““Lingshuang is an extremely talented software engineer. He is able to combine his creative energy with business objectives to develop visually compelling features for our mobile applications. We valued him both for his talent and his ability to collaborate at all levels.” - Silen Liu, Android Software Engineer @ Tencent"/>
+            <FeedbackItem idx="0" from="- Olivian Chen, Product Manager @ Tencent" src="https://ik.imagekit.io/poonr2gma/Group_427321956.png?updatedAt=1686628105698" content="“Lingshuang was an absolute pleasure to work with. He is a reliable partner, and he always has a positive attitude and is always willing and excited to explore better experiences for users, since he doesn't only treat a job as a job, but as a way to make other's life better.”"/>
+            <FeedbackItem idx="1" from="- Silen Liu, Android Software Engineer @ Tencent" src="https://ik.imagekit.io/poonr2gma/Group_427321957.png?updatedAt=1686628105400" content="“Lingshuang is an extremely talented software engineer. He is able to combine his creative energy with business objectives to develop visually compelling features for our mobile applications. We valued him both for his talent and his ability to collaborate at all levels.”"/>
             
         </div>
     )
