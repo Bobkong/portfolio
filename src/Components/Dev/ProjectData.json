@@ -3,21 +3,31 @@
         "title" : "MOBILE",
         "projects":[
             {
-                "src": "https://ik.imagekit.io/poonr2gma/qqmusic.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001190185",
-                "title": "TENCENT MUSIC",
-                "tech": "ANDROID | JAVA | KOTLIN | JSON | XML"
+                "src": "https://ik.imagekit.io/poonr2gma/tencentmusic__1_-min.gif?updatedAt=1686626339282",
+                "title": "TENCENT MUSIC ENTERTAINMENT",
+                "skill": ["ANDROID", "JAVA", "KOTLIN", "XML"],
+                "link": "/dev/tencentmusic"
             },
 
             {
-                "src": "https://ik.imagekit.io/poonr2gma/Frame_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678049470620",
+                "src": "https://ik.imagekit.io/poonr2gma/Frame_66-min.png?updatedAt=1679282494673",
                 "title": "GOOGLE AROUND",
-                "tech": "ANDROID | ARCORE | NODEJS"
+                "skill": ["ANDROID", "ARCORE", "NODEJS"],
+                "link": "/dev/around"
             },
 
             {
-                "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677462367544",
+                "src": "https://ik.imagekit.io/poonr2gma/submit-min__1_.png?updatedAt=1686625365321",
+                "title": "SHOPX",
+                "skill": ["ANDROID", "PYTHON", "SQUARE API", "AZURE", "ARCORE", "FIREBASE"],
+                "link": "/dev/shopx"
+            },
+
+            {
+                "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min__2_.png?updatedAt=1686624936702",
                 "title": "EASYMED",
-                "tech": "ANDROID | JAVA | KOTLIN | AZURE"
+                "skill": ["ANDROID", "JAVA", "KOTLIN", "AZURE"],
+                "link": "/dev/easymed"
             }
 
         ]
@@ -28,13 +38,15 @@
         "projects":[{
             "src": "https://ik.imagekit.io/poonr2gma/meta-front-end-developer-certificate-review.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676002634691",
             "title": "META FRONT-END CERTIFICATE",
-            "tech": "HTML | CSS | JAVASCRIPT | REACT"
+            "skill": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+            "link": "/dev/metacertificate"
         },
 
         {
             "src": "https://ik.imagekit.io/poonr2gma/Frame_65.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678049877107",
             "title": "FRONT-END MINI PROJECTS",
-            "tech": "HTML | CSS | JAVASCRIPT"
+            "skill": ["HTML", "CSS", "JAVASCRIPT"],
+            "link": "/dev/miniprojects"
         }
 
         ]
@@ -43,21 +55,31 @@
     {
         "title" : "AR/VR",
         "projects":[{
-            "src": "https://ik.imagekit.io/poonr2gma/instagram-min.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676002089776",
+            "src": "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
             "title": "INSTAGRAM AR",
-            "tech": "JAVASCRIPT | REACTOVE"
+            "skill": ["JAVASCRIPT", "REACTOVE"],
+            "link": "/uiux/instagram"
         },
 
         {
             "src": "https://ik.imagekit.io/poonr2gma/aramsay_bg.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001159109",
             "title": "ARAMSAY",
-            "tech": "UNITY 3D | C# | NODEJS"
+            "skill": ["UNITY 3D", "C#", "NODEJS"],
+            "link": "/dev/aramsay"
         },
 
         {
-            "src": "https://ik.imagekit.io/poonr2gma/Frame_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678049470620",
+            "src": "https://ik.imagekit.io/poonr2gma/submit-min__1_.png?updatedAt=1686625365321",
+            "title": "SHOPX",
+            "skill": ["ANDROID", "PYTHON", "SQUARE API", "AZURE", "ARCORE", "FIREBASE"],
+            "link": "/dev/shopx"
+        },
+
+        {
+            "src": "https://ik.imagekit.io/poonr2gma/Frame_66-min.png?updatedAt=1679282494673",
             "title": "GOOGLE AROUND",
-            "tech": "ANDROID | ARCORE | NODEJS"
+            "skill": ["ANDROID", "ARCORE","NODEJS"],
+            "link": "/dev/around"
         }
 
         ]
@@ -68,13 +90,15 @@
         "projects":[{
             "src": "https://ik.imagekit.io/poonr2gma/superplant.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001158381",
             "title": "SUPER PLANT",
-            "tech": "C# | COCOS2D"
+            "skill": ["C#", "COCOS2D"],
+            "link": "/dev/superplant"
         },
     
         {
             "src": "https://ik.imagekit.io/poonr2gma/mecat.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001158022",
             "title": "MECAT",
-            "tech": "ARDUINO | PROCESSING"
+            "skill": ["ARDUINO", "PROCESSING"],
+            "link": "/dev/mecat"
         }
 
         ]

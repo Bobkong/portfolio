@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Check Drug-drug Interactions",
+        "desc": "Scan a new drug to view its information and any potential adverse interactions with drugs on their drug list or food. Users can also access information about the potential side effects of the drug and convert text to speech.",
+        "gif": "https://ik.imagekit.io/poonr2gma/druginteraction__1_.gif?updatedAt=1681100858521",
+        "id": "1",
+        "direction": "image-left"
+    },
+    {
+        "title": "Check Drug-food Interactions",
+        "desc": "Users can input the food ingredients they plan to consume through voice commands, which then prompts the app to check for any potential negative interactions with their medications.",
+        "gif": "https://ik.imagekit.io/poonr2gma/foodinteraction-min.gif?updatedAt=1681099092991",
+        "id": "2",
+        "direction": "image-right"
+    },
+    {
+        "title": "Maintain A Drug List",
+        "desc": "Enable users to maintain a list of current medications to review interaction information at their convenience and easily share with doctors if needed.",
+        "gif": "https://ik.imagekit.io/poonr2gma/druglist-min.gif?updatedAt=1681099093421",
+        "id": "3",
+        "direction": "image-left"
+    },
+    {
+        "title": "Explore and Learn",
+        "desc": "Explore daily updated contents to learn common adverse interaction pairs and enhance the understanding of adverse interactions, which can be filtered by categories.",
+        "gif": "https://ik.imagekit.io/poonr2gma/druglit-min.gif?updatedAt=1679879654402",
+        "id": "4",
+        "direction": "image-right"
+    }
+    
+]

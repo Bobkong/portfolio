@@ -20,7 +20,7 @@ const LifeImgItem = ({ src, desc, idx }) => {
 
     return (
         <ImageListItem key={idx} sx={{ overflow: "visible" }} ref={itemRef}>
-            <motion.div whileHover={{ scale: 1.1 }} style={{ y, opacity, borderRadius: "1.6rem", overflow: "hidden" }}>
+            <motion.div style={{ y, opacity, overflow: "hidden" }}>
                 <LazyImage src={src} trim={1} margin={margin + 128} width="100%"/>
                 <ImageListItemBar
                     title={desc}
@@ -66,8 +66,11 @@ function LifePics(props) {
 
 function InstagramLife() {
     return(
-        <div>
-            <span className='headline-large neutrals' style={{marginTop: "8rem", maxWidth: "70vw", marginLeft: "auto", marginRight: "auto"}}>
+        <div style={{marginTop: "10rem", maxWidth: "70vw", marginLeft: "auto", marginRight: "auto"}}>
+            <span className='display-large h1' >
+               LIFE AT META
+            </span>
+            <span className='headline-large neutrals' style={{marginTop: "1.2rem"}}>
             I spent an amazing and memorable three months at Meta and met a lot of talented colleagues and friends. Here are some highlights of life at Meta!
             </span>
             <LifePics/>

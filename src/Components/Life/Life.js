@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Panels} from "../LoadingPanel/panels"
 import LifePics from "./LifePics/LifePics";
 import {
@@ -9,6 +9,10 @@ import { styled } from "@mui/material/styles";
 import { Avatar, Box } from "@mui/material";
 
 function Life() {
+
+  useEffect(() => {
+    document.title = 'Life';
+  }, []);
 
   return (
     <div>

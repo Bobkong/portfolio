@@ -12,6 +12,8 @@ import Life from './Components/Life/Life';
 import Contact from './Components/Contact/Contact';
 import Instagram from './Components/Instagram/Instagram'
 import ScrollToTop from './ScrollToTop';
+import EasyMed from './Components/EasyMed/EasyMed';
+import TencentMusic from './Components/TencentMusic/TencentMusic';
 
 
 export default function App() {
@@ -34,11 +36,8 @@ export default function App() {
                   <Route path="/dev" element={<Dev />} />
                   <Route path="/life" element={<Life />} />
                   <Route path="/uiux/instagram" element={<Instagram/>} />
-                  {/* <Route path="/uiux" element={<MainDesign />} />
-                  <Route path="/mobileweb" element={<MainDevelop />} />
-                  <Route path="/arvr" element={<MainDesign />} />
-                  <Route path="/other" element={<MainDesign />} />
-                  */}
+                  <Route path='/uiux/easymed' element={<EasyMed/>}/>
+                  <Route path='/dev/tencentmusic' element={<TencentMusic/>}/>
                 </Routes>
             </ScrollToTop>
             <Contact />

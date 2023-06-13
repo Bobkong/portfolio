@@ -8,8 +8,9 @@ import "./Projects.css"
 import { AnimatedCursorContext } from "../HoverText/AnimatedCursorManager";
 import cheveronLeft from '../../Assets/chevron-left.svg'
 import cheveronRight from '../../Assets/chevron-right.svg'
+import { Link } from 'react-router-dom';
 
-const ProjectImageItem = ({ title, src, tech, idx }) => {
+const ProjectImageItem = ({ title, src, skill, link, idx }) => {
     const itemRef = useRef();
     const margin = 368 - 16 * idx;
 
@@ -25,40 +26,50 @@ const ProjectImageItem = ({ title, src, tech, idx }) => {
       cursorStyleHandler("default");
     };
 
+    let techStr = "";
+    for(let i = 0; i < skill.length; i++) {
+        if (i != 0) {
+            techStr += " | "
+        }
+        techStr += skill[i]
+    }
+
     return (
         <ImageListItem key={title} sx={{ overflow: "visible" }} ref={itemRef}>
-            <motion.div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                <motion.img src={src} alt={title} style={{width: "42vw", aspectRatio: "16/11", objectFit: "cover"}} onMouseEnter={imageEnter} onMouseLeave={imageLeave}/>
-                <ImageListItemBar
-                    title={title}
-                    subtitle={`${tech}`}
-                    style = {{display: hover ? "block" : "none"}}
+            <Link to={link} style={{cursor:"none"}} onClick={imageLeave}>
+                <motion.div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                    <motion.img src={src} alt={title} style={{width: "42vw", aspectRatio: "5/3", objectFit: "cover"}} onMouseEnter={imageEnter} onMouseLeave={imageLeave}/>
+                    <ImageListItemBar
+                        title={title}
+                        subtitle={`${techStr}`}
+                        style = {{display: hover ? "block" : "none"}}
 
-                    sx={(theme) => ({
-                        fontSize: "0.8rem",
-                        fontFamily: "instagram-sans",
-                        [theme.breakpoints.up("md")]: {
-                            fontSize: "1.2rem",
-                            letterSpacing: "0.1rem",
-                        },
-                        ".MuiImageListItemBar-title": {
-                            fontSize: "1em",
-                            lineHeight: 1.4,
-                            color: "#ffffff",
-                            fontWeight: 700,
-                            marginTop: "0.6rem",
-                            marginLeft: "0.6rem"
-                        },
-                        ".MuiImageListItemBar-subtitle": {
-                            fontSize: "0.6em",
-                            color: "#cacaca",
-                            marginTop: "0.6rem",
-                            marginBottom: "0.6rem",
-                            marginLeft: "0.6rem"
-                        },
-                    })}
-                />
-            </motion.div>
+                        sx={(theme) => ({
+                            fontSize: "0.8rem",
+                            fontFamily: "instagram-sans",
+                            [theme.breakpoints.up("md")]: {
+                                fontSize: "1.2rem",
+                                letterSpacing: "0.1rem",
+                            },
+                            ".MuiImageListItemBar-title": {
+                                fontSize: "1em",
+                                lineHeight: 1.4,
+                                color: "#ffffff",
+                                fontWeight: 700,
+                                marginTop: "0.6rem",
+                                marginLeft: "0.6rem"
+                            },
+                            ".MuiImageListItemBar-subtitle": {
+                                fontSize: "0.6em",
+                                color: "#cacaca",
+                                marginTop: "0.6rem",
+                                marginBottom: "0.6rem",
+                                marginLeft: "0.6rem"
+                            },
+                        })}
+                    />
+                </motion.div>
+            </Link>
         </ImageListItem>
     );
 };
@@ -73,7 +84,6 @@ export default function Projects(props) {
       restDelta: 0.00001,
     });
 
-    const projectsRef = [];
     let projectRefs = useRef({});
     let leftScrollRefs = useRef({});
     let rightScrollRefs = useRef({});

@@ -1,9 +1,14 @@
 .neutrals {
     color: #ffffff;
-    opacity: 0.85;
+    opacity: 0.8;
 }
 
-.white {
+.h2{
+    color: #ffffff;
+    opacity: 0.87;
+}
+
+.h1 {
     color: #ffffff;
     opacity: 0.95;
 }
@@ -16,4 +21,8 @@
 .neutrals-lighten-2 {
     color: #ffffff;
     opacity: 0.6;
+}
+
+.easymed-theme {
+    color: #C4C8F0;
 }

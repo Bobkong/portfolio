@@ -41,7 +41,7 @@ const AnimatedCursor = () => {
       animate={cursorType}
     >
       <span className="headline-large" style={{
-        display: cursorType === "image" ? "block" : "none"
+        display: cursorType === "image" ? "block" : "none", fontWeight: "700"
       }}>
         View
       </span>

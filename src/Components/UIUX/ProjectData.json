@@ -4,16 +4,16 @@
         "src": "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
         "title": "INSTAGRAM AR",
         "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
-        "skill": ["AR DESIGN", "AR PROTOTYPING", "MOBILE"],
+        "skill": ["AR DESIGN", "UXUI DESIGN", "MOBILE"],
         "timeline": "Jun - Sep, 2022",
         "link": "/uiux/instagram"
     },
 
     {
-        "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min.png?updatedAt=1679282494698",
+        "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min__2_.png?updatedAt=1686624936702",
         "title": "EASYMED",
         "desc": "I eased the concern of adverse drug-to-drug and drug-to-food interactions by building an efficient and effective AI mobile application",
-        "skill": ["HEALTHCARE", "MOBILE", "MICROSOFT FEATURED"],
+        "skill": ["UX DESIGN", "MICROSOFT FEATURED", "MOBILE"],
         "timeline": "May - Jun, 2022",
         "link": "/uiux/easymed"
     },
@@ -22,7 +22,7 @@
         "src": "https://ik.imagekit.io/poonr2gma/albatross-min.png?updatedAt=1679282494657",
         "title": "BLUE RAVEN SOLAR",
         "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
-        "skill": ["B2B", "DESIGN SYSYTEM", "WEB", "MOBILE"],
+        "skill": ["UX DESIGN", "DESIGN SYSYTEM", "WEB & MOBILE"],
         "timeline": "Jan 2023 - Present",
         "link": "/uiux/blueraven"
     },
@@ -31,7 +31,7 @@
         "src": "https://ik.imagekit.io/poonr2gma/Frame_66-min.png?updatedAt=1679282494673",
         "title": "GOOGLE AROUND",
         "desc": "I helped Chipotle customers find out exactly how the nutrition of their meals stack up and choose the healthiest food for themselves.",
-        "skill": ["AR DESIGN", "MOBILE", "GOOGLE FEATURED"],
+        "skill": ["AR DESIGN", "GOOGLE FEATURED", "MOBILE"],
         "timeline": "Dec 2022 - Jan 2023",
         "link": "/uiux/googlearound"
     },
@@ -40,7 +40,7 @@
         "src": "https://ik.imagekit.io/poonr2gma/Homni-min.png?updatedAt=1679282494705",
         "title": "HOMNI HEALTH",
         "desc": "I helped stroke nurses and doctors save stroke patients' life more confidently by designing the machine learning-driven stroke detector application.",
-        "skill": ["HEALTHCARE", "TABLET", "B2B"],
+        "skill": ["UX DESIGN", "HEALTHCARE", "TABLET"],
         "timeline": "Jan 2022 - Jan 2023",
         "link": "/uiux/homnihealth"
     }

@@ -9,10 +9,10 @@ import "./Instagram.css";
 
 const EffectTextArea = styled((props) => (
   <Box component="section" {...props}>
-    <span className='display-large white' style={{maxWidth: "70vw"}}>
+    <span className='display-medium h2' style={{maxWidth: "70vw"}}>
           {props.title}
       </span>
-      <span className='headline-small neutrals' style={{maxWidth: "70vw"}}>
+      <span className='headline-large neutrals' style={{maxWidth: "70vw"}}>
           {props.desc}
       </span>
       <div className="dive-effect-button" onClick={()=> window.open(props.link, "_blank")}>
@@ -68,9 +68,13 @@ function AREffect() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          rowGap: "1rem"
+          rowGap: "1rem",
+          marginTop: "10rem"
         }}>
-          <span className='headline-large neutrals' style={{marginTop: "1.2rem", width: "70vw"}}>
+          <span className='display-large h1' style={{marginTop: "1.2rem", width: "70vw"}}>
+            RESULTS
+          </span>
+          <span className='headline-large neutrals' style={{width: "70vw"}}>
               After 12 weeks of internship, I created two new ways to help users express themselves on Instagram.
           </span>
           {data.map((props, idx) => (

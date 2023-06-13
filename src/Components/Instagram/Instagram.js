@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Panels} from "../LoadingPanel/panels"
 import {
   motion,
@@ -11,10 +11,7 @@ import AREffect from "./AREffect";
 import TeamIntro from "./TeamIntro";
 import InstagramLife from "./InstagramLife";
 import InstagramFeedback from "./InstagramFeedback";
-import PreviousNextWork from "../PreviousNextWork/PreviousNextWork";
-import { useLocation } from 'react-router-dom';
-import designData from "../UIUX/ProjectData.json";
-import devData from "../Dev/ProjectData.json";
+import ViewMoreWork from "../ViewMoreWork/ViewMoreWork";
 import Takeaway from "./Takeaway";
 
 function InsHeader() {
@@ -30,67 +27,44 @@ function InsHeader() {
 
 function Interested() {
     return(
-        <p className='display-large neutrals' style={{textAlign: "center", maxWidth: "70vw", margin: "8rem auto"}}>
+        <p className='headline-large neutrals' style={{maxWidth: "70vw", marginTop: "2rem", marginLeft: "auto", marginRight: "auto"}}>
             If you are interested in learning more about the work and the design process, feel free to contact me!
         </p>
     );
 }
 
-const ChapterBox = styled((props) => (
-    <Box component="section" {...props} />
-))(({ theme }) => ({
-    display: "flex",
-    flexDirection: "column",
-    height: "100vh",
-    width: "100vw"
-}));
 
 function Instagram() {
 
-    const {state} = useLocation()
-    var prev = {
-        src: null,
-        title: null,
-        link: null
+    var first = {
+        src: "https://ik.imagekit.io/poonr2gma/EasyMed-min__2_.png?updatedAt=1686624936702",
+        title: "EASYMED",
+        link: "/uiux/easymed"
     }
-    var next = {
-        src: null,
-        title: null,
-        link: null
+    var second = {
+        src: "https://ik.imagekit.io/poonr2gma/albatross-min.png?updatedAt=1679282494657",
+        title: "BLUE RAVEN SOLAR",
+        link: "/uiux/blueraven"
     }
-    if(state.type == "design") {
-        if (state.id > 0) {
-            prev = designData[state.id - 1]
-        }
-        if (state.id < designData.length - 1) {
-            next = designData[state.id + 1]
-        }
-    } else {
-        if (state.id > 0) {
-            prev = devData[state.id - 1]
-        }
-        if (state.id < designData.length - 1) {
-            next = devData[state.id + 1]
-        }
-    }
+
+    useEffect(() => {
+        document.title = 'Instagram';
+    }, []);
 
     return (
         <div>
+            
             <Panels />
             <InsHeader />
-            <ChapterBox>
-                <RoleIntro />
-            </ChapterBox>
+            <RoleIntro />
             <TeamIntro />
-            <ChapterBox>
-                <Problem />
-            </ChapterBox>  
+            <Problem />
             <AREffect />
             <Takeaway />
             <InstagramLife />
             <InstagramFeedback />
             <Interested />
-            <PreviousNextWork prevSrc={prev.src} prevTitle={prev.title} prevLink={prev.link} nextSrc={next.src} nextTitle={next.title} nextLink={next.link}/>
+            <ViewMoreWork firstSrc={first.src} firstTitle={first.title} firstLink={first.link} secondSrc={second.src} secondTitle={second.title} secondLink={second.link}/>
         </div>
 
     );
