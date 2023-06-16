@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 
 const BgImage = styled((props) => (
     <Box component="section" {...props}>
-        <img src="https://ik.imagekit.io/poonr2gma/abigail-lynn-rdmJc2Os4EM-unsplash.jpg?updatedAt=1686626642051" style={{width: "100%", height: "100vh", objectFit: "cover", opacity: "0.3", filter: "alpha(opacity=60)"}}/>
+        <img src="https://ik.imagekit.io/poonr2gma/abigail-lynn-rdmJc2Os4EM-unsplash.jpg?updatedAt=1686626642051" style={{width: "100%", height: "100vh", objectFit: "cover", opacity: "0.2", filter: "alpha(opacity=60)"}}/>
     </Box>
 ))(({ theme }) => ({
     display: "none",

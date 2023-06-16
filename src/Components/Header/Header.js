@@ -16,11 +16,11 @@ const Header = () => {
 
     const { cursorStyleHandler } = useContext(AnimatedCursorContext);
 
-    const imageEnter = () => {
+    const textEnter = () => {
       cursorStyleHandler("text");
     };
   
-    const imageLeave = () => {
+    const textLeave = () => {
       cursorStyleHandler("default");
     };
 
@@ -28,7 +28,7 @@ const Header = () => {
         <nav className='navbar'>
             <div className='container'>
                 <div className='logo'>
-                    <NavLink to="/" onMouseEnter={imageEnter} onMouseLeave={imageLeave}>
+                    <NavLink to="/" onMouseEnter={textEnter} onMouseLeave={textLeave}>
                         <img src={logo} alt='logo' className='logo-icon'/>
                     </NavLink>
                 </div>

@@ -24,7 +24,7 @@ const WorkSectionText = styled((props) => (
 const WorkSection = styled((props) => (
     <Box component="section" {...props}>
         <motion.div whileHover={{scale: 1.1}} style={{position: "relative"}}>
-            <img src={props.src} style={{width: "34vw", aspectRatio: "5/3", objectFit: "cover", background: "#000000", opacity: "0.4"}}/>
+            <img src={props.src} style={{width: "34vw", aspectRatio: "5/3", objectFit: "cover", background: "#000000", opacity: "0.3"}}/>
             <WorkSectionText pos={props.pos} title={props.title}/>
         </motion.div>
     </Box>

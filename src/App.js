@@ -14,6 +14,7 @@ import Instagram from './Components/Instagram/Instagram'
 import ScrollToTop from './ScrollToTop';
 import EasyMed from './Components/EasyMed/EasyMed';
 import TencentMusic from './Components/TencentMusic/TencentMusic';
+import GoogleAround from './Components/GoogleAround/GoogleAround';
 
 
 export default function App() {
@@ -38,6 +39,7 @@ export default function App() {
                   <Route path="/uiux/instagram" element={<Instagram/>} />
                   <Route path='/uiux/easymed' element={<EasyMed/>}/>
                   <Route path='/dev/tencentmusic' element={<TencentMusic/>}/>
+                  <Route path='/dev/around' element={<GoogleAround/>}/>
                 </Routes>
             </ScrollToTop>
             <Contact />
