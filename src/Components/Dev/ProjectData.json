@@ -36,14 +36,14 @@
     {
         "title" : "WEB",
         "projects":[{
-            "src": "https://ik.imagekit.io/poonr2gma/meta-front-end-developer-certificate-review.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676002634691",
+            "src": "https://ik.imagekit.io/poonr2gma/Group_427321964-min.png?updatedAt=1686977311201",
             "title": "META FRONT-END CERTIFICATE",
             "skill": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
             "link": "/dev/metacertificate"
         },
 
         {
-            "src": "https://ik.imagekit.io/poonr2gma/Frame_65.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678049877107",
+            "src": "https://ik.imagekit.io/poonr2gma/image_62.png?updatedAt=1686977574777",
             "title": "FRONT-END MINI PROJECTS",
             "skill": ["HTML", "CSS", "JAVASCRIPT"],
             "link": "/dev/miniprojects"

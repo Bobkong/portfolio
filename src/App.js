@@ -15,6 +15,9 @@ import ScrollToTop from './ScrollToTop';
 import EasyMed from './Components/EasyMed/EasyMed';
 import TencentMusic from './Components/TencentMusic/TencentMusic';
 import GoogleAround from './Components/GoogleAround/GoogleAround';
+import ShopX from './Components/ShopX/ShopX';
+import MetaCertificate from './Components/MetaCertificate/MetaCertificate';
+import ARamsay from './Components/ARamsay/ARamsay';
 
 
 export default function App() {
@@ -40,6 +43,9 @@ export default function App() {
                   <Route path='/uiux/easymed' element={<EasyMed/>}/>
                   <Route path='/dev/tencentmusic' element={<TencentMusic/>}/>
                   <Route path='/dev/around' element={<GoogleAround/>}/>
+                  <Route path='/dev/shopx' element={<ShopX/>}/>
+                  <Route path='/dev/metacertificate' element={<MetaCertificate/>}/>
+                  <Route path='/dev/aramsay' element={<ARamsay/>}/>
                 </Routes>
             </ScrollToTop>
             <Contact />
