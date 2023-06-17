@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 import { Avatar, Box } from "@mui/material";
 import Honor from "./Honor/Honor"
 import Journey from "./Journey/Journey"
-import { StrictMode, useState } from "react";
+import { StrictMode, useEffect, useState } from "react";
 import { padding } from "@mui/system";
 import {Panels} from "../LoadingPanel/panels"
 import {motion} from "framer-motion"
@@ -54,6 +54,9 @@ export default function Home() {
     const [hover, setHover] = useState(false);
     const [chipIndex, setChipIndex] = useState("");
 
+    useEffect(() => {
+        document.title = 'Home';
+    })
     return (
         <>
             <Panels />

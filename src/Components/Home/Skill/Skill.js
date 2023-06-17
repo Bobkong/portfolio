@@ -67,7 +67,7 @@ const outerSkill = [
     { src: "https://ik.imagekit.io/poonr2gma/logo-gc55168e63_1920.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674943760176", name: "CSS" },
     { src: "https://ik.imagekit.io/poonr2gma/Android_studio.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674943596774", name: "Android Studio" },
     { src: "https://ik.imagekit.io/poonr2gma/js.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674944278508", name: "JavasSript" },
-    { src: "https://ik.imagekit.io/poonr2gma/blender_1_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674943850115", name: "Blender" },
+    { src: "https://ik.imagekit.io/poonr2gma/Frame_115_2_.png?updatedAt=1687038355636", name: "Blender" },
     { src: "https://ik.imagekit.io/poonr2gma/google_ar.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674943244531", name: "Google ARCore" },
     { src: "https://ik.imagekit.io/runh/webcv/image/skills/react-min_EVSbGJb04.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669627772956", name: "React" }
 ];
@@ -75,7 +75,7 @@ const outerSkill = [
 const innerSkill = [
     { src: "https://ik.imagekit.io/poonr2gma/origami.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674944503402", name: "Origami" },
     { src: "https://ik.imagekit.io/poonr2gma/spark.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674943364439", name: "Spark AR" },
-    { src: "https://ik.imagekit.io/poonr2gma/figma.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674943056486", name: "Figma" },
+    { src: "https://ik.imagekit.io/poonr2gma/Frame_115_1_.png?updatedAt=1687038287308", name: "Figma" },
     { src: "https://ik.imagekit.io/poonr2gma/adobe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674944003268", name: "Adobe Creative Cloud" },
     { src: "https://ik.imagekit.io/poonr2gma/invision.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674943183053", name: "InVision"}
 ];
