@@ -1,6 +1,4 @@
 import React, {useState, useEffect, RefObject} from "react";
-import { Box } from "@mui/material";
-import { styled } from "@mui/material/styles";
 
 function useIntersection(props) {
     const el = props.el;

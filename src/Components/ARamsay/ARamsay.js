@@ -22,7 +22,7 @@ function ARamsay() {
     var first = {
         src: "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
         title: "INSTAGRAM AR",
-        link: "/uiux/instagram"
+        link: "/dev/instagram"
     }
     var second = {
         src: "https://ik.imagekit.io/poonr2gma/submit-min__1_.png?updatedAt=1686625365321",

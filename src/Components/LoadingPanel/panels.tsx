@@ -57,7 +57,7 @@ const generateMessage = ()=>{
 
 const Animated = () => {
     const {transition} = Animations();
-    if (window.innerWidth > 500) {
+    if (window.innerWidth > 960) {
         return (
         <motion.div>
             <motion.div 

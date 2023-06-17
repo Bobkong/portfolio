@@ -1,0 +1,20 @@
+.dive-effect-button {
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    width: 50%;
+    padding: 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+    background-image: linear-gradient(to right, #121212, #121212), linear-gradient(90deg, #fa7e1e, #d62976, #962fbf);
+}
+
+.dive-effect-button:hover {
+    background-image: linear-gradient(90deg, #fa7e1e, #d62976, #962fbf);
+}
+
+.instagram-feedback-iframe {
+    border: none;
+    margin-top: 4rem;
+}

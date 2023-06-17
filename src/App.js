@@ -18,6 +18,8 @@ import GoogleAround from './Components/GoogleAround/GoogleAround';
 import ShopX from './Components/ShopX/ShopX';
 import MetaCertificate from './Components/MetaCertificate/MetaCertificate';
 import ARamsay from './Components/ARamsay/ARamsay';
+import InstagramDev from './Components/InstagramDev/Instagram';
+import EasyMedDev from './Components/EasyMedDev/EasyMedDev';
 
 
 export default function App() {
@@ -46,6 +48,8 @@ export default function App() {
                   <Route path='/dev/shopx' element={<ShopX/>}/>
                   <Route path='/dev/metacertificate' element={<MetaCertificate/>}/>
                   <Route path='/dev/aramsay' element={<ARamsay/>}/>
+                  <Route path='/dev/instagram' element={<InstagramDev/>}/>
+                  <Route path='/dev/easymed' element={<EasyMedDev/>}/>
                 </Routes>
             </ScrollToTop>
             <Contact />

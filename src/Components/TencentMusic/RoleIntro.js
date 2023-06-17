@@ -57,7 +57,6 @@ function RoleIntro() {
 
                 <div style={{
                     display: "flex",
-                    alignItems: "center",
                     justifyContent: "center",
                     flexDirection: "row",
                     columnGap: "2vw",
