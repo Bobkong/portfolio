@@ -90,7 +90,7 @@
         "projects":[{
             "src": "https://ik.imagekit.io/poonr2gma/superplant.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001158381",
             "title": "SUPER PLANT",
-            "skill": ["C#", "COCOS2D"],
+            "skill": ["C++", "COCOS2D"],
             "link": "/dev/superplant"
         },
     

@@ -15,14 +15,14 @@ function EasyMedHeader() {
 function EasyMedDev() {
 
     var first = {
-        src: "https://ik.imagekit.io/poonr2gma/Frame_66-min.png?updatedAt=1679282494673",
-        title: "GOOGLE AROUND",
-        link: "/dev/around"
-    }
-    var second = {
         src: "https://ik.imagekit.io/poonr2gma/submit-min__1_.png?updatedAt=1686625365321",
         title: "SHOPX",
         link: "/dev/shopx"
+    }
+    var second = {
+        src: "https://ik.imagekit.io/poonr2gma/Group_427321964-min.png?updatedAt=1686977311201",
+        title: "META CERTIFICATE",
+        link: "/dev/metacertificate"
     }
 
     useEffect(() => {

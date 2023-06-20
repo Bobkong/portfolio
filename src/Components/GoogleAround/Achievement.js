@@ -29,7 +29,7 @@ function Achievenment() {
                 </span>
 
                 <span className='headline-large neutrals' style={{marginTop: "1rem"}}>
-                Furthermore, Google has recognized the exceptional capabilities of ARound by featuring the project on the<a className="white headline-large-bold" href="https://developers.google.com/ar/content?keywords=arcoregeospatialhackathon" style={{textDecoration: "underline", cursor: "none"}} target="_blank" onMouseEnter={textEnter} onMouseLeave={textLeave}> official ARCore website</a>. This recognition highlights the significance of ARound in leveraging augmented reality and Google ARCore Geospatial API to revolutionize the way people navigate and connect with others.
+                Furthermore, Google has recognized the exceptional capabilities of ARound by featuring the project on the <a className="white headline-large-bold" href="https://developers.google.com/ar/content?keywords=arcoregeospatialhackathon" style={{textDecoration: "underline", cursor: "none"}} target="_blank" onMouseEnter={textEnter} onMouseLeave={textLeave}>official ARCore website</a>. This recognition highlights the significance of ARound in leveraging augmented reality and Google ARCore Geospatial API to revolutionize the way people navigate and connect with others.
                 </span>
                
         </div >
