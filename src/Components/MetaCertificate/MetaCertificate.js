@@ -19,9 +19,9 @@ function MetaCertificate() {
         link: "/dev/easymed"
     }
     var second = {
-        src: "https://ik.imagekit.io/poonr2gma/image_62.png?updatedAt=1686977574777",
-        title: "FRONT-END MINI PROJECTS",
-        link: "/dev/miniprojects"
+        src: "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
+        title: "Instagram AR",
+        link: "/dev/instagram"
     }
 
     useEffect(() => {
