@@ -21,6 +21,7 @@ import ARamsay from './Components/ARamsay/ARamsay';
 import InstagramDev from './Components/InstagramDev/Instagram';
 import EasyMedDev from './Components/EasyMedDev/EasyMedDev';
 import SuperPlant from './Components/Superplant/SuperPlant';
+import FaceChanging from './Components/Face-changing/FaceChanging';
 
 
 export default function App() {
@@ -52,6 +53,7 @@ export default function App() {
                   <Route path='/dev/instagram' element={<InstagramDev/>}/>
                   <Route path='/dev/easymed' element={<EasyMedDev/>}/>
                   <Route path='/dev/superplant' element={<SuperPlant/>}/>
+                  <Route path='/dev/facechanging' element={<FaceChanging/>}/>
                 </Routes>
             </ScrollToTop>
             <Contact />
