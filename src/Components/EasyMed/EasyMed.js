@@ -5,6 +5,7 @@ import RoleIntro from "./RoleIntro";
 import Problem from "./Problem";
 import Solution from "./Solution";
 import Impact from "./Impact";
+import InProgress from "../InProgress/InProgress";
 
 function InsHeader() {
     return(
@@ -43,6 +44,7 @@ function EasyMed() {
             <Problem />
             <Solution />
             <Impact />
+            <InProgress />
             <ViewMoreWork firstSrc={first.src} firstTitle={first.title} firstLink={first.link} secondSrc={second.src} secondTitle={second.title} secondLink={second.link}/>
         </div>
 

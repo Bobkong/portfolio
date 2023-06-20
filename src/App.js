@@ -22,6 +22,7 @@ import InstagramDev from './Components/InstagramDev/Instagram';
 import EasyMedDev from './Components/EasyMedDev/EasyMedDev';
 import SuperPlant from './Components/Superplant/SuperPlant';
 import FaceChanging from './Components/Face-changing/FaceChanging';
+import InProgress from './Components/InProgress/InProgress';
 
 
 export default function App() {
@@ -45,6 +46,9 @@ export default function App() {
                   <Route path="/life" element={<Life />} />
                   <Route path="/uiux/instagram" element={<Instagram/>} />
                   <Route path='/uiux/easymed' element={<EasyMed/>}/>
+                  <Route path='/uiux/around' element={<InProgress/>}/>
+                  <Route path='/uiux/blueraven' element={<InProgress/>}/>
+                  <Route path='/uiux/homnihealth' element={<InProgress/>}/>
                   <Route path='/dev/tencentmusic' element={<TencentMusic/>}/>
                   <Route path='/dev/around' element={<GoogleAround/>}/>
                   <Route path='/dev/shopx' element={<ShopX/>}/>

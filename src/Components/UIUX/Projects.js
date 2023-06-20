@@ -47,7 +47,7 @@ const Project = ({ title, src, skill, idx, timeline, link }) => {
 
         <motion.div style={{ y }} className="project-text-area">
           <Link to={link} style={{cursor:"none"}} onClick={imageLeave}>
-            <motion.h2 className="project-name neutrals display-large"><HoverText text={title}/></motion.h2>
+            <motion.h2 className="project-name white display-large"><HoverText text={title}/></motion.h2>
             <motion.h2 className="project-name neutrals-lighten-1 body-large"><HoverText text={timeline}/></motion.h2>
             <div className="tag-section">
               {skill.map((props, idx) => (
