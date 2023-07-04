@@ -51,7 +51,7 @@ function ViewMoreWork(props) {
     return(
         <div>
             <hr style={{background: "#ffffff", maxWidth: "70vw", marginTop: "8rem", marginLeft: "auto", marginRight: "auto", opacity: "0.6"}} />
-            <p className='display-large neutrals' style={{maxWidth: "70vw", marginTop: "8rem", marginLeft: "auto", marginRight: "auto"}}>
+            <p className='display-large neutrals' style={{width: "70vw", marginTop: "8rem", marginLeft: "auto", marginRight: "auto"}}>
                 More Projects
             </p>
             <motion.div 
@@ -63,6 +63,7 @@ function ViewMoreWork(props) {
             alignItems: "center",
             justifyContent: "center",
             marginBottom: "6rem",
+            marginTop: "2rem",
             marginLeft: "auto",
             marginRight: "auto",
             }}>

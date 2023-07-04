@@ -6,6 +6,12 @@ import Problem from "./Problem";
 import Solution from "./Solution";
 import Impact from "./Impact";
 import InProgress from "../InProgress/InProgress";
+import Understand from "./Understand";
+import Ideation from "./Ideation";
+import Design from "./Design";
+import Testing from "./Testing";
+import FutureWork from "./FutureWork";
+import Takeaway from "./Takeaway";
 
 function InsHeader() {
     return(
@@ -44,7 +50,18 @@ function EasyMed() {
             <Problem />
             <Solution />
             <Impact />
-            <InProgress />
+            <Understand />
+            <div style={{backgroundColor: "#1b1b1b", width: "100%", paddingTop: "10rem", paddingBottom: "10rem"}}>
+                <Ideation />
+            </div>
+            <Design />
+            <div style={{backgroundColor: "#1b1b1b", width: "100%", marginTop: "10rem", paddingTop: "10rem", paddingBottom: "10rem"}}>
+                <Testing />
+            </div>
+            <FutureWork />
+            <div style={{backgroundColor: "#1b1b1b", width: "100%", marginTop: "10rem", paddingTop: "10rem", paddingBottom: "10rem"}}>
+                <Takeaway />
+            </div>
             <ViewMoreWork firstSrc={first.src} firstTitle={first.title} firstLink={first.link} secondSrc={second.src} secondTitle={second.title} secondLink={second.link}/>
         </div>
 

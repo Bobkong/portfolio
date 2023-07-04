@@ -16,6 +16,14 @@ body {
   -webkit-tap-highlight-color: transparent;
   cursor: none;
   overflow-x:hidden;
+
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.3rem;
+  line-height: 1.4;
+  letter-spacing: 0.06rem;
+  max-width: 90vw;
+  display: block;
+  font-family: "instagram-sans";
 }
 
 #root {
@@ -24,6 +32,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
 }
 
 code {
@@ -44,5 +53,19 @@ code {
 
 ::-webkit-scrollbar-corner {
   background: #212121;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 2rem);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0px;
 }
 

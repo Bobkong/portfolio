@@ -23,22 +23,22 @@ function Impact() {
                     <div style={{display: "flex", rowGap: "2rem", flexDirection: "column", marginTop: "4rem"}}>
                         <div style={{display: "flex", columnGap: "12px"}}>
                             <img src="https://ik.imagekit.io/poonr2gma/star.png?updatedAt=1681181592077" style={{width: "24px", height: "24px", marginTop: "0.3rem"}}/>
-                            <span className="neutrals headline-large" >EasyMed was awarded<span className="easymed-theme headline-large-bold"> first place</span> out of 760 global participants and received the Best Integration of Responsible AI bonus prize for exemplifying Microsoft's Responsible AI principles.
+                            <span className="neutrals headline-large" >EasyMed was awarded<span> first place</span> out of 760 global participants and received the Best Integration of Responsible AI bonus prize for exemplifying Microsoft's Responsible AI principles.
                             </span>
                         </div>
 
                         <div style={{display: "flex", columnGap: "12px"}}>
                             <img src="https://ik.imagekit.io/poonr2gma/star.png?updatedAt=1681181592077" style={{width: "24px", height: "24px", marginTop: "0.3rem"}}/>
-                            <span className="neutrals headline-large" style={{display: "inline"}}>EasyMed is<a className="easymed-theme headline-large-bold" style={{display: "inline", cursor: "none", textDecoration: "underline"}} href="https://techcommunity.microsoft.com/t5/azure-developer-community-blog/winners-announced-responsible-ai-global-hackathon/ba-p/3600131" target="_blank" onMouseEnter={textEnter} onMouseLeave={textLeave}> featured on Microsoft</a>  Azure Developer Community, as well as shoutouts on Facebook @MSFTDev.US and Twitter @MSTCommunity.
+                            <span className="neutrals headline-large" style={{display: "inline"}}>EasyMed is <a className="neutrals headline-large" style={{display: "inline", cursor: "none", textDecoration: "underline"}} href="https://techcommunity.microsoft.com/t5/azure-developer-community-blog/winners-announced-responsible-ai-global-hackathon/ba-p/3600131" target="_blank" onMouseEnter={textEnter} onMouseLeave={textLeave}>featured on Microsoft</a>  Azure Developer Community, as well as shoutouts on Facebook @MSFTDev.US and Twitter @MSTCommunity.
                             </span>
                         </div>
 
                         <div style={{display: "flex", columnGap: "12px"}}>
                             <img src="https://ik.imagekit.io/poonr2gma/star.png?updatedAt=1681181592077" style={{width: "24px", height: "24px", marginTop: "0.3rem"}}/>
                             <span className="neutrals headline-large" style={{display: "inline"}}>Our user testing showed impressive results with an 
-                                <span className="easymed-theme headline-large-bold" style={{display: "inline"}}>  80%</span> net promoter score (compared to the average of 38% for healthcare products),
-                                <span className="easymed-theme headline-large-bold" style={{display: "inline"}}>  83.3%</span> task success rate (above the average score of 78%), and a
-                                <span className="easymed-theme headline-large-bold" style={{display: "inline"}}>  100%</span> user satisfaction score!
+                                <span style={{display: "inline"}}>  80%</span> net promoter score (compared to the average of 38% for healthcare products),
+                                <span style={{display: "inline"}}>  83.3%</span> task success rate (above the average score of 78%), and a
+                                <span style={{display: "inline"}}>  100%</span> user satisfaction score!
                             </span>
                         </div>
                     </div>

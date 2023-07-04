@@ -34,14 +34,5 @@
         "skill": ["AR DESIGN", "GOOGLE FEATURED", "MOBILE"],
         "timeline": "Dec 2022 - Jan 2023",
         "link": "/uiux/around"
-    },
-    
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/Homni-min.png?updatedAt=1679282494705",
-        "title": "HOMNI HEALTH",
-        "desc": "I helped stroke nurses and doctors save stroke patients' life more confidently by designing the machine learning-driven stroke detector application.",
-        "skill": ["UX DESIGN", "HEALTHCARE", "TABLET"],
-        "timeline": "Jan 2022 - Jan 2023",
-        "link": "/uiux/homnihealth"
     }
 ]
