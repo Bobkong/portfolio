@@ -13,14 +13,14 @@ function IterationTextArea(props) {
                 {props.desc}
             </p>
             <span style={{font: "instagram-sans", fontSize: "18rem", color: "#ffffff1a", fontWeight: "700",
-                    position: "absolute", top:"30%", transform: "translate(0%, -70%)"}}>{props.id}</span> 
+                    position: "absolute", top:"40%", transform: "translate(0%, -70%)"}}>{props.id}</span> 
         </div>
     );
 }
 
 const Iteration = styled((props) => (
     <Box component="section" {...props}>
-        <img src={props.src} style={{width: props.direction == "image-left" ? "40%" : "54%", objectFit: "cover"}}/>
+        <img src={props.src} style={{width: props.direction == "image-left" ? "44%" : "60%", objectFit: "cover"}}/>
         <IterationTextArea title={props.title} desc={props.desc} points={props.points} id={props.id}/>   
        
     </Box>
