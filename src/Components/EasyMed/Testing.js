@@ -63,12 +63,12 @@ function Reviews() {
                 img="https://ik.imagekit.io/poonr2gma/image_52_1_.png?updatedAt=1688442545129"
                 reverse="false"/>
 
-            <TextImageHorizontal text="“I think this app is going to be a game-changer for us and our patients! It'll definitely make our work a lot easier and benefit our patients a ton. I'm super excited to see it come out!”"
+            <TextImageHorizontal text="“I think this app is going to be a game-changer for us and our patients! It'll definitely make our work a lot easier and benefit our patients a ton.”"
                 subtext="- Ryan, Physician, 45 years old"
                 img="https://ik.imagekit.io/poonr2gma/image_53.png?updatedAt=1688442526857"
                 reverse="true"/>
 
-            <TextImageHorizontal text="“Wow, this app is incredible! I'm definitely going to learn a ton about adverse interactions. Plus, it'll come in handy when I have to juggle multiple medications and supplements.”"
+            <TextImageHorizontal text="“This app is incredible! I'm definitely going to learn a ton about adverse interactions. It'll come in handy when I have to juggle multiple medications.”"
                 subtext="- Jim, College Student, 25 years old"
                 img="https://ik.imagekit.io/poonr2gma/image_51.png?updatedAt=1688442527056"
                 reverse="false"/>
