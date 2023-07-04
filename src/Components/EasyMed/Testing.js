@@ -59,7 +59,7 @@ function Reviews() {
                 See how our users talk about EasyMed!
             </span>
             <TextImageHorizontal text="“I would definitely recommend this app to my friends. I find it really helpful in avoiding potential drug interactions and planning appropriate meals for daily life.” "
-                subtext="“- Diane, Retired, 76 years old"
+                subtext="- Diane, Retired, 76 years old"
                 img="https://ik.imagekit.io/poonr2gma/image_52_1_.png?updatedAt=1688442545129"
                 reverse="false"/>
 
