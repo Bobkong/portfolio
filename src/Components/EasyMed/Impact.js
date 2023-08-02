@@ -23,7 +23,7 @@ function Impact() {
                     <div style={{display: "flex", rowGap: "2rem", flexDirection: "column", marginTop: "4rem"}}>
                         <div style={{display: "flex", columnGap: "12px"}}>
                             <img src="https://ik.imagekit.io/poonr2gma/star.png?updatedAt=1681181592077" style={{width: "24px", height: "24px", marginTop: "0.3rem"}}/>
-                            <span className="neutrals headline-large" >EasyMed was awarded<span> first place</span> out of 760 global participants and received the Best Integration of Responsible AI bonus prize for exemplifying Microsoft's Responsible AI principles.
+                            <span className="neutrals headline-large" >EasyMed was awarded first place out of 760 global participants and received the Best Integration of Responsible AI bonus prize for exemplifying Microsoft's Responsible AI principles.
                             </span>
                         </div>
 
