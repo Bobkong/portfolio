@@ -1,7 +1,7 @@
 [
     
     {
-        "src": "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
+        "src": "https://ik.imagekit.io/poonr2gma/instagram-min%20(2).png?updatedAt=1695439975549",
         "title": "INSTAGRAM AR",
         "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
         "skill": ["AR DESIGN", "UXUI DESIGN", "MOBILE"],
@@ -10,7 +10,7 @@
     },
 
     {
-        "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min__2_.png?updatedAt=1686624936702",
+        "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min%20(3).png?updatedAt=1695439975634",
         "title": "EASYMED",
         "desc": "I eased the concern of adverse drug-to-drug and drug-to-food interactions by building an efficient and effective AI mobile application",
         "skill": ["UX DESIGN", "MICROSOFT FEATURED", "MOBILE"],
@@ -19,20 +19,20 @@
     },
 
     {
-        "src": "https://ik.imagekit.io/poonr2gma/albatross-min.png?updatedAt=1679282494657",
+        "src": "https://ik.imagekit.io/poonr2gma/albatross-min(1).png?updatedAt=1695439975304",
         "title": "BLUE RAVEN SOLAR",
         "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
         "skill": ["UX DESIGN", "DESIGN SYSYTEM", "WEB & MOBILE"],
         "timeline": "Jan 2023 - Present",
-        "link": "/uiux/blueraven"
+        "link": "/uiux/albatross"
     },
 
     {
-        "src": "https://ik.imagekit.io/poonr2gma/Frame_66-min.png?updatedAt=1679282494673",
+        "src": "https://ik.imagekit.io/poonr2gma/shopx-min.png?updatedAt=1695439972311",
         "title": "GOOGLE AROUND",
         "desc": "I helped Chipotle customers find out exactly how the nutrition of their meals stack up and choose the healthiest food for themselves.",
         "skill": ["AR DESIGN", "GOOGLE FEATURED", "MOBILE"],
         "timeline": "Dec 2022 - Jan 2023",
-        "link": "/uiux/around"
+        "link": "/uiux/shopx"
     }
 ]

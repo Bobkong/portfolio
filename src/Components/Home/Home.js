@@ -68,7 +68,7 @@ export default function Home() {
                     <Hero setHover={setHover} setChipIndex={setChipIndex}/>
                 </ChapterBox>
                 <ChapterBox>
-                    <span className="neutrals display-large">Certificates and awards</span>
+                    <span className="neutrals display-large">Awards and achievements</span>
                     <Honor />
                 </ChapterBox>
                 <ChapterBox>

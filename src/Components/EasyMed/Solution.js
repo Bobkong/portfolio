@@ -40,7 +40,7 @@ function Solution() {
                 Solution
             </span>
             <span className='headline-large neutrals' style={{marginTop: "1rem"}} >
-                After 10 weeks of innovation, our team developed EasyMed, a mobile application for checking drug and food interactions to ease concerns about polypharmacy. We also leveraged a variety of AI capabilities, including Azure's text-to-speech, Google's barcode scanning services, and food recognition algorithm.
+                After 8 weeks of innovation, our team developed EasyMed, a mobile application for checking drug and food interactions to ease concerns about polypharmacy. We also leveraged a variety of AI capabilities, including Azure's text-to-speech, Google's barcode scanning services, and food recognition algorithm.
             </span>
 
             {data.map((props, idx) => (

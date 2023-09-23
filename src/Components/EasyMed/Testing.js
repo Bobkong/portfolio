@@ -44,7 +44,7 @@ function Iterations() {
             <p style={{marginTop: "1rem"}}>
                 From these sessions, we identified 16 potential improvements and prioritized them to determine 8 high-priority items. Next, let me show you three major improvements in my design!
             </p>
-            <Iteration title="Definition for terms" desc="We added a 'question mark' feature that allows users to access definitions for complicated medical terms with a simple click." id="1" src="https://ik.imagekit.io/poonr2gma/Frame%20268-min.png?updatedAt=1694750172586"/>
+            <Iteration title="Definition for terms" desc="We added hyperlinks that allow users to access definitions for complicated medical terms with a simple click." id="1" src="https://ik.imagekit.io/poonr2gma/Frame%20268-min.png?updatedAt=1694750172586"/>
             <Iteration title="Read long text" desc="We added an accessibility feature that allows senior users to listen to long text instead of reading it, to help those with difficulty reading." id="2" direction="image-left" src="https://ik.imagekit.io/poonr2gma/Frame%20273-min.png?updatedAt=1694750172494"/>
             <Iteration title="Better onboarding process" desc="We've incorporated an onboarding process for new users to easily add their first drug and familiarize themselves with the app's key features." id="3" src="https://ik.imagekit.io/poonr2gma/iteration_3_1.png?updatedAt=1688441872435"/>
         

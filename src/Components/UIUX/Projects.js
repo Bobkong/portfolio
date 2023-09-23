@@ -44,19 +44,6 @@ const Project = ({ title, src, skill, idx, timeline, link }) => {
               <img src={src} alt="project" className="project-image" style={{objectFit: "cover"}}/>
           </motion.div>
         </Link>
-
-        <motion.div style={{ y }} className="project-text-area">
-          <Link to={link} style={{cursor:"none"}} onClick={imageLeave}>
-            <motion.h2 className="project-name white display-large"><HoverText text={title}/></motion.h2>
-            <motion.h2 className="project-name neutrals-lighten-1 body-large"><HoverText text={timeline}/></motion.h2>
-            <div className="tag-section">
-              {skill.map((props, idx) => (
-                <SkillTag key={idx} idx={idx} value={props} />
-              ))}
-            </div>
-          </Link>
-        </motion.div>
-        
         
         <span className="project-index">0{idx+1}</span>
       </section>

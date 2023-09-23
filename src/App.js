@@ -46,8 +46,8 @@ export default function App() {
                   <Route path="/life" element={<Life />} />
                   <Route path="/uiux/instagram" element={<Instagram/>} />
                   <Route path='/uiux/easymed' element={<EasyMed/>}/>
-                  <Route path='/uiux/around' element={<InProgress/>}/>
-                  <Route path='/uiux/blueraven' element={<InProgress/>}/>
+                  <Route path='/uiux/shopx' element={<InProgress/>}/>
+                  <Route path='/uiux/albatross' element={<InProgress/>}/>
                   <Route path='/uiux/homnihealth' element={<InProgress/>}/>
                   <Route path='/dev/tencentmusic' element={<TencentMusic/>}/>
                   <Route path='/dev/around' element={<GoogleAround/>}/>
