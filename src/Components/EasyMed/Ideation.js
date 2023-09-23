@@ -47,7 +47,7 @@ function Prioritize() {
 
                     <div style={{display: "flex", columnGap: "12px", marginTop: "1rem"}}>
                         <img src="https://ik.imagekit.io/poonr2gma/star.png?updatedAt=1681181592077" style={{width: "24px", height: "24px", marginTop: "0.3rem"}}/>
-                        <span>Voice input food ingredients to check drug-food interaction</span>
+                        <span>Scan food ingredients/prodcut barcode to check drug-food interaction</span>
                     </div>
 
                     <div style={{display: "flex", columnGap: "12px", marginTop: "1rem"}}>

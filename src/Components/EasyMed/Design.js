@@ -42,7 +42,7 @@ function FeatureTextArea(props) {
 
 const Principle = styled((props) => (
     <Box component="section" {...props}>
-        <img src={props.src} style={{width: "54%", objectFit: "cover"}}/>
+        <img src={props.src} style={{width: "54%", objectFit: "cover", borderRadius: "12px"}}/>
         <FeatureTextArea title={props.title} desc={props.desc} points={props.points} id={props.id}/>   
        
     </Box>
@@ -83,10 +83,10 @@ function UIDesign() {
             <p style={{marginTop: "2rem"}}>
                 Since our primary user is senior adults, when I designed the hi-fi prototype, I followed age-friendly guidelines and Material Design to make the app accessible and inclusive.
             </p>
-            <Principle points={fontPoints} title="Fonts" id="1" src="https://ik.imagekit.io/poonr2gma/Group_427321968.png?updatedAt=1688440441676"/>
+            <Principle points={fontPoints} title="Fonts" id="1" src="https://ik.imagekit.io/poonr2gma/Frame%20427321968.png?updatedAt=1694748295352"/>
             <Principle points={colorPoints} title="Color" id="2" direction="image-left" src="https://ik.imagekit.io/poonr2gma/Colors_1.png?updatedAt=1688440439969"/>
-            <Principle points={colorBlindPoints} title="Color-Blind Friendly" id="3" src="https://ik.imagekit.io/poonr2gma/image_46.png?updatedAt=1688440440561"/>
-            <Principle points={interactionPoints} title="Intuitive Interactions" id="4" direction="image-left" src="https://ik.imagekit.io/poonr2gma/Group_427321969.png?updatedAt=1688440440723"/>
+            <Principle points={colorBlindPoints} title="Color-Blind Friendly" id="3" src="https://ik.imagekit.io/poonr2gma/Frame%20427322032-min.png?updatedAt=1694748637705"/>
+            <Principle points={interactionPoints} title="Intuitive Interactions" id="4" direction="image-left" src="https://ik.imagekit.io/poonr2gma/Frame%20427321969.png?updatedAt=1694748295721"/>
         </div>
     );
 }

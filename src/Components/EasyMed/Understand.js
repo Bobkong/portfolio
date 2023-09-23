@@ -13,7 +13,7 @@ function SecondaryResarch() {
                 <span >I gathered some key statistics that strengthened our resolve to build EasyMed:</span>
                 <div style={{display: "flex", columnGap: "12px", marginTop: "1rem"}}>
                     <img src="https://ik.imagekit.io/poonr2gma/star.png?updatedAt=1681181592077" style={{width: "24px", height: "24px", marginTop: "0.3rem"}}/>
-                    <span>2.2 million older adults in the US are at great risk for polypharmacy.</span>
+                    <span>Nearly 500 million older adults globally are at great risk for polypharmacy.</span>
                 </div>
                 <div style={{display: "flex", columnGap: "12px", marginTop: "1rem"}}>
                     <img src="https://ik.imagekit.io/poonr2gma/star.png?updatedAt=1681181592077" style={{width: "24px", height: "24px", marginTop: "0.3rem"}}/>

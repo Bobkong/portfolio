@@ -28,11 +28,11 @@ function Problem() {
                         Problem
                     </span>
                     <span className='headline-large neutrals' style={{marginTop: "1rem"}} >
-                        During my visit to a geriatric facility as part of the Human-Centered Computing for Health class at UCSD, I was profoundly struck by the prevalent issue of polypharmacy among senior adults. It became evident that many of them were taking multiple medications without sufficient consideration of the potential adverse interactions, both with other drugs and the food they consume.
+                        Did you know nearly half of the elderly population faces the risk of polypharmacy? This insight comes from our visit to the geriatrics department at UCSD Health Medicine. Witnessing elderly individuals grappling with the intricate challenge of managing multiple medications, often without considering potential adverse interactions, left an indelible mark on us.
                     </span>
                     
                     <span className='headline-large neutrals' style={{marginTop: "1rem"}} >
-                        During this time, Microsoft was hosting the Microsoft Azure Responsible AI Global Hackathon. Given my belief that AI could be a valuable tool in addressing the issue of adverse drug and food interactions, I decided to participate alongside five other UCSD students to tackle this problem.
+                        During this time, Microsoft was hosting the Microsoft Azure Responsible AI Global Hackathon. Given my belief that AI could be a valuable tool in addressing the issue of adverse drug and food interactions, I decided to collaborate with UC San Diego, Health Senior Medicine to tackle this problem.
                     </span>
             </div >
             

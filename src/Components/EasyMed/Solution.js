@@ -22,7 +22,7 @@ const FeatureTextArea = styled((props) => (
 
 const FeatureDemo = styled((props) => (
     <Box component="section" {...props}>
-        <img src={props.gif} style={{width: "25%", aspectRatio: "6/13", marginTop: "4rem", borderRadius: "12px"}}/>
+         <video src={props.video} autoPlay="autoplay" loop style={{width: "25%", aspectRatio: "6/13", marginTop: "4rem", borderRadius: "18px"}}></video>
         <FeatureTextArea title={props.title} desc={props.desc} id={props.id}/>    
     </Box>
 ))(({ theme, direction }) => ({
@@ -40,7 +40,7 @@ function Solution() {
                 Solution
             </span>
             <span className='headline-large neutrals' style={{marginTop: "1rem"}} >
-                After eight weeks of innovation, our team developed EasyMed, a mobile application for checking drug and food interactions to ease concerns about polypharmacy. We also leveraged a variety of AI capabilities, including Azure's text-to-speech and speech-to-text services, Google's barcode scanning services, and Azure Machine Learning services.
+                After 10 weeks of innovation, our team developed EasyMed, a mobile application for checking drug and food interactions to ease concerns about polypharmacy. We also leveraged a variety of AI capabilities, including Azure's text-to-speech, Google's barcode scanning services, and food recognition algorithm.
             </span>
 
             {data.map((props, idx) => (

@@ -36,8 +36,8 @@ function Impact() {
                         <div style={{display: "flex", columnGap: "12px"}}>
                             <img src="https://ik.imagekit.io/poonr2gma/star.png?updatedAt=1681181592077" style={{width: "24px", height: "24px", marginTop: "0.3rem"}}/>
                             <span className="neutrals headline-large" style={{display: "inline"}}>Our user testing showed impressive results with an 
-                                <span style={{display: "inline"}}>  80%</span> net promoter score (compared to the average of 38% for healthcare products),
-                                <span style={{display: "inline"}}>  83.3%</span> task success rate (above the average score of 78%), and a
+                                <span style={{display: "inline"}}>  85%</span> net promoter score (compared to the average of 38% for healthcare products),
+                                <span style={{display: "inline"}}>  95.2%</span> task success rate (above the average score of 78%), and a
                                 <span style={{display: "inline"}}>  100%</span> user satisfaction score!
                             </span>
                         </div>
