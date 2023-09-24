@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9bdaaddb.css",
-    "main.js": "./static/js/main.e9e43071.js",
+    "main.css": "./static/css/main.8aa0dd02.css",
+    "main.js": "./static/js/main.c7296600.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/about_img.jpg": "./static/media/about_img.43f8c010730c77bc4fdb.jpg",
     "static/media/Instagram-Sans-Headline.ttf": "./static/media/Instagram-Sans-Headline.7739165f17ee4b9c5f2b.ttf",
@@ -12,12 +12,12 @@
     "static/media/hamburger.svg": "./static/media/hamburger.ba1e907da6313e83227931e7ba4891aa.svg",
     "static/media/chevron-left.svg": "./static/media/chevron-left.3490f5eea08639f690a34846479b9689.svg",
     "static/media/chevron-right.svg": "./static/media/chevron-right.cb3e629604702ef8bc6635945ad81bd6.svg",
-    "main.9bdaaddb.css.map": "./static/css/main.9bdaaddb.css.map",
-    "main.e9e43071.js.map": "./static/js/main.e9e43071.js.map",
+    "main.8aa0dd02.css.map": "./static/css/main.8aa0dd02.css.map",
+    "main.c7296600.js.map": "./static/js/main.c7296600.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bdaaddb.css",
-    "static/js/main.e9e43071.js"
+    "static/css/main.8aa0dd02.css",
+    "static/js/main.c7296600.js"
   ]
 }

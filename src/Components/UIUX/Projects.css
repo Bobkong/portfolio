@@ -50,7 +50,7 @@
   color: #ffffff1a;
   position: absolute;
   top: 16px;
-  right: 8px;
+  right: 8%;
   font-family: "instagram-sans-headline";
   font-size: 12rem;
   font-weight: 900;
@@ -66,11 +66,12 @@
 }
 
 .image-div {
-  width: 80vw;
-  aspect-ratio: 5/3;
+  width: 74vw;
+  aspect-ratio: 1140/700;
   position: relative;
   max-height: 90vh;
   overflow: hidden;
+  object-fit: cover;
 }
 
 

@@ -27,14 +27,14 @@ function InsHeader() {
 function EasyMed() {
 
     var first = {
-        src: "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
+        src: "https://ik.imagekit.io/poonr2gma/instagram-min%20(3).png?updatedAt=1695528946670",
         title: "INSTAGRAM AR",
         link: "/uiux/instagram"
     }
     var second = {
-        src: "https://ik.imagekit.io/poonr2gma/albatross-min.png?updatedAt=1679282494657",
-        title: "BLUE RAVEN SOLAR",
-        link: "/uiux/blueraven"
+        src: "https://ik.imagekit.io/poonr2gma/albatross-min%20(2).png?updatedAt=1695528945180",
+        title: "ALBATROSS",
+        link: "/uiux/albatross"
     }
 
     useEffect(() => {

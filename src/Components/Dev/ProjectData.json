@@ -40,29 +40,7 @@
             "title": "META FRONT-END CERTIFICATE",
             "skill": ["HTML", "CSS", "JAVASCRIPT", "REACT"],
             "link": "/dev/metacertificate"
-        },
-
-        {
-            "src": "https://ik.imagekit.io/poonr2gma/alexander-shatov-niUkImZcSP8-unsplash.jpg?updatedAt=1687231314273",
-            "title": "YOUTUBE CLONE APPLICATION (IN PROGRESS)",
-            "skill": ["REACT", "MATERIAL UI 5"],
-            "link": ""
-        },
-
-        {
-            "src": "https://ik.imagekit.io/poonr2gma/alexander-shatov-I4p0FcjDBJI-unsplash.jpg?updatedAt=1687231312061",
-            "title": "TIKTOK CLONE APPLICATION (IN PROGRESS)",
-            "skill": ["REACT", "NEXT.JS", "TYPESCRIPT"],
-            "link": ""
-        },
-
-        {
-            "src": "https://ik.imagekit.io/poonr2gma/alexander-shatov-w-qqwn5O-4I-unsplash.jpg?updatedAt=1687231316380",
-            "title": "SPOTIFY CLONE APPLICATION (IN PROGRESS)",
-            "skill": ["REACT", "TAILWIND", "REDUX"],
-            "link": ""
         }
-
         ]
     },
 

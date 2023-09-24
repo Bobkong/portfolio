@@ -8,24 +8,11 @@ import {
   } from "framer-motion";
 import { Link } from 'react-router-dom';
 
-const WorkSectionText = styled((props) => (
-    <Box component="section" {...props} >
-        <span className="h1 display-medium" style={{textAlign: "center"}}>{props.title}</span>
-    </Box>
-))(({ theme, }) => ({
-    position: "absolute",
-    left: "50%",
-    top: "50%",
-    transform: "translate(-50%, -50%)"
-}));
-
-
 
 const WorkSection = styled((props) => (
     <Box component="section" {...props}>
         <motion.div whileHover={{scale: 1.1}} style={{position: "relative"}}>
-            <img src={props.src} style={{width: "34vw", aspectRatio: "5/3", objectFit: "cover", background: "#000000", opacity: "0.3"}}/>
-            <WorkSectionText pos={props.pos} title={props.title}/>
+            <img src={props.src} style={{width: "34vw", aspectRatio: "5/3", objectFit: "cover", background: "#000000"}}/>
         </motion.div>
     </Box>
 ))(({ theme, src }) => ({

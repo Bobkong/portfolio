@@ -93,7 +93,6 @@ export default function Projects(props) {
         projects.push(
         <div className="dev-project-section" style={{marginLeft: "4vw"}}>
             <span className="display-large neutrals project-title" style={{marginBottom: "2vh"}}>{data[i].title}</span>
-            <span className="project-index">0{i+1}</span>
             <ul className="projects-list" ref={ref => projectRefs.current[i] = ref} onScroll={() => {
                 console.log(projectRefs.current[i].scrollLeft)
                 leftScrollRefs.current[i].className = `left-scroll ${projectRefs.current[i].scrollLeft == 0 ? "hidden" : ""}`;

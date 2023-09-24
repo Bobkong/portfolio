@@ -37,14 +37,14 @@ function Interested() {
 function Instagram() {
 
     var first = {
-        src: "https://ik.imagekit.io/poonr2gma/EasyMed-min__2_.png?updatedAt=1686624936702",
+        src: "https://ik.imagekit.io/poonr2gma/EasyMed-min%20(4).png?updatedAt=1695528946276",
         title: "EASYMED",
         link: "/uiux/easymed"
     }
     var second = {
-        src: "https://ik.imagekit.io/poonr2gma/albatross-min.png?updatedAt=1679282494657",
-        title: "BLUE RAVEN SOLAR",
-        link: "/uiux/blueraven"
+        src: "https://ik.imagekit.io/poonr2gma/albatross-min%20(2).png?updatedAt=1695528945180",
+        title: "ALBATROSS",
+        link: "/uiux/albatross"
     }
 
     useEffect(() => {

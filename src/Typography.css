@@ -88,7 +88,7 @@
 .label-large {
     font-size: 1rem;
     line-height: 1.6;
-    font-weight: 600;
+    font-weight: 700;
     max-width: 90vw;
     letter-spacing: 0.04rem;
     font-family: "instagram-sans";
@@ -112,7 +112,7 @@
 
 .body-large {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     font-weight: 400;
     max-width: 90vw;
     font-family: "instagram-sans";

@@ -31,7 +31,6 @@
   
   .dev-project-section {
     height: 100vh;
-    scroll-snap-align: center;
     perspective: 500px;
     display: flex;
     flex-direction: column;
@@ -90,6 +89,7 @@
     width: 32px;
     height: 32px;
   }
+
   
   
   @media only screen and (max-width: 768px) {
