@@ -1,56 +1,17 @@
-import React from "react";
-import styled from "styled-components";
 import {motion} from "framer-motion";
 import {Animations} from "./animations";
+import './panel.css'
 
-const PanelStyles = styled(motion.div)`
-position: absolute;
-left: 0;
-bottom: 0;
-width: calc(var(--VW)*100);
-height: calc(var(--VH)*100);
-z-index: 100000;
-pointer-events: none;
-    .left, .right{
-        height: 100vh;
-        width: 50.5%;
-        position: fixed;
-        top: 0;
-        z-index: 1001;
-        background-color: #212121;
-    }
-
-    .left{
-        left: 0;
-    }
-
-    .right{
-        right: 0;
-    }
-    .message{
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        width: 100%;
-        text-align: center;
-        transform: translate(-50%, -50%);
-        color: #ffffff;
-        font-family: 'instagram-sans';
-        font-size: 1.125rem;
-        z-index: 1002;
-        max-width: 90vw
-    }
-`
 
 const generateMessage = ()=>{
     const messages = [
         "Fun Fact #1: I'm the 76th generation descendant of Confucius",
         "Fun Fact #2: I'm very obsessed with playing tennis",
-        "Fun Fact #3:  I like cooking and it brings me a lot of happiness",
-        "Fun Fact #4:  I dream to build my band and become a singer",
-        "Fun Fact #5:  My role model is Serena Williams",
-        "Fun Fact #6:  I have both design and engineering backgrounds and experience",
-        "Fun Fact #7:  I love to explore emerging technology and build innovative things"]
+        "Fun Fact #3: UX design is a way for me to understand the world and humanity.",
+        "Fun Fact #4: I dream to build my band and become a singer",
+        "Fun Fact #5: My idol is Serena Williams!",
+        "Fun Fact #6: I have both design and engineering backgrounds and experience",
+        "Fun Fact #7: I love to explore emerging technology and build innovative things"]
     const randomNum = Math.floor(Math.random()*messages.length)
     return messages[randomNum]
 }
@@ -107,9 +68,9 @@ const Animated = () => {
 const Panels = ()=>{
 
     return (
-        <PanelStyles>
+        <motion.div className="panel">
             <Animated />
-        </PanelStyles>
+        </motion.div>
     )
 }
 

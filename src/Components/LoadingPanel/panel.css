@@ -1,0 +1,39 @@
+.left, .right{
+    height: 100vh;
+    width: 50.5%;
+    position: fixed;
+    top: 0;
+    z-index: 1001;
+    background-color: #212121;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right: 0;
+}
+.message{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: 'instagram-sans';
+    font-size: 1.125rem;
+    z-index: 1002;
+    max-width: 90vw
+}
+
+.panel {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(var(--VW)*100);
+    height: calc(var(--VH)*100);
+    z-index: 100000;
+    pointer-events: none;
+}

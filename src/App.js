@@ -6,8 +6,7 @@ import Home from './Components/Home/Home';
 import UIUX from './Components/UIUX/UIUX';
 import Dev from './Components/Dev/Dev'
 import React, {useEffect} from 'react';
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import loadable from '@loadable/component';
+import { BrowserRouter as Router, Route, Switch, Routes } from "react-router-dom";
 import Life from './Components/Life/Life';
 import Contact from './Components/Contact/Contact';
 import Instagram from './Components/Instagram/Instagram'
@@ -15,7 +14,7 @@ import ScrollToTop from './ScrollToTop';
 import EasyMed from './Components/EasyMed/EasyMed';
 import TencentMusic from './Components/TencentMusic/TencentMusic';
 import GoogleAround from './Components/GoogleAround/GoogleAround';
-import ShopX from './Components/ShopX/ShopX';
+import ShopXDev from './Components/ShopXDev/ShopX';
 import MetaCertificate from './Components/MetaCertificate/MetaCertificate';
 import ARamsay from './Components/ARamsay/ARamsay';
 import InstagramDev from './Components/InstagramDev/Instagram';
@@ -24,6 +23,7 @@ import SuperPlant from './Components/Superplant/SuperPlant';
 import FaceChanging from './Components/Face-changing/FaceChanging';
 import InProgress from './Components/InProgress/InProgress';
 import Albatross from './Components/Albatross/Albatross';
+import ShopX from './Components/ShopX/ShopX';
 
 
 export default function App() {
@@ -37,22 +37,22 @@ export default function App() {
     return (
       <div id="app-div">
 
-          <BrowserRouter basename="/">
+          <Router>
             <Header />
             <ScrollToTop>
               <Routes>
-                  <Route path="/" element={<Home />} />
+                  <Route path="/*" element={<Home />} />
                   <Route path="/uiux" element={<UIUX />} />
                   <Route path="/dev" element={<Dev />} />
                   <Route path="/life" element={<Life />} />
                   <Route path="/uiux/instagram" element={<Instagram/>} />
                   <Route path='/uiux/easymed' element={<EasyMed/>}/>
-                  <Route path='/uiux/shopx' element={<InProgress/>}/>
                   <Route path='/uiux/albatross' element={<Albatross/>}/>
+                  <Route path='/uiux/shopx' element={<ShopX/>}/>
                   <Route path='/uiux/homnihealth' element={<InProgress/>}/>
                   <Route path='/dev/tencentmusic' element={<TencentMusic/>}/>
                   <Route path='/dev/around' element={<GoogleAround/>}/>
-                  <Route path='/dev/shopx' element={<ShopX/>}/>
+                  <Route path='/dev/shopx' element={<ShopXDev/>}/>
                   <Route path='/dev/metacertificate' element={<MetaCertificate/>}/>
                   <Route path='/dev/aramsay' element={<ARamsay/>}/>
                   <Route path='/dev/instagram' element={<InstagramDev/>}/>
@@ -62,8 +62,7 @@ export default function App() {
                 </Routes>
             </ScrollToTop>
             <Contact />
-            {/* <Footer /> */}
-          </BrowserRouter>
+          </Router>
        
 
       </div>

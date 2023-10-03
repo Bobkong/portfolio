@@ -24,8 +24,8 @@ function Solution() {
             </div>
             
 
-            <img src="https://ik.imagekit.io/poonr2gma/Frame%20427322053-min.png?updatedAt=1695524922835" style={{width: "80vw", aspectRatio: "1208/540", marginTop: "3rem"}}/>
-            <img src="https://ik.imagekit.io/poonr2gma/Frame%20427322051-min.png?updatedAt=1695524923775" style={{width: "80vw", aspectRatio: "1208/760", marginTop: "3rem"}}/>
+            <img src="https://ik.imagekit.io/poonr2gma/Frame%20427322053-min.png?updatedAt=1696212826947" style={{width: "80vw", aspectRatio: "1208/540", marginTop: "3rem"}}/>
+            <img src="https://ik.imagekit.io/poonr2gma/Frame%20427322051-min%20(2).png?updatedAt=1696213229538" style={{width: "80vw", aspectRatio: "1208/760", marginTop: "3rem"}}/>
             <img src="https://ik.imagekit.io/poonr2gma/Frame%20427322054-min.png?updatedAt=1695524923048" style={{width: "80vw", aspectRatio: "1208/540", marginTop: "3rem"}}/>
         </div>
         

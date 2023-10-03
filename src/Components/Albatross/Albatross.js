@@ -14,10 +14,11 @@ import ContactMe from "./ContactMe";
 function Header() {
     return(
         <div style={{position: "relative", width: "100vw"}}>
-            <video src="https://ik.imagekit.io/poonr2gma/albatross.mp4?updatedAt=1695497340995" autoPlay="autoplay" loop style={{width: "100vw", opacity: "0.6"}}></video>
-                <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
-                    <p className='display-large neutrals' style={{textAlign: "center", fontSize: "3.2rem"}}>ALBATROSS</p>
-                </div>
+            <video src="https://ik.imagekit.io/poonr2gma/albatross%20(1).mp4?updatedAt=1695587122391" autoPlay="autoplay" loop muted style={{width: "100vw", opacity: "0.6"}}></video>
+            <div style={{position: "absolute", width: "100vw", height: "100%", top: "0%", left: "0%", transform: "translate(0%, 0%)", backgroundColor: "#00000099"}}/>  
+            <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
+                <p className='display-large neutrals' style={{textAlign: "center", fontSize: "3.2rem"}}>ALBATROSS</p>
+            </div>
         </div>
     );
 }

@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Discover Merchants and Offers",
+        "desc": "On our homepage, you can effortlessly explore enticing discounts, loyalty programs, and detailed merchant information. Additionally, you have the freedom to add items to your virtual shopping cart.",
+        "video": "https://ik.imagekit.io/poonr2gma/trimm%20view%20store.mp4?updatedAt=1696217036834",
+        "id": "1",
+        "direction": "image-left"
+    },
+    {
+        "title": "Map and Geo-fencing Notifications",
+        "desc": "You can pull up from the homepage to access an extensive map for nearby merchants and offers. Enable notifications, and ShopX will alert you to discounts and loyalty programs within a one-mile radius, ensuring you never miss valuable deals.",
+        "video": "https://ik.imagekit.io/poonr2gma/trimmed%20explore%20map.mp4?updatedAt=1696217155951",
+        "id": "2",
+        "direction": "image-right"
+    },
+    {
+        "title": "Immersive AR Experience",
+        "desc": "ShopX also offers immersive AR experiences, allowing you to visualize products realistically, enhancing your understanding, and helping you make informed shopping decisions.",
+        "video": "https://ik.imagekit.io/poonr2gma/Untitled%20(5).mp4?updatedAt=1696302821446",
+        "id": "3",
+        "direction": "image-left"
+    },
+    {
+        "title": "Enroll in Loyalty Programs and Place Orders",
+        "desc": "We enable you to easily access merchant loyalty programs, enroll, and accumulate loyalty points. Placing and paying for orders is a one-click process, simplifying the entire transaction.",
+        "video": "https://ik.imagekit.io/poonr2gma/Untitled%20(4).mp4?updatedAt=1696302680135",
+        "id": "4",
+        "direction": "image-right"
+    },
+    {
+        "title": "Social Sharing",
+        "desc": "Guess what? After placing orders, ShopX lets you share shopping experiences with AR filters on Instagram and Facebook, recommending favorite merchants and items, and spreading remarkable offers.",
+        "video": "https://ik.imagekit.io/poonr2gma/ready%20ar%20filter.mp4?updatedAt=1696217121938",
+        "id": "5",
+        "direction": "image-left"
+    }
+    
+    
+]

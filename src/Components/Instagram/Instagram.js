@@ -17,7 +17,8 @@ import Takeaway from "./Takeaway";
 function InsHeader() {
     return(
         <div style={{position: "relative", width: "100vw"}}>
-                <video src="https://ik.imagekit.io/poonr2gma/instagram-ar.mp4?updatedAt=1679544573490" autoPlay="autoplay" loop style={{width: "100vw"}}></video>
+                <video src="https://ik.imagekit.io/poonr2gma/instagram-ar%20(1)%20(1).mp4?updatedAt=1695587349971" autoPlay="autoplay" loop muted style={{width: "100vw"}}></video>
+                <div style={{position: "absolute", width: "100vw", height: "100%", top: "0%", left: "0%", transform: "translate(0%, 0%)", backgroundColor: "#00000099"}}/>
                 <div style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
                     <p className='display-large neutrals' style={{textAlign: "center", fontSize: "3.2rem"}}>INSTAGRAM AR DESIGN</p>
                 </div>

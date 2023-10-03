@@ -46,16 +46,6 @@
   padding-top: 2vh;
 }
 
-.project-index {
-  color: #ffffff1a;
-  position: absolute;
-  top: 16px;
-  right: 8%;
-  font-family: "instagram-sans-headline";
-  font-size: 12rem;
-  font-weight: 900;
-  z-index: -1;
-}
 
 .intro-header-section {
   height: 100vh;

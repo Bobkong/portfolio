@@ -41,7 +41,7 @@ function RoleIntro() {
             
             <div style={{
                 width: "33vw"}}>
-                <Title content="OVERVIEW"/>
+                <Title content="WHAT IS ALBATROSS?"/>
                 <Desc content="Albatross, developed by Blue Raven Solar, is a versatile customer relationship management software utilized by office and field users alike to streamline the tracking and management of solar sales and installation processes. It empowers employees to access project, process steps, and event information with ease."/>
             </div>
         </div>
