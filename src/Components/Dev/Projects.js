@@ -109,7 +109,7 @@ export default function Projects(props) {
                 <img src={cheveronLeft} className="chevron-icon" onClick={() => {
                     if (projectRefs.current[i].scrollLeft > 0) {
                         let timer = setInterval(() => {
-                            projectRefs.current[i].scrollLeft -= 3
+                            projectRefs.current[i].scrollLeft -= 8
                         })
                         setTimeout(() => {
                             clearInterval(timer)
@@ -123,7 +123,7 @@ export default function Projects(props) {
                     
                     console.log("right scroll")
                     let timer = setInterval(() => {
-                        projectRefs.current[i].scrollLeft += 3
+                        projectRefs.current[i].scrollLeft += 8
                     })
                     setTimeout(() => {
                         clearInterval(timer)

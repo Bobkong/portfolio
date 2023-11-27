@@ -24,6 +24,7 @@ import FaceChanging from './Components/Face-changing/FaceChanging';
 import InProgress from './Components/InProgress/InProgress';
 import Albatross from './Components/Albatross/Albatross';
 import ShopX from './Components/ShopX/ShopX';
+import EventShowcaser from './Components/RealisticEventShowcaser/EventShowcaser';
 
 
 export default function App() {
@@ -59,6 +60,7 @@ export default function App() {
                   <Route path='/dev/easymed' element={<EasyMedDev/>}/>
                   <Route path='/dev/superplant' element={<SuperPlant/>}/>
                   <Route path='/dev/facechanging' element={<FaceChanging/>}/>
+                  <Route path='/dev/realisticeventshowcaser' element={<EventShowcaser/>}/>
                 </Routes>
             </ScrollToTop>
             <Contact />

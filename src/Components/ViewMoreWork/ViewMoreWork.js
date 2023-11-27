@@ -8,7 +8,6 @@ import {
   } from "framer-motion";
 import { Link } from 'react-router-dom';
 
-
 const WorkSection = styled((props) => (
     <Box component="section" {...props}>
         <motion.div whileHover={{scale: 1.1}} style={{position: "relative"}}>
