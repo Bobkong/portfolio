@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {Panels} from "../LoadingPanel/panels"
-import ViewMoreWork from "../ViewMoreWork/ViewMoreWork";
+import ViewMoreWork from "../ViewMoreWork/ViewMoreWorkDev";
 import RoleIntro from "./RoleIntro";
 import Description from "./Description";
 import Demo from "./Demo";
@@ -20,17 +20,7 @@ function EventShowcaserHeader() {
 
 function EventShowcaser() {
 
-    var first = {
-        src: "https://ik.imagekit.io/poonr2gma/Group_427321964-min.png?updatedAt=1686977311201",
-        title: "META CERTIFICATES",
-        link: "/dev/metacertificate"
-    }
-    var second = {
-        src: "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
-        title: "INSTAGRAM AR",
-        link: "/dev/instagram"
-    }
-
+  
     useEffect(() => {
         document.title = 'Realistic Event Showcaser';
     }, []);
@@ -44,7 +34,7 @@ function EventShowcaser() {
             <Description />
             <Achievenment />
             <Demo />
-            <ViewMoreWork firstSrc={first.src} firstTitle={first.title} firstLink={first.link} secondSrc={second.src} secondTitle={second.title} secondLink={second.link}/>
+            <ViewMoreWork firstTitle="META FRONT-END CERTIFICATE" secondTitle="INSTAGRAM AR"/>
         </div>
 
     );

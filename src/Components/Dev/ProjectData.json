@@ -10,13 +10,6 @@
             },
 
             {
-                "src": "https://ik.imagekit.io/poonr2gma/Frame_66-min.png?updatedAt=1679282494673",
-                "title": "GOOGLE AROUND",
-                "skill": ["ANDROID", "ARCORE", "NODEJS"],
-                "link": "/dev/around"
-            },
-
-            {
                 "src": "https://ik.imagekit.io/poonr2gma/submit-min__1_.png?updatedAt=1686625365321",
                 "title": "SHOPX",
                 "skill": ["ANDROID", "PYTHON", "SQUARE API", "AZURE", "ARCORE", "FIREBASE"],
@@ -43,7 +36,7 @@
         },
         {
             "src": "https://ik.imagekit.io/poonr2gma/04_Google_Tiles_Philadelphia.png?updatedAt=1701052170291",
-            "title": "Realistc Event Showcaser",
+            "title": "REALISTIC EVENT SHOWCASER",
             "skill": ["REACT", "THREE.JS"],
             "link": "/dev/realisticeventshowcaser"
         }
@@ -71,14 +64,8 @@
             "title": "GOOGLE AROUND",
             "skill": ["ANDROID", "ARCORE","NODEJS"],
             "link": "/dev/around"
-        },
-
-        {
-            "src": "https://ik.imagekit.io/poonr2gma/submit-min__1_.png?updatedAt=1686625365321",
-            "title": "SHOPX",
-            "skill": ["ANDROID", "PYTHON", "SQUARE API", "AZURE", "ARCORE", "FIREBASE"],
-            "link": "/dev/shopx"
         }
+
         ]
     },
 
@@ -93,7 +80,7 @@
     
         {
             "src": "https://ik.imagekit.io/poonr2gma/O1CN01EnTmsd2DYT3JzBPiP___3970368621.jpg?updatedAt=1687229584918",
-            "title": "CHINESE ART OF FACE-CHANGING AR FILTER",
+            "title": "CHINESE FACE-CHANGING AR FILTER",
             "skill": ["SPARK AR"],
             "link": "/dev/facechanging"
         }

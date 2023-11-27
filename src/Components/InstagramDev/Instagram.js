@@ -11,7 +11,7 @@ import AREffect from "./AREffect";
 import TeamIntro from "./TeamIntro";
 import InstagramLife from "./InstagramLife";
 import InstagramFeedback from "./InstagramFeedback";
-import ViewMoreWork from "../ViewMoreWork/ViewMoreWork";
+import ViewMoreWork from "../ViewMoreWork/ViewMoreWorkDev";
 import Takeaway from "./Takeaway";
 
 function InsHeader() {
@@ -35,18 +35,6 @@ function Interested() {
 
 
 function InstagramDev() {
-
-    var first = {
-        src: "https://ik.imagekit.io/poonr2gma/aramsay_bg.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001159109",
-        title: "ARAMSAY",
-        link: "/dev/aramsay"
-    }
-    var second = {
-        src: "https://ik.imagekit.io/poonr2gma/submit-min__1_.png?updatedAt=1686625365321",
-        title: "SHOPX",
-        link: "/dev/shopx"
-    }
-
     useEffect(() => {
         document.title = 'Instagram';
     }, []);
@@ -64,7 +52,7 @@ function InstagramDev() {
             <InstagramLife />
             <InstagramFeedback />
             <Interested />
-            <ViewMoreWork firstSrc={first.src} firstTitle={first.title} firstLink={first.link} secondSrc={second.src} secondTitle={second.title} secondLink={second.link}/>
+            <ViewMoreWork firstTitle="GOOGLE AROUND" secondTitle="ARAMSAY"/>
         </div>
 
     );

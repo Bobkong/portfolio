@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {Panels} from "../LoadingPanel/panels"
-import ViewMoreWork from "../ViewMoreWork/ViewMoreWork";
+import ViewMoreWork from "../ViewMoreWork/ViewMoreWorkDev";
 import RoleIntro from "./RoleIntro";
 import Description from "./Description";
 import Demo from "./Demo";
@@ -13,16 +13,6 @@ function FaceChangingHeader() {
 
 function FaceChanging() {
 
-    var first = {
-        src: "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
-        title: "INSTAGRAM AR",
-        link: "/dev/instagram"
-    }
-    var second = {
-        src: "https://ik.imagekit.io/poonr2gma/superplant.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1676001158381",
-        title: "SUPER PLANT",
-        link: "/dev/superplant"
-    }
 
     useEffect(() => {
         document.title = 'Face-Changing';
@@ -36,7 +26,7 @@ function FaceChanging() {
             <RoleIntro />
             <Description />
             <Demo />
-            <ViewMoreWork firstSrc={first.src} firstTitle={first.title} firstLink={first.link} secondSrc={second.src} secondTitle={second.title} secondLink={second.link}/>
+            <ViewMoreWork firstTitle="SUPER PLANT" secondTitle="INSTAGRAM AR"/>
         </div>
 
     );

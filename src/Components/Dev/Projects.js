@@ -10,39 +10,41 @@ import cheveronLeft from '../../Assets/chevron-left.svg'
 import cheveronRight from '../../Assets/chevron-right.svg'
 import { Link } from 'react-router-dom';
 
-const ProjectImageItem = ({ title, src, skill, link, idx }) => {
+export const ProjectImageItem = ({ title, src, skill, link, fromMoreWork }) => {
     const itemRef = useRef();
-    const margin = 368 - 16 * idx;
 
     const [hover, setHover] = useState(false)
 
     const { cursorStyleHandler } = useContext(AnimatedCursorContext);
 
     const imageEnter = () => {
-      cursorStyleHandler("image");
+        cursorStyleHandler("image");
     };
-  
+
     const imageLeave = () => {
-      cursorStyleHandler("default");
+        cursorStyleHandler("default");
     };
 
     let techStr = "";
-    for(let i = 0; i < skill.length; i++) {
-        if (i != 0) {
-            techStr += " | "
+    if (skill != null) {
+        for (let i = 0; i < skill.length; i++) {
+            if (i != 0) {
+                techStr += " | "
+            }
+            techStr += skill[i]
         }
-        techStr += skill[i]
     }
+
 
     return (
         <ImageListItem key={title} sx={{ overflow: "visible" }} ref={itemRef}>
-            <Link to={link} style={{cursor:"none"}} onClick={imageLeave}>
+            <Link to={link} style={{ cursor: "none" }} onClick={imageLeave}>
                 <motion.div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-                    <motion.img src={src} alt={title} style={{width: "42vw", aspectRatio: "5/3", objectFit: "cover"}} onMouseEnter={imageEnter} onMouseLeave={imageLeave}/>
+                    <motion.img src={src} alt={title} style={{ width: fromMoreWork ? "34vw" : "42vw", aspectRatio: "5/3", objectFit: "cover" }} onMouseEnter={imageEnter} onMouseLeave={imageLeave} />
                     <ImageListItemBar
                         title={title}
                         subtitle={`${techStr}`}
-                        style = {{display: hover ? "block" : "none"}}
+                        style={{ display: hover ? "block" : "none" }}
 
                         sx={(theme) => ({
                             fontSize: "0.8rem",
@@ -79,9 +81,9 @@ export default function Projects(props) {
 
     const { scrollYProgress } = useScroll();
     const scaleX = useSpring(scrollYProgress, {
-      stiffness: 100,
-      damping: 30,
-      restDelta: 0.00001,
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.00001,
     });
 
     let projectRefs = useRef({});
@@ -91,47 +93,45 @@ export default function Projects(props) {
     const projects = [];
     for (let i = 0; i < data.length; i++) {
         projects.push(
-        <div className="dev-project-section" style={{marginLeft: "4vw"}}>
-            <span className="display-large neutrals project-title" style={{marginBottom: "2vh"}}>{data[i].title}</span>
-            <ul className="projects-list" ref={ref => projectRefs.current[i] = ref} onScroll={() => {
-                console.log(projectRefs.current[i].scrollLeft)
-                leftScrollRefs.current[i].className = `left-scroll ${projectRefs.current[i].scrollLeft == 0 ? "hidden" : ""}`;
-                rightScrollRefs.current[i].className = `right-scroll ${projectRefs.current[i].scrollLeft > window.innerWidth * 0.38 ? "hidden" : ""}`;
-            }}>
-                {data[i].projects.map((props, idx) => (
-                    <li className="project-div">
-                        <ProjectImageItem  {...props}/>
-                    </li>
-                ))}
-            </ul>
+            <div className="dev-project-section" style={{ marginLeft: "4vw" }}>
+                <span className="display-large neutrals project-title" style={{ marginBottom: "2vh" }}>{data[i].title}</span>
+                <ul className="projects-list" ref={ref => projectRefs.current[i] = ref} onScroll={() => {
+                    leftScrollRefs.current[i].className = `left-scroll ${projectRefs.current[i].scrollLeft == 0 ? "hidden" : ""}`;
+                    rightScrollRefs.current[i].className = `right-scroll ${projectRefs.current[i].scrollLeft > window.innerWidth * 0.3 ? "hidden" : ""}`;
+                }}>
+                    {data[i].projects.map((props, idx) => (
+                        <li className="project-div">
+                            <ProjectImageItem  {...props} />
+                        </li>
+                    ))}
+                </ul>
 
-            <div className="left-scroll hidden" ref={ref => leftScrollRefs.current[i] = ref}>
-                <img src={cheveronLeft} className="chevron-icon" onClick={() => {
-                    if (projectRefs.current[i].scrollLeft > 0) {
+                <div className="left-scroll hidden" ref={ref => leftScrollRefs.current[i] = ref}>
+                    <img src={cheveronLeft} className="chevron-icon" onClick={() => {
+                        if (projectRefs.current[i].scrollLeft > 0) {
+                            let timer = setInterval(() => {
+                                projectRefs.current[i].scrollLeft -= 8
+                            })
+                            setTimeout(() => {
+                                clearInterval(timer)
+                            }, 1000)
+                        }
+                    }}></img>
+                </div>
+
+                <div className={`right-scroll ${data[i].projects.length > 2 ? "" : "hidden"}`} ref={ref => rightScrollRefs.current[i] = ref}>
+                    <img src={cheveronRight} className="chevron-icon" onClick={() => {
+
                         let timer = setInterval(() => {
-                            projectRefs.current[i].scrollLeft -= 8
+                            projectRefs.current[i].scrollLeft += 8
                         })
                         setTimeout(() => {
                             clearInterval(timer)
-                        }, 1000)
-                    }
-                }}></img>
-            </div>
 
-            <div className={`right-scroll ${data[i].projects.length > 2 ? "" : "hidden"}`} ref={ref => rightScrollRefs.current[i] = ref}>
-                <img src={cheveronRight} className="chevron-icon" onClick={() => {
-                    
-                    console.log("right scroll")
-                    let timer = setInterval(() => {
-                        projectRefs.current[i].scrollLeft += 8
-                    })
-                    setTimeout(() => {
-                        clearInterval(timer)
-                        
-                    }, 1000)
-                }}></img>
-            </div>
-        </div>);
+                        }, 1000)
+                    }}></img>
+                </div>
+            </div>);
     }
 
     return (
@@ -139,6 +139,6 @@ export default function Projects(props) {
             {projects}
             <motion.div className={"progress"} style={{ scaleX }} />
         </div>
-        
+
     );
 };

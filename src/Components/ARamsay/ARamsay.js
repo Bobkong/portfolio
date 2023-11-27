@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {Panels} from "../LoadingPanel/panels"
-import ViewMoreWork from "../ViewMoreWork/ViewMoreWork";
+import ViewMoreWork from "../ViewMoreWork/ViewMoreWorkDev";
 import RoleIntro from "./RoleIntro";
 import Description from "./Description";
 import Demo from "./Demo";
@@ -19,17 +19,6 @@ function ARamsayHeader() {
 
 function ARamsay() {
 
-    var first = {
-        src: "https://ik.imagekit.io/poonr2gma/instagram-min.png?updatedAt=1679282494675",
-        title: "INSTAGRAM AR",
-        link: "/dev/instagram"
-    }
-    var second = {
-        src: "https://ik.imagekit.io/poonr2gma/submit-min__1_.png?updatedAt=1686625365321",
-        title: "SHOPX",
-        link: "/dev/shopx"
-    }
-
     useEffect(() => {
         document.title = 'ARamsay';
     }, []);
@@ -42,7 +31,7 @@ function ARamsay() {
             <RoleIntro />
             <Description />
             <Demo />
-            <ViewMoreWork firstSrc={first.src} firstTitle={first.title} firstLink={first.link} secondSrc={second.src} secondTitle={second.title} secondLink={second.link}/>
+            <ViewMoreWork firstTitle="INSTAGRAM AR" secondTitle="GOOGLE AROUND"/>
         </div>
 
     );

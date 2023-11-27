@@ -9,6 +9,7 @@ function Demo() {
             width: "70vw",
             marginLeft: "auto",
             marginRight: "auto",
+            marginTop: "10rem",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center"}}>
