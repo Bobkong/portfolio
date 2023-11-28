@@ -42,21 +42,21 @@ function RoleIntro() {
                 width: "22vw"
             }}>
                 <Title content="MY ROLE"/>
-                <Desc content="Front-end and Back-end Development, UX Design, AR Prototyping"/>
+                <Desc content="UX Engineer, UX Designer"/>
             </div>
 
             <div style={{
                 width: "22vw"
             }}>
                 <Title content="BUILT WITH"/>
-                <Desc content="Android Studio, Java, Kotlin, Amazon Web Services, Google ARCore"/>
+                <Desc content="React, Deck.GL, Photorealistic 3D Tiles, Blender, Three.js"/>
             </div>
 
             <div style={{
                 width: "22vw"
             }}>
                 <Title content="TIMELINE"/>
-                <Desc content="December 2022 - January 2023"/>
+                <Desc content="October - November 2023"/>
             </div>
                
                
