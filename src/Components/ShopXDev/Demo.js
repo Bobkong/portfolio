@@ -20,6 +20,7 @@ function Demo() {
             <ReactPlayer url='https://youtu.be/QGGk0U_BGrs'
                    width="100%" 
                    height="70vh"
+                   controls
                    style={{
                     marginTop: "2rem"
                    }}/>
