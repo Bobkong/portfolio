@@ -3,7 +3,6 @@ import { Avatar, Box } from "@mui/material";
 import data from "./HeroData.json"
 import HeroChip from "./HeroChip";
 import { motion } from "framer-motion";
-import selfImage from '../../../Assets/about_img.jpg';
 import Character from "./BlastChracter";
 import WorkButton from "./WorkButton/WorkButton";
 import { NavLink } from "react-router-dom";
@@ -28,7 +27,7 @@ const HeroBox = styled((props) => (
 const HeroAvatarComp = styled(({ img, ...props }) => (
     <motion.div>
         <Avatar
-            src={selfImage}
+            src="https://ik.imagekit.io/poonr2gma/portfolio/IMG_5397.png?updatedAt=1723330487085"
             alt="profile"
             {...props}
         />
@@ -38,7 +37,7 @@ const HeroAvatarComp = styled(({ img, ...props }) => (
     height: "18rem",
     position: "relative",
     zIndex: "-1",
-    boxShadow: "0 0 64px 0px hsl(0deg 0% 100% / 15%)",
+    boxShadow: "0 0 64px 0px hsl(0deg 0% 100% / 10%)",
 }));
 
 const HeroTitleBox = styled((props) => (
@@ -94,14 +93,14 @@ export default function Hero(props) {
                 {data.interest.map(({ name, ...props }) => (
                     <HeroChip {...props} key={name} setHover={hoverFunc} setChipIndex={chipIndexFunc}>{name}</HeroChip>
                 ))}
-                <div style={{display: "flex", columnGap: "4vw", marginTop: "2vh"}}>
+                {/* <div style={{display: "flex", columnGap: "4vw", marginTop: "2vh"}}>
                     <NavLink to="/uiux">
                         <WorkButton label="Design Work" />
                     </NavLink>
                     <NavLink to="/dev">
                         <WorkButton label="Development Work" />
                     </NavLink>
-                </div>
+                </div> */}
                 
             </HeroBox>
         </SelfBox>

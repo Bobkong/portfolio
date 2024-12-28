@@ -1,4 +1,4 @@
-import React, {useEffect}  from "react";
+import React, {Fragment, useEffect}  from "react";
 import "./UIUX.css";
 import {Panels} from "../LoadingPanel/panels"
 import Projects from "./Projects";
@@ -10,16 +10,12 @@ import {
 
 function UIUX() {
 
-  useEffect(() => {
-    document.title = 'Design Work';
-  }, []);
-
   return (
-    <div>
-      <Panels />
-     
+    <Fragment>
       <Projects />
-    </div>
+    </Fragment>
+
+    
 
   );
 }

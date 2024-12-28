@@ -35,7 +35,7 @@ const ChipContent = styled(({ description, placement, setHover, setChipIndex, ..
     backgroundColor: "#2a2a2a",
     borderRadius: "10rem",
     color: "#ffffff",
-    boxShadow: "inset -4px -4px 5px #20202088, inset 4px 4px 5px #42424255, 0px 0px 20px #42424299",
+    boxShadow: "inset -4px -4px 5px #20202088, inset 4px 4px 5px #42424255, 0px 0px 10px #42424299",
     padding: theme.spacing(0.8, 1.2),
     margin: theme.spacing(0, 0.8),
     

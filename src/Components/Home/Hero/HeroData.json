@@ -1,12 +1,12 @@
 {
     "interest": [
         {
-            "name": "2 years+ design",
+            "name": "3 years design",
             "vertical": "end",
             "angle": 120,
             "x": "calc(-100% - 10rem)",
             "y": "-6.8rem", 
-            "description": "I'm currently a full-time UX designer at Blue Raven Solar, formerly working at Instagram AR Design and Homni Health",
+            "description": "I'm currently a full-time Product designer at TikTok, formerly working at Instagram, Tencent, and Blue Raven Solar",
             "placement": "bottom"
         },
         {
@@ -19,7 +19,7 @@
             "placement": "top"
         },
         {
-            "name": "7 years+ engineering",
+            "name": "7 years engineering",
             "description": "I started studying computer science from 2015, and worked as a full-time Android UX engineer at Tencent for 2.5 years",
             "reverse": true,
             "vertical": "end",

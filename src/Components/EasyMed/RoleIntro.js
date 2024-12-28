@@ -27,11 +27,11 @@ function RoleIntro() {
                 justifyContent: "center",
                 flexDirection: "column"}}>
                 <Title content="MY ROLE"/>
-                <Desc content="UX Designer"/>
+                <Desc content="Product Designer"/>
                 <Title content="TIMELINE"/>
                 <Desc content="May - June, 2022 (8 weeks)"/>
                 <Title content="TEAM"/>
-                <Desc content="2 Product Designers, 5 Software Engineers"/>
+                <Desc content="1 Product Manager, 1 Product Designer, 5 Software Engineers"/>
             </div>
         </div>
         

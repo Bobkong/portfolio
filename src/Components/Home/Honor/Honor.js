@@ -1,6 +1,5 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import data from "./HonorData.json";
 import { motion } from "framer-motion";
 import { Fragment, useContext } from "react";
 import { Link } from "react-router-dom";
@@ -37,7 +36,7 @@ const HonorImg = styled((props) => (
     <motion.img whileHover={{ y: "-1.2rem" }} {...props} />
 ))(({ theme }) => ({
     width: "100%",
-    aspectRatio: "92 / 100",
+    aspectRatio: "auto",
     cursor: "none"
 }));
 
@@ -62,6 +61,10 @@ export default function Honor(props) {
     const imageLeave = () => {
       cursorStyleHandler("default");
     };
+
+    var data = (props.source === "judge") ? require('./JudgeData.json') : require('./AwardData.json');
+    
+    
 
     return (
         <Fragment>

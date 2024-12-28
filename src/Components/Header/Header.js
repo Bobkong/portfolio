@@ -46,12 +46,6 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <NavLink to="/uiux" end>
-                                <HoverText text = "DESIGN WORK"/>
-                            </NavLink>
-                        </li>
-
-                        <li>
                             <NavLink to="/dev" end>
                                 <HoverText text = "DEVELOPMENT WORK"/>
                             </NavLink>

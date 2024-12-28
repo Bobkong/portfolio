@@ -1,38 +1,22 @@
 [
     
     {
+        "src": "https://ik.imagekit.io/poonr2gma/tiktok-min.png?updatedAt=1735350400254",
+        "link": "/uiux/tiktok"
+    },
+
+    {
         "src": "https://ik.imagekit.io/poonr2gma/instagram-min%20(2).png?updatedAt=1695439975549",
-        "title": "INSTAGRAM AR",
-        "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
-        "skill": ["AR DESIGN", "UXUI DESIGN", "MOBILE"],
-        "timeline": "Jun - Sep, 2022",
         "link": "/uiux/instagram"
     },
 
     {
         "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min%20(3).png?updatedAt=1695439975634",
-        "title": "EASYMED",
-        "desc": "I eased the concern of adverse drug-to-drug and drug-to-food interactions by building an efficient and effective AI mobile application",
-        "skill": ["UX DESIGN", "MICROSOFT FEATURED", "MOBILE"],
-        "timeline": "May - Jun, 2022",
         "link": "/uiux/easymed"
     },
 
     {
-        "src": "https://ik.imagekit.io/poonr2gma/albatross-min%20(1).png?updatedAt=1695440930118",
-        "title": "BLUE RAVEN SOLAR",
-        "desc": "I empowered users to creatively express themselves by launching new Instagram AR effects utilizing the hand-tracking capability.",
-        "skill": ["UX DESIGN", "DESIGN SYSYTEM", "WEB & MOBILE"],
-        "timeline": "Jan 2023 - Present",
-        "link": "/uiux/albatross"
-    },
-
-    {
-        "src": "https://ik.imagekit.io/poonr2gma/shopx-min%20(2).png?updatedAt=1695495607934",
-        "title": "GOOGLE AROUND",
-        "desc": "I helped Chipotle customers find out exactly how the nutrition of their meals stack up and choose the healthiest food for themselves.",
-        "skill": ["AR DESIGN", "GOOGLE FEATURED", "MOBILE"],
-        "timeline": "Dec 2022 - Jan 2023",
+        "src": "https://ik.imagekit.io/poonr2gma/shopx-min%20(3).png?updatedAt=1735350400094",
         "link": "/uiux/shopx"
     }
 ]

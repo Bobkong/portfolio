@@ -14,13 +14,6 @@ import HoverText from '../HoverText/HoverText';
 import { AnimatedCursorContext } from "../HoverText/AnimatedCursorManager";
 import { Link } from 'react-router-dom';
 
-function SkillTag(props) {
-  return(
-    <div className="skill-tag">
-      <span className="neutrals-lighten-1 label-small">{props.value}</span>
-    </div>
-  )
-}
 
 const Project = ({ title, src, skill, idx, timeline, link }) => {
     const ref = useRef(null);
@@ -39,7 +32,7 @@ const Project = ({ title, src, skill, idx, timeline, link }) => {
 
     return (
       <section className="project-section">
-        <Link to={link} style={{cursor:"none"}} onClick={imageLeave}>
+        <Link to={link} style={{cursor:"none", width:"100%"}} onClick={imageLeave}>
           <motion.div ref={ref} className="image-div" onMouseEnter={imageEnter} onMouseLeave={imageLeave}>
               <img src={src} alt="project" className="project-image"/>
           </motion.div>

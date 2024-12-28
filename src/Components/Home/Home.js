@@ -9,6 +9,7 @@ import { padding } from "@mui/system";
 import {Panels} from "../LoadingPanel/panels"
 import {motion} from "framer-motion"
 import arrowGif from '../../Assets/down-arrow.gif';
+import UIUX from "../UIUX/UIUX";
 
 const HomeBox = styled((props) => (
     <Box component="section" {...props} />
@@ -17,6 +18,7 @@ const HomeBox = styled((props) => (
     flexDirection: "column",
     paddingLeft: "2rem",
     paddingRight: "2rem",
+    paddingBottom: "8rem",
     [theme.breakpoints.up("md")]: {
         marginLeft: "auto",
         marginRight: "auto",
@@ -68,8 +70,8 @@ export default function Home() {
                     <Hero setHover={setHover} setChipIndex={setChipIndex}/>
                 </ChapterBox>
                 <ChapterBox>
-                    <span className="neutrals display-large">Awards and achievements</span>
-                    <Honor />
+                    <span className="neutrals display-large">Selected Design Work</span>
+                    <UIUX />
                 </ChapterBox>
                 <ChapterBox>
                 <span className="neutrals display-large">Tools I utilize for creation</span>
@@ -78,6 +80,14 @@ export default function Home() {
                 <ChapterBox>
                     <span className="neutrals display-large">How did I get here?</span>
                     <Journey />
+                </ChapterBox>
+                <ChapterBox>
+                    <span className="neutrals display-large">Judge and Mentor Experience</span>
+                    <Honor source="judge"/>
+                </ChapterBox>
+                <ChapterBox>
+                    <span className="neutrals display-large">Awards and achievements</span>
+                    <Honor source="awards"/>
                 </ChapterBox>
             </HomeBox>
         </>
