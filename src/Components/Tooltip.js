@@ -12,14 +12,14 @@ const Tooltip = styled((({ className, ...props }) => (
     />
 )))(({ theme }) => ({
     [`& .${tooltipClasses.tooltip}`]: {
-        backgroundColor: "#2a2a2a",
+        backgroundColor: "#212121",
         color: "#f0f0f0",
         maxWidth: "20rem",
         fontFamily: "instagram-sans",
         fontSize: "1.2rem",
-        padding: theme.spacing(1.6, 0.8),
+        padding: theme.spacing(1.2, 1.6),
         "& .MuiTooltip-arrow": {
-            color: "#2a2a2a",
+            color: "#212121",
         },
         textAlign: "center"
     },

@@ -33,11 +33,11 @@ function RoleIntro() {
                 <Desc content="June - September, 2022"/>
                 <Title content="ROLE"/>
                 <Desc content="AR Design, UXUI Design, AR Prototyping "/>
-                <div className="dive-effect-button" style={{width: "300px"}} onClick={()=> window.open('https://docs.google.com/presentation/d/1y_qX2dd4OuA13VJ704PsfDr7KJ-NMyntTvJyVLVlx3k/edit?usp=sharing', "_blank")}>
+                {/* <div className="dive-effect-button" style={{width: "300px"}} onClick={()=> window.open('https://docs.google.com/presentation/d/1y_qX2dd4OuA13VJ704PsfDr7KJ-NMyntTvJyVLVlx3k/edit?usp=sharing', "_blank")}>
                     <span className='label-large neutrals'>
                         VIEW PRESENTATION SLIDES
                     </span>
-                </div>
+                </div> */}
             </div>
         </div>
         

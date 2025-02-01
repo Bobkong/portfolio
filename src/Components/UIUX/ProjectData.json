@@ -1,7 +1,7 @@
 [
     
     {
-        "src": "https://ik.imagekit.io/poonr2gma/tiktok-min.png?updatedAt=1735350400254",
+        "src": "https://ik.imagekit.io/poonr2gma/tiktok-min%20(1).png?updatedAt=1735512735227",
         "link": "/uiux/tiktok"
     },
 
@@ -11,12 +11,17 @@
     },
 
     {
+        "src": "https://ik.imagekit.io/poonr2gma/shopx-min%202.png?updatedAt=1735512605032",
+        "link": "/uiux/shopx"
+    },
+
+    {
         "src": "https://ik.imagekit.io/poonr2gma/EasyMed-min%20(3).png?updatedAt=1695439975634",
         "link": "/uiux/easymed"
     },
 
     {
-        "src": "https://ik.imagekit.io/poonr2gma/shopx-min%20(3).png?updatedAt=1735350400094",
-        "link": "/uiux/shopx"
+        "src": "https://ik.imagekit.io/poonr2gma/albatross-min.png?updatedAt=1735511975457",
+        "link": "/uiux/albatross"
     }
 ]

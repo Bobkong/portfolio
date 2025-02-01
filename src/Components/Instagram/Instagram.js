@@ -38,15 +38,16 @@ function Interested() {
 function Instagram() {
 
     var first = {
+        src: "https://ik.imagekit.io/poonr2gma/tiktok.png?updatedAt=1738039673730",
+        title: "TIKTOK",
+        link: "/uiux/tiktok"
+    }
+    var second = {
         src: "https://ik.imagekit.io/poonr2gma/EasyMed-min%20(4).png?updatedAt=1695528946276",
         title: "EASYMED",
         link: "/uiux/easymed"
     }
-    var second = {
-        src: "https://ik.imagekit.io/poonr2gma/albatross-min%20(2).png?updatedAt=1695528945180",
-        title: "ALBATROSS",
-        link: "/uiux/albatross"
-    }
+    
 
     useEffect(() => {
         document.title = 'Instagram';

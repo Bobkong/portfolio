@@ -1,0 +1,25 @@
+[
+    {
+        "title": "AI x Creation",
+        "desc": "Integrating AIGC technology with the Camera to unlock new possibilities for users' content, inspire greater creative expression, and build a more dynamic and engaging creative community.",
+        "image": "https://ik.imagekit.io/poonr2gma/Template%20builder(1).png?updatedAt=1738037880623",
+        "id": "1",
+        "direction": "image-left"
+    },
+    {
+        "title": "Camera Stickers",
+        "desc": "By designing fun and engaging stickers, we introduce new interactive experiences between users and provide attractive decorations for their creations, ultimately enhancing the quality of user posts.",
+        "image": "https://ik.imagekit.io/poonr2gma/Template%20builder-1(1).png?updatedAt=1738037880660",
+        "id": "2",
+        "direction": "image-right"
+    },
+    {
+        "title": "TikTok Effects",
+        "desc": "Helping users discover and experience exciting effects on TikTok, delivering a delightful creative experience through effects and increasing content creation and engagement.",
+        "image": "https://ik.imagekit.io/poonr2gma/Template%20builder-2(1).png?updatedAt=1738037880462",
+        "id": "3",
+        "direction": "image-left"
+    }
+    
+    
+]

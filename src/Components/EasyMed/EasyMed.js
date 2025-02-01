@@ -33,9 +33,9 @@ function EasyMed() {
         link: "/uiux/instagram"
     }
     var second = {
-        src: "https://ik.imagekit.io/poonr2gma/albatross-min%20(2).png?updatedAt=1695528945180",
-        title: "ALBATROSS",
-        link: "/uiux/albatross"
+        src: "https://ik.imagekit.io/poonr2gma/shopx.png?updatedAt=1738039673612",
+        title: "SHOPX",
+        link: "/uiux/shopx"
     }
 
     useEffect(() => {

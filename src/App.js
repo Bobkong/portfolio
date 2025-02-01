@@ -25,6 +25,8 @@ import InProgress from './Components/InProgress/InProgress';
 import Albatross from './Components/Albatross/Albatross';
 import ShopX from './Components/ShopX/ShopX';
 import EventShowcaser from './Components/RealisticEventShowcaser/EventShowcaser';
+import TikTok from './Components/TikTok/TikTok';
+import PasswordProtectedRoute from './Components/Password/ProtectedPortfolio';
 
 
 export default function App() {
@@ -37,7 +39,7 @@ export default function App() {
 
     return (
       <div id="app-div">
-
+        <PasswordProtectedRoute>
           <Router>
             <Header />
             <ScrollToTop>
@@ -46,6 +48,7 @@ export default function App() {
                   <Route path="/uiux" element={<UIUX />} />
                   <Route path="/dev" element={<Dev />} />
                   <Route path="/life" element={<Life />} />
+                  <Route path="/uiux/tiktok" element={<TikTok/>} />
                   <Route path="/uiux/instagram" element={<Instagram/>} />
                   <Route path='/uiux/easymed' element={<EasyMed/>}/>
                   <Route path='/uiux/albatross' element={<Albatross/>}/>
@@ -65,7 +68,8 @@ export default function App() {
             </ScrollToTop>
             <Contact />
           </Router>
-       
+        </PasswordProtectedRoute>
+          
 
       </div>
   );

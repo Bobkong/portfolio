@@ -24,16 +24,17 @@ function Header() {
 }
 
 function Albatross() {
-
+    
     var first = {
-        src: "https://ik.imagekit.io/poonr2gma/EasyMed-min%20(4).png?updatedAt=1695528946276",
-        title: "EASYMED",
-        link: "/uiux/easymed"
-    }
-    var second = {
-        src: "https://ik.imagekit.io/poonr2gma/shopx-min%20(2).png?updatedAt=1695528943952",
+        src: "https://ik.imagekit.io/poonr2gma/shopx.png?updatedAt=1738039673612",
         title: "SHOPX",
         link: "/uiux/shopx"
+    }
+
+    var second = {
+        src: "https://ik.imagekit.io/poonr2gma/tiktok.png?updatedAt=1738039673730",
+        title: "TIKTOK",
+        link: "/uiux/tiktok"
     }
 
     useEffect(() => {
